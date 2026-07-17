@@ -1,0 +1,29 @@
+# ===== PyCharm / IDE =====
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ===== Virtual Environment =====
+.venv/
+venv/
+env/
+ENV/
+
+# ===== Jupyter Notebook =====
+.ipynb_checkpoints
+
+# ===== Distribution / packaging =====
+dist/
+build/
+*.egg-info/
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
