@@ -1,4 +1,6 @@
 import re
+import os
+import sys
 
 import pandas as pd
 import torch
@@ -10,6 +12,8 @@ import time
 import random
 import matplotlib.pyplot as plt
 from tqdm import tqdm
+from sklearn.model_selection import train_test_split
+from utils.log import Logger
 
 #设备选择
 device=torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -41,49 +45,38 @@ def normalize_string(s):
     return s
 
 #数据预处理->加载数据到内存
-def data_preprocess():
+def load_pairs():
+    """加载并清洗双语句子对"""
     with open('../data/eng-fra-v2.txt','r',encoding='utf-8') as f:
-        #一次性读取所有行
-        lines=f.readlines() #格式为['第一行\n','第二行\n''第三行\n'...]
-
-        #清洗文本并构建双语句子对
+        lines=f.readlines()
         my_pairs=[[normalize_string(s) for s in line.split('\t')]for line in lines]
+    return my_pairs
 
-        #初始化英语词汇表
-        #创建单词到索引的字典映射，预定义特殊字符（SOS EOS）的索引为0，1
-        english_word2index={'SOS':SOS_token,'EOS':EOS_token}
-        english_word_num=2
+def build_vocab(pairs):
+    """从句子对列表中构建词汇表（只使用给定的pairs）"""
+    english_word2index={'SOS':SOS_token,'EOS':EOS_token}
+    french_word2index={'SOS':SOS_token,'EOS':EOS_token}
 
-        french_word2index={'SOS':SOS_token,'EOS':EOS_token}
-        french_word_num=2
+    for line in pairs:
+        for word in line[0].split(' '):
+            if word not in english_word2index:
+                english_word2index[word]=len(english_word2index)
+        for word in line[1].split(' '):
+            if word not in french_word2index:
+                french_word2index[word]=len(french_word2index)
 
-        #构建英语和法语词汇表
-        for line in my_pairs:   #line的数据格式['english','french']
-            for word in line[0].split(' '):
-                #检查单词是否在词汇表中，如果不存在，给该单词分配一个新索引，新索引等于当前词汇表大小(即english_word_num)
-                if word not in english_word2index:
-                    english_word2index[word]=english_word_num
-                    english_word_num+=1
+    english_index2word={v:k for k,v in english_word2index.items()}
+    french_index2word={v:k for k,v in french_word2index.items()}
 
-            for word in line[1].split(' '):
-                #检查单词是否在词汇表中，如果不存在，给该单词分配一个新索引，新索引等于当前词汇表大小(即english_word_num)
-                if word not in french_word2index:
-                    french_word2index[word]=french_word_num
-                    french_word_num+=1
+    return english_word2index,english_index2word,len(english_word2index),french_word2index,french_index2word,len(french_word2index)
 
-        #构建反向映射表（索引到单词）
-        english_index2word={v:k for k,v in english_word2index.items()}
-        french_index2word={v:k for k,v in french_word2index.items()}
-
-        return english_word2index,english_index2word,english_word_num,french_word2index,french_index2word,french_word_num,my_pairs
-
-english_word2index,english_index2word,english_word_num,french_word2index,french_index2word,french_word_num,my_pairs=data_preprocess()
 
 #数据预处理->构建Dataset对象
 class MyPairsDataset(Dataset):
-    def __init__(self,my_pairs):
-        #保存双语句子对
+    def __init__(self,my_pairs,english_word2index,french_word2index):
         self.my_pairs=my_pairs
+        self.english_word2index=english_word2index
+        self.french_word2index=french_word2index
         self.sample_len=len(self.my_pairs)
 
     def __len__(self):
@@ -91,34 +84,28 @@ class MyPairsDataset(Dataset):
 
     def __getitem__(self, index):
         index=max(0,min(index,self.sample_len-1))
-        #按索引获取双语句子对,x:english y:french
         x=self.my_pairs[index][0]
         y=self.my_pairs[index][1]
 
-        #按空格分割单词，获取每个单词的索引
-        x=[english_word2index[word] for word in x.split(' ')]
-        #在句子末尾添加EOS
+        x=[self.english_word2index[word] for word in x.split(' ')]
         x.append(EOS_token)
-        #将句子转换成张量，并指定设备
         tensor_x=torch.tensor(x,dtype=torch.long,device=device)
 
-        y = [french_word2index[word] for word in y.split(' ')]
-        # 在句子末尾添加EOS
+        y=[self.french_word2index[word] for word in y.split(' ')]
         y.append(EOS_token)
-        # 将句子转换成张量，并指定设备
-        tensor_y = torch.tensor(y, dtype=torch.long, device=device)
+        tensor_y=torch.tensor(y,dtype=torch.long,device=device)
 
-        #返回处理后的数据（文本张量）
         return tensor_x, tensor_y
 
 #数据预处理->获取数据加载器
-def get_dataloader():
-    my_dataset=MyPairsDataset(my_pairs)
+def get_dataloaders(train_pairs,val_pairs,english_word2index,french_word2index):
+    train_dataset=MyPairsDataset(train_pairs,english_word2index,french_word2index)
+    val_dataset=MyPairsDataset(val_pairs,english_word2index,french_word2index)
 
-    #创建数据加载器对象
-    my_dataloader=DataLoader(my_dataset,batch_size=1,shuffle=True)#训练集打乱，测试集不打乱
+    train_dataloader=DataLoader(train_dataset,batch_size=1,shuffle=True)
+    val_dataloader=DataLoader(val_dataset,batch_size=1,shuffle=False)
 
-    return my_dataloader
+    return train_dataloader,val_dataloader
 
 #模型构建（编码器，基于GRU）
 class Encoder(nn.Module):
@@ -255,7 +242,7 @@ class AttentionDecoder(nn.Module):
         #参3：注意力权重分布
         return output,hidden,attn_weights
 
-lr,epochs,teacher_forcing_ratio,print_interval_num,plot_interval_num=1e-4,5,0.5,1000,100
+lr,epochs,teacher_forcing_ratio,print_interval_num,plot_interval_num=1e-4,20,0.5,1000,100
 """
     :param lr: 学习率
     :param epochs: 训练轮数
@@ -339,84 +326,146 @@ def lone_batch_train(x,y,encoder,decoder,adam_encoder,adam_decoder,loss_function
     return my_loss.item()/y_len
 
 
+#构建模型评估函数->在验证集上完成单个批次的前向传播和损失计算（无教师强制、无梯度更新）
+def lone_batch_eval(x,y,encoder,decoder,loss_function):
+    with torch.no_grad():
+        encoder_output,encoder_hidden=encoder(x)
+
+        encoder_output_c=torch.zeros(MAX_LENGTH,decoder.hidden_size,device=device)
+        for idx in range(encoder_output.shape[1]):
+            encoder_output_c[idx]=encoder_output[0,idx]
+        decoder_hidden=encoder_hidden
+
+        decoder_input=torch.tensor([[SOS_token]],device=device)
+
+        my_loss,y_len=0.0,y.shape[1]
+        for i in range(y_len):
+            if y[0][i].item()==EOS_token:
+                break
+            decoder_output,decoder_hidden,attn_weights=decoder(decoder_input,encoder_output_c,decoder_hidden)
+            target_y=y[0][i].view(1)
+            my_loss+=loss_function(decoder_output,target_y)
+
+            topv,topi=decoder_output.topk(1)
+            if topi.squeeze().item()==EOS_token:
+                break
+            decoder_input=topi.detach()
+
+    return my_loss.item()/y_len
+
+
 #构建模型训练函数->即：完成所有批次的训练过程，即：多轮，多批次
 def train_seq2seq():
-    loss_records = []  #用于pandas保存绘图损失到csv文件，方便后续画图
-    #获取数据加载器对象
-    dataloader=get_dataloader()
-    #编码器，输入维度=英文词汇表大小2803，隐藏层维度：256
-    encoder=Encoder(english_word_num,256).to(device)
-    #解码器，输入维度=法语词汇表大小，隐藏层维度：256
-    decoder=AttentionDecoder(french_word_num,256,0.2,10).to(device)
+    loss_records=[]
+    logfile_name = 'English2French'
+    logger=Logger('../',logfile_name).get_logger()
+    logger.info("========== Seq2Seq 英译法训练开始 ==========")
 
-    #初始化优化器
+    # 1. 加载数据
+    my_pairs=load_pairs()
+    logger.info(f"总样本数：{len(my_pairs)}")
+
+    # 2. 在构建词表之前划分训练集和验证集（只用训练集构建词表）
+    train_pairs,val_pairs=train_test_split(my_pairs,test_size=0.2,random_state=26)
+    logger.info(f"训练集大小：{len(train_pairs)}，验证集大小：{len(val_pairs)}")
+
+    # 3. 只用训练集构建词表
+    english_word2index,english_index2word,english_word_num,french_word2index,french_index2word,french_word_num=build_vocab(train_pairs)
+    logger.info(f"英文词表大小：{english_word_num}，法文词表大小：{french_word_num}")
+
+    # 4. 获取数据加载器
+    train_dataloader,val_dataloader=get_dataloaders(train_pairs,val_pairs,english_word2index,french_word2index)
+
+    # 5. 初始化模型
+    encoder=Encoder(english_word_num,256).to(device)
+    decoder=AttentionDecoder(french_word_num,256,0.2,10).to(device)
+    logger.info("编码器/解码器初始化完成")
+
     encoder_optimizer=optim.Adam(encoder.parameters(),lr=lr)
     decoder_optimizer=optim.Adam(decoder.parameters(),lr=lr)
-
-    #损失函数初始化
     criterion=nn.CrossEntropyLoss()
 
-    #训练参数初始化
-    plot_loss_list=[]       #存储绘图用的损失值
-
-    #外层循环，控制训练轮数
     for epoch in range(1,epochs+1):
-        #初始化本轮的损失累加器
+        logger.info(f"----- 第 {epoch}/{epochs} 轮开始 -----")
+
+        # 模型训练
         print_loss_total,plot_loss_total=0.0,0.0
-        #记录本轮开始训练时间
-        start_time = time.time()
-        #内层循环，遍历数据集的每个样本
-        for item,(x,y) in enumerate(tqdm(dataloader),start=1):#item从1开始编号,用进度条的形式包裹数据加载器
-            #调用内部训练函数，完成单批次（单样本）的训练过程
+        start_time=time.time()
+
+        for item,(x,y) in enumerate(tqdm(train_dataloader),start=1):
             my_loss=lone_batch_train(x,y,encoder,decoder,encoder_optimizer,decoder_optimizer,criterion)
 
-            #累加损失
             print_loss_total+=my_loss
             plot_loss_total+=my_loss
 
-            #打印训练日志（每print_interval_num=1000个样本打印一次）
             if item%print_interval_num==0:
-                #计算平均损失
                 print_loss_avg=print_loss_total/print_interval_num
-                #重置损失累加器
                 print_loss_total=0.0
-                print(f'轮次：{epoch}，平均损失:{print_loss_avg},耗时：{time.time()-start_time:.4f}s')
+                msg=f'轮次：{epoch}，训练平均损失:{print_loss_avg:.4f}，耗时：{time.time()-start_time:.4f}s'
+                print(msg)
+                logger.info(msg)
 
-            #记录损失用于画图（每plot_interval_num=100个样本记录一次）
             if item%plot_interval_num==0:
-                #计算平均损失
                 plot_loss_avg=plot_loss_total/plot_interval_num
-                plot_loss_list.append((epoch, item, plot_loss_avg))
-
+                plot_loss_total=0.0
                 loss_records.append({
-                    "epoch": epoch,
-                    "step": item,
-                    "average_loss": plot_loss_avg
+                    "epoch":epoch,"step":item,"average_loss":plot_loss_avg,"type":"train"
                 })
 
-                #重置
-                plot_loss_total=0.0
+        # 一轮训练完毕，保存模型
+        model_path_enc=f'../model/encoder_epoch{epoch}.pth'
+        model_path_dec=f'../model/decoder_epoch{epoch}.pth'
+        torch.save(encoder.state_dict(),model_path_enc)
+        torch.save(decoder.state_dict(),model_path_dec)
+        logger.info(f"模型已保存：{model_path_enc}，{model_path_dec}")
 
-            #走到这里，说明一轮已经训练完毕，保存模型（一轮一保存，防止中途出问题导致白跑）
-            torch.save(encoder.state_dict(),'../model/encoder{epoch}.pth')
-            torch.save(decoder.state_dicft(),'../model/decoder{epoch}.pth')
+        # 验证集评估
+        logger.info(f"轮次：{epoch}，开始在验证集上评估...")
+        val_print_loss_total,val_plot_loss_total=0.0,0.0
+        val_start_time=time.time()
 
-    df = pd.DataFrame(loss_records)
-    df.to_csv("../loss/train_loss", index=False)
-    print("训练损失已保存到 loss/train_loss.csv")
+        for item,(x,y) in enumerate(tqdm(val_dataloader),start=1):
+            val_loss=lone_batch_eval(x,y,encoder,decoder,criterion)
 
-    #训练结束，绘制损失曲线
+            val_print_loss_total+=val_loss
+            val_plot_loss_total+=val_loss
+
+            if item%print_interval_num==0:
+                val_print_loss_avg=val_print_loss_total/print_interval_num
+                val_print_loss_total=0.0
+                msg=f'轮次：{epoch}，验证平均损失:{val_print_loss_avg:.4f}，耗时：{time.time()-val_start_time:.4f}s'
+                print(msg)
+                logger.info(msg)
+
+            if item%plot_interval_num==0:
+                val_plot_loss_avg=val_plot_loss_total/plot_interval_num
+                val_plot_loss_total=0.0
+                loss_records.append({
+                    "epoch":epoch,"step":item,"average_loss":val_plot_loss_avg,"type":"val"
+                })
+
+        logger.info(f"----- 第 {epoch}/{epochs} 轮结束 -----")
+
+    # 保存损失到CSV
+    df=pd.DataFrame(loss_records)
+    df.to_csv("../loss/train_val_loss.csv",index=False)
+    logger.info("训练和验证损失已保存到 loss/train_val_loss.csv")
+
+    # 绘制损失曲线
     plt.figure()
-    plt.plot(df["step"], df["average_loss"], label="Train Loss")
+    train_df=df[df["type"]=="train"]
+    val_df=df[df["type"]=="val"]
+    plt.plot(train_df["step"],train_df["average_loss"],label="Train Loss")
+    plt.plot(val_df["step"],val_df["average_loss"],label="Val Loss")
     plt.xlabel("Step")
     plt.ylabel("Loss")
-    plt.title("Seq2Seq Training Loss")
+    plt.title("Seq2Seq Training and Validation Loss")
     plt.legend()
     plt.savefig('../figures/seq2seq_loss.png',dpi=300)
     plt.show()
 
+    logger.info("========== Seq2Seq 英译法训练结束 ==========")
+
 
 if __name__ == '__main__':
-    english_word2index,english_index2word,english_word_num,french_word2index,french_index2word,french_word_num,my_pairs=data_preprocess()
-    #模型训练
     train_seq2seq()
