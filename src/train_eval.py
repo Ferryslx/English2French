@@ -1,6 +1,4 @@
 import re
-import os
-import sys
 
 import pandas as pd
 import torch
@@ -13,6 +11,8 @@ import random
 import matplotlib.pyplot as plt
 from tqdm import tqdm
 from sklearn.model_selection import train_test_split
+
+from src.train import french_index2word
 from utils.log import Logger
 
 #设备选择
@@ -466,6 +466,98 @@ def train_seq2seq():
 
     logger.info("========== Seq2Seq 英译法训练结束 ==========")
 
+#构建模型评估函数
+#关闭梯度计算，节省内存加速推理(适用于模型预测)
+def evaluate(x,encoder,decoder):    #英语句子，编码器，解码器
+    with torch.no_grad():
+        encode_output,encode_hidden=encoder(x)
+
+        #解码器参数准备
+        encode_output_c=torch.zeros(MAX_LENGTH,encoder.hidden_size,device=device)
+        for idx in range(x.shape[1]):
+            encode_output_c[idx]=encode_output[0,idx]
+
+        decode_hidden=encode_hidden
+
+        input=torch.tensor([[SOS_token]],device=device)
+
+        #自回归解码过程（逐个生成目标句子）
+        decode_words=[]
+        #初始化注意力矩阵
+        decoder_attn=torch.zeros(MAX_LENGTH,MAX_LENGTH,device=device)
+
+        for idx in range(MAX_LENGTH):
+            output,decode_hidden,attn_weight=decoder(input,encode_output_c,decode_hidden)
+
+            decoder_attn[idx]=attn_weight
+            #预测下一个词
+            topv,topi=output.topk(1)    #去output中找打概率最大的数，返回值和索引
+            #处理终止条件，如果预测到EOS，就结束生成
+            if topi.squeeze().item()==EOS_token:
+                break
+            else:
+                decode_words.append(french_index2word[topi.squeeze().item()])
+            #更新输入，把当前预测词作为下一个时间步的输入
+            input=topi.detach()
+
+        #返回解码结果和注意力矩阵
+        return decode_words,decoder_attn[:idx+1]
+
+
+
+#测试模型评估函数
+def evaluate_test():
+    global french_index2word
+
+    # 1. 加载数据
+    my_pairs = load_pairs()
+
+    # 2. 与训练时保持一致的数据划分（确保词表一致）
+    train_pairs, _ = train_test_split(my_pairs, test_size=0.2, random_state=26)
+
+    # 3. 构建词表（只用训练集，与训练时一致）
+    english_word2index, _, english_word_num, _, local_french_index2word, french_word_num = build_vocab(train_pairs)
+    # 覆盖模块级 french_index2word，确保 evaluate() 内部使用正确的映射
+    french_index2word = local_french_index2word
+
+    # 4. 初始化模型结构
+    encoder = Encoder(english_word_num, 256).to(device)
+    decoder = AttentionDecoder(french_word_num, 256, 0.2, MAX_LENGTH).to(device)
+
+    # 5. 加载训练好的权重
+    encoder.load_state_dict(torch.load('../model/encoder_epoch20.pth', map_location=device))
+    decoder.load_state_dict(torch.load('../model/decoder_epoch20.pth', map_location=device))
+
+    # 6. 设置为评估模式
+    encoder.eval()
+    decoder.eval()
+
+    # 7. 测试句子
+    test_sentences = [
+        "I am a student.",
+        "She likes apples.",
+        "He is a teacher.",
+        "We love music.",
+        "They are friends."
+    ]
+
+    # 8. 逐个测试
+    for sentence in test_sentences:
+        normalized = normalize_string(sentence)
+        word_indices = [english_word2index.get(word, SOS_token) for word in normalized.split(' ')]
+        word_indices.append(EOS_token)
+        input_tensor = torch.tensor([word_indices], dtype=torch.long, device=device)
+
+        decoded_words, attn = evaluate(input_tensor, encoder, decoder)
+
+        print(f"输入: {sentence}")
+        print(f"翻译: {' '.join(decoded_words)}")
+        print()
+
+
+
+
 
 if __name__ == '__main__':
-    train_seq2seq()
+    #train_seq2seq()
+    evaluate_test()
