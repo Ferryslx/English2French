@@ -1,0 +1,1302 @@
+2026-07-26 09:33:29,442 - INFO: Starting preln training
+2026-07-26 09:33:29,571 - INFO: Params: 11,987,824
+2026-07-26 09:33:43,264 - INFO: [exp4_preln] Epoch 1/20 | Global: 1024 | Avg Loss (last 1024): 8.6561
+2026-07-26 09:33:55,068 - INFO: [exp4_preln] Epoch 1/20 | Global: 2048 | Avg Loss (last 1024): 8.5141
+2026-07-26 09:34:07,228 - INFO: [exp4_preln] Epoch 1/20 | Global: 3072 | Avg Loss (last 1024): 8.2827
+2026-07-26 09:34:20,327 - INFO: [exp4_preln] Epoch 1/20 | Global: 4096 | Avg Loss (last 1024): 8.0700
+2026-07-26 09:34:34,825 - INFO: [exp4_preln] Epoch 1/20 | Global: 5120 | Avg Loss (last 1024): 7.8723
+2026-07-26 09:34:49,131 - INFO: [exp4_preln] Epoch 1/20 | Global: 6144 | Avg Loss (last 1024): 7.7240
+2026-07-26 09:35:02,464 - INFO: [exp4_preln] Epoch 1/20 | Global: 7168 | Avg Loss (last 1024): 7.5600
+2026-07-26 09:35:15,658 - INFO: [exp4_preln] Epoch 1/20 | Global: 8192 | Avg Loss (last 1024): 7.3926
+2026-07-26 09:35:29,616 - INFO: [exp4_preln] Epoch 1/20 | Global: 9216 | Avg Loss (last 1024): 7.2430
+2026-07-26 09:35:42,050 - INFO: [exp4_preln] Epoch 1/20 | Global: 10240 | Avg Loss (last 1024): 7.0605
+2026-07-26 09:35:53,875 - INFO: [exp4_preln] Epoch 1/20 | Global: 11264 | Avg Loss (last 1024): 6.8538
+2026-07-26 09:36:05,091 - INFO: [exp4_preln] Epoch 1/20 | Global: 12288 | Avg Loss (last 1024): 6.6397
+2026-07-26 09:36:16,430 - INFO: [exp4_preln] Epoch 1/20 | Global: 13312 | Avg Loss (last 1024): 6.4095
+2026-07-26 09:36:27,620 - INFO: [exp4_preln] Epoch 1/20 | Global: 14336 | Avg Loss (last 1024): 6.1613
+2026-07-26 09:36:38,807 - INFO: [exp4_preln] Epoch 1/20 | Global: 15360 | Avg Loss (last 1024): 5.9053
+2026-07-26 09:36:50,027 - INFO: [exp4_preln] Epoch 1/20 | Global: 16384 | Avg Loss (last 1024): 5.6330
+2026-07-26 09:37:01,253 - INFO: [exp4_preln] Epoch 1/20 | Global: 17408 | Avg Loss (last 1024): 5.4084
+2026-07-26 09:37:12,490 - INFO: [exp4_preln] Epoch 1/20 | Global: 18432 | Avg Loss (last 1024): 5.2017
+2026-07-26 09:37:23,636 - INFO: [exp4_preln] Epoch 1/20 | Global: 19456 | Avg Loss (last 1024): 4.9722
+2026-07-26 09:37:34,784 - INFO: [exp4_preln] Epoch 1/20 | Global: 20480 | Avg Loss (last 1024): 4.8370
+2026-07-26 09:37:45,976 - INFO: [exp4_preln] Epoch 1/20 | Global: 21504 | Avg Loss (last 1024): 4.6381
+2026-07-26 09:37:57,209 - INFO: [exp4_preln] Epoch 1/20 | Global: 22528 | Avg Loss (last 1024): 4.5113
+2026-07-26 09:38:08,392 - INFO: [exp4_preln] Epoch 1/20 | Global: 23552 | Avg Loss (last 1024): 4.3718
+2026-07-26 09:38:19,593 - INFO: [exp4_preln] Epoch 1/20 | Global: 24576 | Avg Loss (last 1024): 4.2254
+2026-07-26 09:38:30,867 - INFO: [exp4_preln] Epoch 1/20 | Global: 25600 | Avg Loss (last 1024): 4.1129
+2026-07-26 09:38:42,088 - INFO: [exp4_preln] Epoch 1/20 | Global: 26624 | Avg Loss (last 1024): 4.0253
+2026-07-26 09:38:53,379 - INFO: [exp4_preln] Epoch 1/20 | Global: 27648 | Avg Loss (last 1024): 3.9481
+2026-07-26 09:39:04,588 - INFO: [exp4_preln] Epoch 1/20 | Global: 28672 | Avg Loss (last 1024): 3.8805
+2026-07-26 09:39:15,730 - INFO: [exp4_preln] Epoch 1/20 | Global: 29696 | Avg Loss (last 1024): 3.7638
+2026-07-26 09:39:27,009 - INFO: [exp4_preln] Epoch 1/20 | Global: 30720 | Avg Loss (last 1024): 3.6792
+2026-07-26 09:39:38,229 - INFO: [exp4_preln] Epoch 1/20 | Global: 31744 | Avg Loss (last 1024): 3.6045
+2026-07-26 09:39:49,479 - INFO: [exp4_preln] Epoch 1/20 | Global: 32768 | Avg Loss (last 1024): 3.5953
+2026-07-26 09:40:00,798 - INFO: [exp4_preln] Epoch 1/20 | Global: 33792 | Avg Loss (last 1024): 3.5360
+2026-07-26 09:40:12,139 - INFO: [exp4_preln] Epoch 1/20 | Global: 34816 | Avg Loss (last 1024): 3.4418
+2026-07-26 09:40:23,412 - INFO: [exp4_preln] Epoch 1/20 | Global: 35840 | Avg Loss (last 1024): 3.4227
+2026-07-26 09:40:34,624 - INFO: [exp4_preln] Epoch 1/20 | Global: 36864 | Avg Loss (last 1024): 3.3811
+2026-07-26 09:40:45,804 - INFO: [exp4_preln] Epoch 1/20 | Global: 37888 | Avg Loss (last 1024): 3.3101
+2026-07-26 09:40:57,150 - INFO: [exp4_preln] Epoch 1/20 | Global: 38912 | Avg Loss (last 1024): 3.2717
+2026-07-26 09:41:08,848 - INFO: [exp4_preln] Epoch 1/20 | Global: 39936 | Avg Loss (last 1024): 3.2123
+2026-07-26 09:41:20,160 - INFO: [exp4_preln] Epoch 1/20 | Global: 40960 | Avg Loss (last 1024): 3.2355
+2026-07-26 09:41:31,455 - INFO: [exp4_preln] Epoch 1/20 | Global: 41984 | Avg Loss (last 1024): 3.1692
+2026-07-26 09:41:42,712 - INFO: [exp4_preln] Epoch 1/20 | Global: 43008 | Avg Loss (last 1024): 3.1511
+2026-07-26 09:41:53,909 - INFO: [exp4_preln] Epoch 1/20 | Global: 44032 | Avg Loss (last 1024): 3.1095
+2026-07-26 09:42:05,084 - INFO: [exp4_preln] Epoch 1/20 | Global: 45056 | Avg Loss (last 1024): 3.0283
+2026-07-26 09:42:16,407 - INFO: [exp4_preln] Epoch 1/20 | Global: 46080 | Avg Loss (last 1024): 3.0909
+2026-07-26 09:42:27,595 - INFO: [exp4_preln] Epoch 1/20 | Global: 47104 | Avg Loss (last 1024): 2.9982
+2026-07-26 09:42:38,772 - INFO: [exp4_preln] Epoch 1/20 | Global: 48128 | Avg Loss (last 1024): 3.0170
+2026-07-26 09:42:49,951 - INFO: [exp4_preln] Epoch 1/20 | Global: 49152 | Avg Loss (last 1024): 2.9694
+2026-07-26 09:43:01,054 - INFO: [exp4_preln] Epoch 1/20 | Global: 50176 | Avg Loss (last 1024): 2.9544
+2026-07-26 09:43:12,195 - INFO: [exp4_preln] Epoch 1/20 | Global: 51200 | Avg Loss (last 1024): 2.8992
+2026-07-26 09:43:23,308 - INFO: [exp4_preln] Epoch 1/20 | Global: 52224 | Avg Loss (last 1024): 2.8900
+2026-07-26 09:43:34,451 - INFO: [exp4_preln] Epoch 1/20 | Global: 53248 | Avg Loss (last 1024): 2.8201
+2026-07-26 09:43:45,581 - INFO: [exp4_preln] Epoch 1/20 | Global: 54272 | Avg Loss (last 1024): 2.7979
+2026-07-26 09:43:56,849 - INFO: [exp4_preln] Epoch 1/20 | Global: 55296 | Avg Loss (last 1024): 2.7900
+2026-07-26 09:44:07,949 - INFO: [exp4_preln] Epoch 1/20 | Global: 56320 | Avg Loss (last 1024): 2.7813
+2026-07-26 09:44:19,160 - INFO: [exp4_preln] Epoch 1/20 | Global: 57344 | Avg Loss (last 1024): 2.6959
+2026-07-26 09:44:30,430 - INFO: [exp4_preln] Epoch 1/20 | Global: 58368 | Avg Loss (last 1024): 2.6548
+2026-07-26 09:44:31,130 - INFO: [exp4_preln] Epoch 1/20 | Global: 58432 | Avg Loss (last 64): 2.5890
+2026-07-26 09:44:32,990 - INFO: [exp4_preln] Epoch 1 Val | Examples: 1024 | Avg: 2.6272
+2026-07-26 09:44:35,061 - INFO: [exp4_preln] Epoch 1 Val | Examples: 2048 | Avg: 2.5437
+2026-07-26 09:44:36,922 - INFO: [exp4_preln] Epoch 1 Val | Examples: 3072 | Avg: 2.5338
+2026-07-26 09:44:38,752 - INFO: [exp4_preln] Epoch 1 Val | Examples: 4096 | Avg: 2.5702
+2026-07-26 09:44:40,554 - INFO: [exp4_preln] Epoch 1 Val | Examples: 5120 | Avg: 2.6228
+2026-07-26 09:44:40,555 - INFO: [exp4_preln] === Epoch 1 done | Train: 4.5835 | Val: 2.5795 | Time: 659.4s ===
+2026-07-26 09:44:40,614 - INFO: [exp4_preln] Saved to C:/PythonProject/English2French/model/exp4_preln_epoch1.pth
+2026-07-26 09:44:52,642 - INFO: [exp4_preln] Epoch 2/20 | Global: 59456 | Avg Loss (last 1024): 2.6179
+2026-07-26 09:45:04,213 - INFO: [exp4_preln] Epoch 2/20 | Global: 60480 | Avg Loss (last 1024): 2.6200
+2026-07-26 09:45:16,814 - INFO: [exp4_preln] Epoch 2/20 | Global: 61504 | Avg Loss (last 1024): 2.6363
+2026-07-26 09:45:28,799 - INFO: [exp4_preln] Epoch 2/20 | Global: 62528 | Avg Loss (last 1024): 2.6242
+2026-07-26 09:45:40,294 - INFO: [exp4_preln] Epoch 2/20 | Global: 63552 | Avg Loss (last 1024): 2.5328
+2026-07-26 09:45:51,734 - INFO: [exp4_preln] Epoch 2/20 | Global: 64576 | Avg Loss (last 1024): 2.5709
+2026-07-26 09:46:03,147 - INFO: [exp4_preln] Epoch 2/20 | Global: 65600 | Avg Loss (last 1024): 2.5432
+2026-07-26 09:46:14,592 - INFO: [exp4_preln] Epoch 2/20 | Global: 66624 | Avg Loss (last 1024): 2.4886
+2026-07-26 09:46:26,137 - INFO: [exp4_preln] Epoch 2/20 | Global: 67648 | Avg Loss (last 1024): 2.4552
+2026-07-26 09:46:37,514 - INFO: [exp4_preln] Epoch 2/20 | Global: 68672 | Avg Loss (last 1024): 2.4647
+2026-07-26 09:46:48,934 - INFO: [exp4_preln] Epoch 2/20 | Global: 69696 | Avg Loss (last 1024): 2.4634
+2026-07-26 09:47:00,324 - INFO: [exp4_preln] Epoch 2/20 | Global: 70720 | Avg Loss (last 1024): 2.3721
+2026-07-26 09:47:11,650 - INFO: [exp4_preln] Epoch 2/20 | Global: 71744 | Avg Loss (last 1024): 2.3907
+2026-07-26 09:47:22,924 - INFO: [exp4_preln] Epoch 2/20 | Global: 72768 | Avg Loss (last 1024): 2.3549
+2026-07-26 09:47:34,170 - INFO: [exp4_preln] Epoch 2/20 | Global: 73792 | Avg Loss (last 1024): 2.2772
+2026-07-26 09:47:45,563 - INFO: [exp4_preln] Epoch 2/20 | Global: 74816 | Avg Loss (last 1024): 2.3671
+2026-07-26 09:47:58,039 - INFO: [exp4_preln] Epoch 2/20 | Global: 75840 | Avg Loss (last 1024): 2.3329
+2026-07-26 09:48:09,839 - INFO: [exp4_preln] Epoch 2/20 | Global: 76864 | Avg Loss (last 1024): 2.3247
+2026-07-26 09:48:21,753 - INFO: [exp4_preln] Epoch 2/20 | Global: 77888 | Avg Loss (last 1024): 2.2360
+2026-07-26 09:48:33,335 - INFO: [exp4_preln] Epoch 2/20 | Global: 78912 | Avg Loss (last 1024): 2.1907
+2026-07-26 09:48:44,778 - INFO: [exp4_preln] Epoch 2/20 | Global: 79936 | Avg Loss (last 1024): 2.1841
+2026-07-26 09:48:56,313 - INFO: [exp4_preln] Epoch 2/20 | Global: 80960 | Avg Loss (last 1024): 2.1832
+2026-07-26 09:49:07,927 - INFO: [exp4_preln] Epoch 2/20 | Global: 81984 | Avg Loss (last 1024): 2.2419
+2026-07-26 09:49:19,436 - INFO: [exp4_preln] Epoch 2/20 | Global: 83008 | Avg Loss (last 1024): 2.1841
+2026-07-26 09:49:31,598 - INFO: [exp4_preln] Epoch 2/20 | Global: 84032 | Avg Loss (last 1024): 2.1926
+2026-07-26 09:49:44,047 - INFO: [exp4_preln] Epoch 2/20 | Global: 85056 | Avg Loss (last 1024): 2.0698
+2026-07-26 09:49:56,092 - INFO: [exp4_preln] Epoch 2/20 | Global: 86080 | Avg Loss (last 1024): 2.1141
+2026-07-26 09:50:07,647 - INFO: [exp4_preln] Epoch 2/20 | Global: 87104 | Avg Loss (last 1024): 2.0318
+2026-07-26 09:50:19,153 - INFO: [exp4_preln] Epoch 2/20 | Global: 88128 | Avg Loss (last 1024): 2.0480
+2026-07-26 09:50:30,772 - INFO: [exp4_preln] Epoch 2/20 | Global: 89152 | Avg Loss (last 1024): 2.0221
+2026-07-26 09:50:42,220 - INFO: [exp4_preln] Epoch 2/20 | Global: 90176 | Avg Loss (last 1024): 2.0671
+2026-07-26 09:50:54,020 - INFO: [exp4_preln] Epoch 2/20 | Global: 91200 | Avg Loss (last 1024): 2.0247
+2026-07-26 09:51:05,971 - INFO: [exp4_preln] Epoch 2/20 | Global: 92224 | Avg Loss (last 1024): 1.9636
+2026-07-26 09:51:17,940 - INFO: [exp4_preln] Epoch 2/20 | Global: 93248 | Avg Loss (last 1024): 1.9402
+2026-07-26 09:51:29,564 - INFO: [exp4_preln] Epoch 2/20 | Global: 94272 | Avg Loss (last 1024): 2.0015
+2026-07-26 09:51:41,126 - INFO: [exp4_preln] Epoch 2/20 | Global: 95296 | Avg Loss (last 1024): 1.9505
+2026-07-26 09:51:52,732 - INFO: [exp4_preln] Epoch 2/20 | Global: 96320 | Avg Loss (last 1024): 1.8523
+2026-07-26 09:52:04,402 - INFO: [exp4_preln] Epoch 2/20 | Global: 97344 | Avg Loss (last 1024): 1.7954
+2026-07-26 09:52:15,958 - INFO: [exp4_preln] Epoch 2/20 | Global: 98368 | Avg Loss (last 1024): 1.8459
+2026-07-26 09:52:27,696 - INFO: [exp4_preln] Epoch 2/20 | Global: 99392 | Avg Loss (last 1024): 1.8914
+2026-07-26 09:52:39,213 - INFO: [exp4_preln] Epoch 2/20 | Global: 100416 | Avg Loss (last 1024): 1.8212
+2026-07-26 09:52:50,662 - INFO: [exp4_preln] Epoch 2/20 | Global: 101440 | Avg Loss (last 1024): 1.8338
+2026-07-26 09:53:02,048 - INFO: [exp4_preln] Epoch 2/20 | Global: 102464 | Avg Loss (last 1024): 1.8014
+2026-07-26 09:53:13,551 - INFO: [exp4_preln] Epoch 2/20 | Global: 103488 | Avg Loss (last 1024): 1.7408
+2026-07-26 09:53:25,237 - INFO: [exp4_preln] Epoch 2/20 | Global: 104512 | Avg Loss (last 1024): 1.6869
+2026-07-26 09:53:36,884 - INFO: [exp4_preln] Epoch 2/20 | Global: 105536 | Avg Loss (last 1024): 1.7936
+2026-07-26 09:53:48,467 - INFO: [exp4_preln] Epoch 2/20 | Global: 106560 | Avg Loss (last 1024): 1.7289
+2026-07-26 09:53:59,840 - INFO: [exp4_preln] Epoch 2/20 | Global: 107584 | Avg Loss (last 1024): 1.7327
+2026-07-26 09:54:12,476 - INFO: [exp4_preln] Epoch 2/20 | Global: 108608 | Avg Loss (last 1024): 1.7588
+2026-07-26 09:54:24,141 - INFO: [exp4_preln] Epoch 2/20 | Global: 109632 | Avg Loss (last 1024): 1.6992
+2026-07-26 09:54:35,837 - INFO: [exp4_preln] Epoch 2/20 | Global: 110656 | Avg Loss (last 1024): 1.7229
+2026-07-26 09:54:47,024 - INFO: [exp4_preln] Epoch 2/20 | Global: 111680 | Avg Loss (last 1024): 1.6446
+2026-07-26 09:54:58,042 - INFO: [exp4_preln] Epoch 2/20 | Global: 112704 | Avg Loss (last 1024): 1.6557
+2026-07-26 09:55:09,083 - INFO: [exp4_preln] Epoch 2/20 | Global: 113728 | Avg Loss (last 1024): 1.6674
+2026-07-26 09:55:20,237 - INFO: [exp4_preln] Epoch 2/20 | Global: 114752 | Avg Loss (last 1024): 1.6293
+2026-07-26 09:55:31,424 - INFO: [exp4_preln] Epoch 2/20 | Global: 115776 | Avg Loss (last 1024): 1.5899
+2026-07-26 09:55:42,806 - INFO: [exp4_preln] Epoch 2/20 | Global: 116800 | Avg Loss (last 1024): 1.5936
+2026-07-26 09:55:43,521 - INFO: [exp4_preln] Epoch 2/20 | Global: 116864 | Avg Loss (last 64): 1.6146
+2026-07-26 09:55:45,340 - INFO: [exp4_preln] Epoch 2 Val | Examples: 1024 | Avg: 1.4665
+2026-07-26 09:55:47,165 - INFO: [exp4_preln] Epoch 2 Val | Examples: 2048 | Avg: 1.3888
+2026-07-26 09:55:48,960 - INFO: [exp4_preln] Epoch 2 Val | Examples: 3072 | Avg: 1.3694
+2026-07-26 09:55:50,761 - INFO: [exp4_preln] Epoch 2 Val | Examples: 4096 | Avg: 1.4277
+2026-07-26 09:55:52,640 - INFO: [exp4_preln] Epoch 2 Val | Examples: 5120 | Avg: 1.4620
+2026-07-26 09:55:52,641 - INFO: [exp4_preln] === Epoch 2 done | Train: 2.0796 | Val: 1.4229 | Time: 662.9s ===
+2026-07-26 09:55:52,695 - INFO: [exp4_preln] Saved to C:/PythonProject/English2French/model/exp4_preln_epoch2.pth
+2026-07-26 09:56:03,797 - INFO: [exp4_preln] Epoch 3/20 | Global: 117888 | Avg Loss (last 1024): 1.4331
+2026-07-26 09:56:14,884 - INFO: [exp4_preln] Epoch 3/20 | Global: 118912 | Avg Loss (last 1024): 1.4657
+2026-07-26 09:56:26,138 - INFO: [exp4_preln] Epoch 3/20 | Global: 119936 | Avg Loss (last 1024): 1.4471
+2026-07-26 09:56:37,237 - INFO: [exp4_preln] Epoch 3/20 | Global: 120960 | Avg Loss (last 1024): 1.4805
+2026-07-26 09:56:48,266 - INFO: [exp4_preln] Epoch 3/20 | Global: 121984 | Avg Loss (last 1024): 1.4795
+2026-07-26 09:56:59,391 - INFO: [exp4_preln] Epoch 3/20 | Global: 123008 | Avg Loss (last 1024): 1.4807
+2026-07-26 09:57:10,549 - INFO: [exp4_preln] Epoch 3/20 | Global: 124032 | Avg Loss (last 1024): 1.4592
+2026-07-26 09:57:21,646 - INFO: [exp4_preln] Epoch 3/20 | Global: 125056 | Avg Loss (last 1024): 1.4609
+2026-07-26 09:57:32,801 - INFO: [exp4_preln] Epoch 3/20 | Global: 126080 | Avg Loss (last 1024): 1.4363
+2026-07-26 09:57:43,888 - INFO: [exp4_preln] Epoch 3/20 | Global: 127104 | Avg Loss (last 1024): 1.4104
+2026-07-26 09:57:55,130 - INFO: [exp4_preln] Epoch 3/20 | Global: 128128 | Avg Loss (last 1024): 1.3987
+2026-07-26 09:58:06,319 - INFO: [exp4_preln] Epoch 3/20 | Global: 129152 | Avg Loss (last 1024): 1.4139
+2026-07-26 09:58:17,666 - INFO: [exp4_preln] Epoch 3/20 | Global: 130176 | Avg Loss (last 1024): 1.3353
+2026-07-26 09:58:28,918 - INFO: [exp4_preln] Epoch 3/20 | Global: 131200 | Avg Loss (last 1024): 1.3539
+2026-07-26 09:58:40,191 - INFO: [exp4_preln] Epoch 3/20 | Global: 132224 | Avg Loss (last 1024): 1.3508
+2026-07-26 09:58:51,476 - INFO: [exp4_preln] Epoch 3/20 | Global: 133248 | Avg Loss (last 1024): 1.2895
+2026-07-26 09:59:02,701 - INFO: [exp4_preln] Epoch 3/20 | Global: 134272 | Avg Loss (last 1024): 1.3016
+2026-07-26 09:59:13,954 - INFO: [exp4_preln] Epoch 3/20 | Global: 135296 | Avg Loss (last 1024): 1.3310
+2026-07-26 09:59:25,031 - INFO: [exp4_preln] Epoch 3/20 | Global: 136320 | Avg Loss (last 1024): 1.2331
+2026-07-26 09:59:36,266 - INFO: [exp4_preln] Epoch 3/20 | Global: 137344 | Avg Loss (last 1024): 1.3113
+2026-07-26 09:59:47,526 - INFO: [exp4_preln] Epoch 3/20 | Global: 138368 | Avg Loss (last 1024): 1.2736
+2026-07-26 09:59:58,559 - INFO: [exp4_preln] Epoch 3/20 | Global: 139392 | Avg Loss (last 1024): 1.3182
+2026-07-26 10:00:09,664 - INFO: [exp4_preln] Epoch 3/20 | Global: 140416 | Avg Loss (last 1024): 1.2241
+2026-07-26 10:00:20,769 - INFO: [exp4_preln] Epoch 3/20 | Global: 141440 | Avg Loss (last 1024): 1.2021
+2026-07-26 10:00:31,978 - INFO: [exp4_preln] Epoch 3/20 | Global: 142464 | Avg Loss (last 1024): 1.1992
+2026-07-26 10:00:43,132 - INFO: [exp4_preln] Epoch 3/20 | Global: 143488 | Avg Loss (last 1024): 1.2030
+2026-07-26 10:00:54,232 - INFO: [exp4_preln] Epoch 3/20 | Global: 144512 | Avg Loss (last 1024): 1.2302
+2026-07-26 10:01:05,358 - INFO: [exp4_preln] Epoch 3/20 | Global: 145536 | Avg Loss (last 1024): 1.2392
+2026-07-26 10:01:16,530 - INFO: [exp4_preln] Epoch 3/20 | Global: 146560 | Avg Loss (last 1024): 1.1886
+2026-07-26 10:01:27,682 - INFO: [exp4_preln] Epoch 3/20 | Global: 147584 | Avg Loss (last 1024): 1.1746
+2026-07-26 10:01:38,761 - INFO: [exp4_preln] Epoch 3/20 | Global: 148608 | Avg Loss (last 1024): 1.1701
+2026-07-26 10:01:49,967 - INFO: [exp4_preln] Epoch 3/20 | Global: 149632 | Avg Loss (last 1024): 1.1261
+2026-07-26 10:02:01,130 - INFO: [exp4_preln] Epoch 3/20 | Global: 150656 | Avg Loss (last 1024): 1.1577
+2026-07-26 10:02:12,306 - INFO: [exp4_preln] Epoch 3/20 | Global: 151680 | Avg Loss (last 1024): 1.1088
+2026-07-26 10:02:23,439 - INFO: [exp4_preln] Epoch 3/20 | Global: 152704 | Avg Loss (last 1024): 1.1634
+2026-07-26 10:02:34,643 - INFO: [exp4_preln] Epoch 3/20 | Global: 153728 | Avg Loss (last 1024): 1.1223
+2026-07-26 10:02:45,726 - INFO: [exp4_preln] Epoch 3/20 | Global: 154752 | Avg Loss (last 1024): 1.0648
+2026-07-26 10:02:56,856 - INFO: [exp4_preln] Epoch 3/20 | Global: 155776 | Avg Loss (last 1024): 1.0514
+2026-07-26 10:03:07,904 - INFO: [exp4_preln] Epoch 3/20 | Global: 156800 | Avg Loss (last 1024): 1.0916
+2026-07-26 10:03:19,113 - INFO: [exp4_preln] Epoch 3/20 | Global: 157824 | Avg Loss (last 1024): 1.0707
+2026-07-26 10:03:30,225 - INFO: [exp4_preln] Epoch 3/20 | Global: 158848 | Avg Loss (last 1024): 1.1132
+2026-07-26 10:03:41,335 - INFO: [exp4_preln] Epoch 3/20 | Global: 159872 | Avg Loss (last 1024): 1.0839
+2026-07-26 10:03:52,476 - INFO: [exp4_preln] Epoch 3/20 | Global: 160896 | Avg Loss (last 1024): 1.0399
+2026-07-26 10:04:03,571 - INFO: [exp4_preln] Epoch 3/20 | Global: 161920 | Avg Loss (last 1024): 0.9927
+2026-07-26 10:04:14,715 - INFO: [exp4_preln] Epoch 3/20 | Global: 162944 | Avg Loss (last 1024): 1.0250
+2026-07-26 10:04:25,904 - INFO: [exp4_preln] Epoch 3/20 | Global: 163968 | Avg Loss (last 1024): 1.0014
+2026-07-26 10:04:36,940 - INFO: [exp4_preln] Epoch 3/20 | Global: 164992 | Avg Loss (last 1024): 0.9830
+2026-07-26 10:04:48,130 - INFO: [exp4_preln] Epoch 3/20 | Global: 166016 | Avg Loss (last 1024): 0.9864
+2026-07-26 10:04:59,249 - INFO: [exp4_preln] Epoch 3/20 | Global: 167040 | Avg Loss (last 1024): 1.0110
+2026-07-26 10:05:10,402 - INFO: [exp4_preln] Epoch 3/20 | Global: 168064 | Avg Loss (last 1024): 0.9752
+2026-07-26 10:05:21,596 - INFO: [exp4_preln] Epoch 3/20 | Global: 169088 | Avg Loss (last 1024): 0.9608
+2026-07-26 10:05:32,742 - INFO: [exp4_preln] Epoch 3/20 | Global: 170112 | Avg Loss (last 1024): 0.9771
+2026-07-26 10:05:43,821 - INFO: [exp4_preln] Epoch 3/20 | Global: 171136 | Avg Loss (last 1024): 0.9705
+2026-07-26 10:05:54,939 - INFO: [exp4_preln] Epoch 3/20 | Global: 172160 | Avg Loss (last 1024): 0.9387
+2026-07-26 10:06:06,092 - INFO: [exp4_preln] Epoch 3/20 | Global: 173184 | Avg Loss (last 1024): 1.0000
+2026-07-26 10:06:17,184 - INFO: [exp4_preln] Epoch 3/20 | Global: 174208 | Avg Loss (last 1024): 0.9557
+2026-07-26 10:06:28,345 - INFO: [exp4_preln] Epoch 3/20 | Global: 175232 | Avg Loss (last 1024): 0.9379
+2026-07-26 10:06:29,034 - INFO: [exp4_preln] Epoch 3/20 | Global: 175296 | Avg Loss (last 64): 1.0960
+2026-07-26 10:06:30,829 - INFO: [exp4_preln] Epoch 3 Val | Examples: 1024 | Avg: 0.8498
+2026-07-26 10:06:32,622 - INFO: [exp4_preln] Epoch 3 Val | Examples: 2048 | Avg: 0.7536
+2026-07-26 10:06:34,426 - INFO: [exp4_preln] Epoch 3 Val | Examples: 3072 | Avg: 0.7314
+2026-07-26 10:06:36,209 - INFO: [exp4_preln] Epoch 3 Val | Examples: 4096 | Avg: 0.8032
+2026-07-26 10:06:37,983 - INFO: [exp4_preln] Epoch 3 Val | Examples: 5120 | Avg: 0.8018
+2026-07-26 10:06:37,983 - INFO: [exp4_preln] === Epoch 3 done | Train: 1.1965 | Val: 0.7879 | Time: 636.3s ===
+2026-07-26 10:06:38,034 - INFO: [exp4_preln] Saved to C:/PythonProject/English2French/model/exp4_preln_epoch3.pth
+2026-07-26 10:06:49,324 - INFO: [exp4_preln] Epoch 4/20 | Global: 176320 | Avg Loss (last 1024): 0.8498
+2026-07-26 10:07:00,559 - INFO: [exp4_preln] Epoch 4/20 | Global: 177344 | Avg Loss (last 1024): 0.8484
+2026-07-26 10:07:11,835 - INFO: [exp4_preln] Epoch 4/20 | Global: 178368 | Avg Loss (last 1024): 0.8309
+2026-07-26 10:07:23,059 - INFO: [exp4_preln] Epoch 4/20 | Global: 179392 | Avg Loss (last 1024): 0.8107
+2026-07-26 10:07:34,319 - INFO: [exp4_preln] Epoch 4/20 | Global: 180416 | Avg Loss (last 1024): 0.8537
+2026-07-26 10:07:45,575 - INFO: [exp4_preln] Epoch 4/20 | Global: 181440 | Avg Loss (last 1024): 0.7814
+2026-07-26 10:07:56,862 - INFO: [exp4_preln] Epoch 4/20 | Global: 182464 | Avg Loss (last 1024): 0.7938
+2026-07-26 10:08:08,117 - INFO: [exp4_preln] Epoch 4/20 | Global: 183488 | Avg Loss (last 1024): 0.7799
+2026-07-26 10:08:19,413 - INFO: [exp4_preln] Epoch 4/20 | Global: 184512 | Avg Loss (last 1024): 0.7947
+2026-07-26 10:08:30,623 - INFO: [exp4_preln] Epoch 4/20 | Global: 185536 | Avg Loss (last 1024): 0.8014
+2026-07-26 10:08:41,865 - INFO: [exp4_preln] Epoch 4/20 | Global: 186560 | Avg Loss (last 1024): 0.8265
+2026-07-26 10:08:53,071 - INFO: [exp4_preln] Epoch 4/20 | Global: 187584 | Avg Loss (last 1024): 0.7984
+2026-07-26 10:09:04,283 - INFO: [exp4_preln] Epoch 4/20 | Global: 188608 | Avg Loss (last 1024): 0.7975
+2026-07-26 10:09:15,546 - INFO: [exp4_preln] Epoch 4/20 | Global: 189632 | Avg Loss (last 1024): 0.7844
+2026-07-26 10:09:26,859 - INFO: [exp4_preln] Epoch 4/20 | Global: 190656 | Avg Loss (last 1024): 0.7789
+2026-07-26 10:09:38,137 - INFO: [exp4_preln] Epoch 4/20 | Global: 191680 | Avg Loss (last 1024): 0.7958
+2026-07-26 10:09:49,484 - INFO: [exp4_preln] Epoch 4/20 | Global: 192704 | Avg Loss (last 1024): 0.7578
+2026-07-26 10:10:00,684 - INFO: [exp4_preln] Epoch 4/20 | Global: 193728 | Avg Loss (last 1024): 0.7815
+2026-07-26 10:10:11,875 - INFO: [exp4_preln] Epoch 4/20 | Global: 194752 | Avg Loss (last 1024): 0.7622
+2026-07-26 10:10:23,100 - INFO: [exp4_preln] Epoch 4/20 | Global: 195776 | Avg Loss (last 1024): 0.7512
+2026-07-26 10:10:34,380 - INFO: [exp4_preln] Epoch 4/20 | Global: 196800 | Avg Loss (last 1024): 0.7715
+2026-07-26 10:10:45,639 - INFO: [exp4_preln] Epoch 4/20 | Global: 197824 | Avg Loss (last 1024): 0.8146
+2026-07-26 10:10:56,894 - INFO: [exp4_preln] Epoch 4/20 | Global: 198848 | Avg Loss (last 1024): 0.7561
+2026-07-26 10:11:08,130 - INFO: [exp4_preln] Epoch 4/20 | Global: 199872 | Avg Loss (last 1024): 0.7128
+2026-07-26 10:11:19,284 - INFO: [exp4_preln] Epoch 4/20 | Global: 200896 | Avg Loss (last 1024): 0.7191
+2026-07-26 10:11:30,493 - INFO: [exp4_preln] Epoch 4/20 | Global: 201920 | Avg Loss (last 1024): 0.7165
+2026-07-26 10:11:41,732 - INFO: [exp4_preln] Epoch 4/20 | Global: 202944 | Avg Loss (last 1024): 0.7035
+2026-07-26 10:11:52,907 - INFO: [exp4_preln] Epoch 4/20 | Global: 203968 | Avg Loss (last 1024): 0.7177
+2026-07-26 10:12:04,204 - INFO: [exp4_preln] Epoch 4/20 | Global: 204992 | Avg Loss (last 1024): 0.7314
+2026-07-26 10:12:15,473 - INFO: [exp4_preln] Epoch 4/20 | Global: 206016 | Avg Loss (last 1024): 0.7002
+2026-07-26 10:12:26,799 - INFO: [exp4_preln] Epoch 4/20 | Global: 207040 | Avg Loss (last 1024): 0.7474
+2026-07-26 10:12:38,045 - INFO: [exp4_preln] Epoch 4/20 | Global: 208064 | Avg Loss (last 1024): 0.7195
+2026-07-26 10:12:49,325 - INFO: [exp4_preln] Epoch 4/20 | Global: 209088 | Avg Loss (last 1024): 0.7283
+2026-07-26 10:13:00,507 - INFO: [exp4_preln] Epoch 4/20 | Global: 210112 | Avg Loss (last 1024): 0.7287
+2026-07-26 10:13:11,807 - INFO: [exp4_preln] Epoch 4/20 | Global: 211136 | Avg Loss (last 1024): 0.7361
+2026-07-26 10:13:23,100 - INFO: [exp4_preln] Epoch 4/20 | Global: 212160 | Avg Loss (last 1024): 0.6949
+2026-07-26 10:13:34,263 - INFO: [exp4_preln] Epoch 4/20 | Global: 213184 | Avg Loss (last 1024): 0.6843
+2026-07-26 10:13:45,520 - INFO: [exp4_preln] Epoch 4/20 | Global: 214208 | Avg Loss (last 1024): 0.7088
+2026-07-26 10:13:56,779 - INFO: [exp4_preln] Epoch 4/20 | Global: 215232 | Avg Loss (last 1024): 0.6815
+2026-07-26 10:14:08,024 - INFO: [exp4_preln] Epoch 4/20 | Global: 216256 | Avg Loss (last 1024): 0.6628
+2026-07-26 10:14:19,393 - INFO: [exp4_preln] Epoch 4/20 | Global: 217280 | Avg Loss (last 1024): 0.6864
+2026-07-26 10:14:30,609 - INFO: [exp4_preln] Epoch 4/20 | Global: 218304 | Avg Loss (last 1024): 0.6797
+2026-07-26 10:14:42,807 - INFO: [exp4_preln] Epoch 4/20 | Global: 219328 | Avg Loss (last 1024): 0.6676
+2026-07-26 10:14:54,347 - INFO: [exp4_preln] Epoch 4/20 | Global: 220352 | Avg Loss (last 1024): 0.6922
+2026-07-26 10:15:05,504 - INFO: [exp4_preln] Epoch 4/20 | Global: 221376 | Avg Loss (last 1024): 0.6779
+2026-07-26 10:15:16,573 - INFO: [exp4_preln] Epoch 4/20 | Global: 222400 | Avg Loss (last 1024): 0.6402
+2026-07-26 10:15:27,706 - INFO: [exp4_preln] Epoch 4/20 | Global: 223424 | Avg Loss (last 1024): 0.6398
+2026-07-26 10:15:38,668 - INFO: [exp4_preln] Epoch 4/20 | Global: 224448 | Avg Loss (last 1024): 0.6502
+2026-07-26 10:15:49,800 - INFO: [exp4_preln] Epoch 4/20 | Global: 225472 | Avg Loss (last 1024): 0.6155
+2026-07-26 10:16:00,915 - INFO: [exp4_preln] Epoch 4/20 | Global: 226496 | Avg Loss (last 1024): 0.6488
+2026-07-26 10:16:12,129 - INFO: [exp4_preln] Epoch 4/20 | Global: 227520 | Avg Loss (last 1024): 0.6069
+2026-07-26 10:16:23,315 - INFO: [exp4_preln] Epoch 4/20 | Global: 228544 | Avg Loss (last 1024): 0.6413
+2026-07-26 10:16:34,509 - INFO: [exp4_preln] Epoch 4/20 | Global: 229568 | Avg Loss (last 1024): 0.6616
+2026-07-26 10:16:45,521 - INFO: [exp4_preln] Epoch 4/20 | Global: 230592 | Avg Loss (last 1024): 0.6739
+2026-07-26 10:16:56,747 - INFO: [exp4_preln] Epoch 4/20 | Global: 231616 | Avg Loss (last 1024): 0.6152
+2026-07-26 10:17:07,827 - INFO: [exp4_preln] Epoch 4/20 | Global: 232640 | Avg Loss (last 1024): 0.5921
+2026-07-26 10:17:18,913 - INFO: [exp4_preln] Epoch 4/20 | Global: 233664 | Avg Loss (last 1024): 0.6330
+2026-07-26 10:17:19,589 - INFO: [exp4_preln] Epoch 4/20 | Global: 233728 | Avg Loss (last 64): 0.5868
+2026-07-26 10:17:21,406 - INFO: [exp4_preln] Epoch 4 Val | Examples: 1024 | Avg: 0.5462
+2026-07-26 10:17:23,161 - INFO: [exp4_preln] Epoch 4 Val | Examples: 2048 | Avg: 0.4988
+2026-07-26 10:17:24,978 - INFO: [exp4_preln] Epoch 4 Val | Examples: 3072 | Avg: 0.4626
+2026-07-26 10:17:26,761 - INFO: [exp4_preln] Epoch 4 Val | Examples: 4096 | Avg: 0.4836
+2026-07-26 10:17:28,600 - INFO: [exp4_preln] Epoch 4 Val | Examples: 5120 | Avg: 0.4987
+2026-07-26 10:17:28,601 - INFO: [exp4_preln] === Epoch 4 done | Train: 0.7268 | Val: 0.4980 | Time: 641.6s ===
+2026-07-26 10:17:28,644 - INFO: [exp4_preln] Saved to C:/PythonProject/English2French/model/exp4_preln_epoch4.pth
+2026-07-26 10:17:39,696 - INFO: [exp4_preln] Epoch 5/20 | Global: 234752 | Avg Loss (last 1024): 0.5628
+2026-07-26 10:17:50,802 - INFO: [exp4_preln] Epoch 5/20 | Global: 235776 | Avg Loss (last 1024): 0.5414
+2026-07-26 10:18:02,034 - INFO: [exp4_preln] Epoch 5/20 | Global: 236800 | Avg Loss (last 1024): 0.5594
+2026-07-26 10:18:13,096 - INFO: [exp4_preln] Epoch 5/20 | Global: 237824 | Avg Loss (last 1024): 0.5587
+2026-07-26 10:18:24,129 - INFO: [exp4_preln] Epoch 5/20 | Global: 238848 | Avg Loss (last 1024): 0.5343
+2026-07-26 10:18:35,170 - INFO: [exp4_preln] Epoch 5/20 | Global: 239872 | Avg Loss (last 1024): 0.5672
+2026-07-26 10:18:46,246 - INFO: [exp4_preln] Epoch 5/20 | Global: 240896 | Avg Loss (last 1024): 0.5488
+2026-07-26 10:18:57,269 - INFO: [exp4_preln] Epoch 5/20 | Global: 241920 | Avg Loss (last 1024): 0.5806
+2026-07-26 10:19:08,259 - INFO: [exp4_preln] Epoch 5/20 | Global: 242944 | Avg Loss (last 1024): 0.5661
+2026-07-26 10:19:19,220 - INFO: [exp4_preln] Epoch 5/20 | Global: 243968 | Avg Loss (last 1024): 0.5785
+2026-07-26 10:19:30,132 - INFO: [exp4_preln] Epoch 5/20 | Global: 244992 | Avg Loss (last 1024): 0.5421
+2026-07-26 10:19:41,283 - INFO: [exp4_preln] Epoch 5/20 | Global: 246016 | Avg Loss (last 1024): 0.5626
+2026-07-26 10:19:52,246 - INFO: [exp4_preln] Epoch 5/20 | Global: 247040 | Avg Loss (last 1024): 0.5802
+2026-07-26 10:20:03,338 - INFO: [exp4_preln] Epoch 5/20 | Global: 248064 | Avg Loss (last 1024): 0.5681
+2026-07-26 10:20:14,459 - INFO: [exp4_preln] Epoch 5/20 | Global: 249088 | Avg Loss (last 1024): 0.5550
+2026-07-26 10:20:25,533 - INFO: [exp4_preln] Epoch 5/20 | Global: 250112 | Avg Loss (last 1024): 0.5567
+2026-07-26 10:20:36,761 - INFO: [exp4_preln] Epoch 5/20 | Global: 251136 | Avg Loss (last 1024): 0.5470
+2026-07-26 10:20:47,913 - INFO: [exp4_preln] Epoch 5/20 | Global: 252160 | Avg Loss (last 1024): 0.5799
+2026-07-26 10:20:59,011 - INFO: [exp4_preln] Epoch 5/20 | Global: 253184 | Avg Loss (last 1024): 0.5793
+2026-07-26 10:21:10,157 - INFO: [exp4_preln] Epoch 5/20 | Global: 254208 | Avg Loss (last 1024): 0.5631
+2026-07-26 10:21:21,293 - INFO: [exp4_preln] Epoch 5/20 | Global: 255232 | Avg Loss (last 1024): 0.5659
+2026-07-26 10:21:32,355 - INFO: [exp4_preln] Epoch 5/20 | Global: 256256 | Avg Loss (last 1024): 0.5441
+2026-07-26 10:21:43,445 - INFO: [exp4_preln] Epoch 5/20 | Global: 257280 | Avg Loss (last 1024): 0.5808
+2026-07-26 10:21:54,419 - INFO: [exp4_preln] Epoch 5/20 | Global: 258304 | Avg Loss (last 1024): 0.5673
+2026-07-26 10:22:05,514 - INFO: [exp4_preln] Epoch 5/20 | Global: 259328 | Avg Loss (last 1024): 0.5528
+2026-07-26 10:22:16,463 - INFO: [exp4_preln] Epoch 5/20 | Global: 260352 | Avg Loss (last 1024): 0.5584
+2026-07-26 10:22:27,621 - INFO: [exp4_preln] Epoch 5/20 | Global: 261376 | Avg Loss (last 1024): 0.5793
+2026-07-26 10:22:38,619 - INFO: [exp4_preln] Epoch 5/20 | Global: 262400 | Avg Loss (last 1024): 0.5008
+2026-07-26 10:22:49,605 - INFO: [exp4_preln] Epoch 5/20 | Global: 263424 | Avg Loss (last 1024): 0.5492
+2026-07-26 10:23:00,726 - INFO: [exp4_preln] Epoch 5/20 | Global: 264448 | Avg Loss (last 1024): 0.5525
+2026-07-26 10:23:11,815 - INFO: [exp4_preln] Epoch 5/20 | Global: 265472 | Avg Loss (last 1024): 0.5299
+2026-07-26 10:23:23,087 - INFO: [exp4_preln] Epoch 5/20 | Global: 266496 | Avg Loss (last 1024): 0.5465
+2026-07-26 10:23:34,161 - INFO: [exp4_preln] Epoch 5/20 | Global: 267520 | Avg Loss (last 1024): 0.5034
+2026-07-26 10:23:45,264 - INFO: [exp4_preln] Epoch 5/20 | Global: 268544 | Avg Loss (last 1024): 0.5158
+2026-07-26 10:23:56,307 - INFO: [exp4_preln] Epoch 5/20 | Global: 269568 | Avg Loss (last 1024): 0.5245
+2026-07-26 10:24:07,411 - INFO: [exp4_preln] Epoch 5/20 | Global: 270592 | Avg Loss (last 1024): 0.5313
+2026-07-26 10:24:18,561 - INFO: [exp4_preln] Epoch 5/20 | Global: 271616 | Avg Loss (last 1024): 0.5319
+2026-07-26 10:24:29,703 - INFO: [exp4_preln] Epoch 5/20 | Global: 272640 | Avg Loss (last 1024): 0.4973
+2026-07-26 10:24:40,837 - INFO: [exp4_preln] Epoch 5/20 | Global: 273664 | Avg Loss (last 1024): 0.5177
+2026-07-26 10:24:52,088 - INFO: [exp4_preln] Epoch 5/20 | Global: 274688 | Avg Loss (last 1024): 0.5111
+2026-07-26 10:25:03,250 - INFO: [exp4_preln] Epoch 5/20 | Global: 275712 | Avg Loss (last 1024): 0.5349
+2026-07-26 10:25:14,373 - INFO: [exp4_preln] Epoch 5/20 | Global: 276736 | Avg Loss (last 1024): 0.5419
+2026-07-26 10:25:25,499 - INFO: [exp4_preln] Epoch 5/20 | Global: 277760 | Avg Loss (last 1024): 0.5179
+2026-07-26 10:25:36,733 - INFO: [exp4_preln] Epoch 5/20 | Global: 278784 | Avg Loss (last 1024): 0.5198
+2026-07-26 10:25:47,780 - INFO: [exp4_preln] Epoch 5/20 | Global: 279808 | Avg Loss (last 1024): 0.5001
+2026-07-26 10:25:58,898 - INFO: [exp4_preln] Epoch 5/20 | Global: 280832 | Avg Loss (last 1024): 0.5245
+2026-07-26 10:26:09,893 - INFO: [exp4_preln] Epoch 5/20 | Global: 281856 | Avg Loss (last 1024): 0.4907
+2026-07-26 10:26:20,908 - INFO: [exp4_preln] Epoch 5/20 | Global: 282880 | Avg Loss (last 1024): 0.5017
+2026-07-26 10:26:32,182 - INFO: [exp4_preln] Epoch 5/20 | Global: 283904 | Avg Loss (last 1024): 0.4631
+2026-07-26 10:26:43,681 - INFO: [exp4_preln] Epoch 5/20 | Global: 284928 | Avg Loss (last 1024): 0.4727
+2026-07-26 10:26:55,082 - INFO: [exp4_preln] Epoch 5/20 | Global: 285952 | Avg Loss (last 1024): 0.4778
+2026-07-26 10:27:06,315 - INFO: [exp4_preln] Epoch 5/20 | Global: 286976 | Avg Loss (last 1024): 0.4965
+2026-07-26 10:27:17,406 - INFO: [exp4_preln] Epoch 5/20 | Global: 288000 | Avg Loss (last 1024): 0.4918
+2026-07-26 10:27:28,618 - INFO: [exp4_preln] Epoch 5/20 | Global: 289024 | Avg Loss (last 1024): 0.4721
+2026-07-26 10:27:39,687 - INFO: [exp4_preln] Epoch 5/20 | Global: 290048 | Avg Loss (last 1024): 0.4684
+2026-07-26 10:27:50,801 - INFO: [exp4_preln] Epoch 5/20 | Global: 291072 | Avg Loss (last 1024): 0.4709
+2026-07-26 10:28:02,048 - INFO: [exp4_preln] Epoch 5/20 | Global: 292096 | Avg Loss (last 1024): 0.4738
+2026-07-26 10:28:02,747 - INFO: [exp4_preln] Epoch 5/20 | Global: 292160 | Avg Loss (last 64): 0.4307
+2026-07-26 10:28:04,649 - INFO: [exp4_preln] Epoch 5 Val | Examples: 1024 | Avg: 0.4075
+2026-07-26 10:28:06,451 - INFO: [exp4_preln] Epoch 5 Val | Examples: 2048 | Avg: 0.3680
+2026-07-26 10:28:08,231 - INFO: [exp4_preln] Epoch 5 Val | Examples: 3072 | Avg: 0.3598
+2026-07-26 10:28:10,025 - INFO: [exp4_preln] Epoch 5 Val | Examples: 4096 | Avg: 0.3729
+2026-07-26 10:28:11,811 - INFO: [exp4_preln] Epoch 5 Val | Examples: 5120 | Avg: 0.3793
+2026-07-26 10:28:11,812 - INFO: [exp4_preln] === Epoch 5 done | Train: 0.5334 | Val: 0.3775 | Time: 634.1s ===
+2026-07-26 10:28:11,867 - INFO: [exp4_preln] Saved to C:/PythonProject/English2French/model/exp4_preln_epoch5.pth
+2026-07-26 10:28:22,990 - INFO: [exp4_preln] Epoch 6/20 | Global: 293184 | Avg Loss (last 1024): 0.4341
+2026-07-26 10:28:34,185 - INFO: [exp4_preln] Epoch 6/20 | Global: 294208 | Avg Loss (last 1024): 0.3994
+2026-07-26 10:28:45,345 - INFO: [exp4_preln] Epoch 6/20 | Global: 295232 | Avg Loss (last 1024): 0.4371
+2026-07-26 10:28:56,426 - INFO: [exp4_preln] Epoch 6/20 | Global: 296256 | Avg Loss (last 1024): 0.4348
+2026-07-26 10:29:07,561 - INFO: [exp4_preln] Epoch 6/20 | Global: 297280 | Avg Loss (last 1024): 0.4259
+2026-07-26 10:29:18,817 - INFO: [exp4_preln] Epoch 6/20 | Global: 298304 | Avg Loss (last 1024): 0.4320
+2026-07-26 10:29:30,032 - INFO: [exp4_preln] Epoch 6/20 | Global: 299328 | Avg Loss (last 1024): 0.4141
+2026-07-26 10:29:41,269 - INFO: [exp4_preln] Epoch 6/20 | Global: 300352 | Avg Loss (last 1024): 0.4219
+2026-07-26 10:29:52,466 - INFO: [exp4_preln] Epoch 6/20 | Global: 301376 | Avg Loss (last 1024): 0.4417
+2026-07-26 10:30:03,697 - INFO: [exp4_preln] Epoch 6/20 | Global: 302400 | Avg Loss (last 1024): 0.4342
+2026-07-26 10:30:15,071 - INFO: [exp4_preln] Epoch 6/20 | Global: 303424 | Avg Loss (last 1024): 0.4580
+2026-07-26 10:30:26,253 - INFO: [exp4_preln] Epoch 6/20 | Global: 304448 | Avg Loss (last 1024): 0.4342
+2026-07-26 10:30:37,440 - INFO: [exp4_preln] Epoch 6/20 | Global: 305472 | Avg Loss (last 1024): 0.4378
+2026-07-26 10:30:48,583 - INFO: [exp4_preln] Epoch 6/20 | Global: 306496 | Avg Loss (last 1024): 0.4332
+2026-07-26 10:30:59,692 - INFO: [exp4_preln] Epoch 6/20 | Global: 307520 | Avg Loss (last 1024): 0.4387
+2026-07-26 10:31:10,883 - INFO: [exp4_preln] Epoch 6/20 | Global: 308544 | Avg Loss (last 1024): 0.4139
+2026-07-26 10:31:22,088 - INFO: [exp4_preln] Epoch 6/20 | Global: 309568 | Avg Loss (last 1024): 0.4364
+2026-07-26 10:31:33,411 - INFO: [exp4_preln] Epoch 6/20 | Global: 310592 | Avg Loss (last 1024): 0.4326
+2026-07-26 10:31:44,575 - INFO: [exp4_preln] Epoch 6/20 | Global: 311616 | Avg Loss (last 1024): 0.4397
+2026-07-26 10:31:55,750 - INFO: [exp4_preln] Epoch 6/20 | Global: 312640 | Avg Loss (last 1024): 0.4212
+2026-07-26 10:32:06,876 - INFO: [exp4_preln] Epoch 6/20 | Global: 313664 | Avg Loss (last 1024): 0.4383
+2026-07-26 10:32:18,026 - INFO: [exp4_preln] Epoch 6/20 | Global: 314688 | Avg Loss (last 1024): 0.4454
+2026-07-26 10:32:29,203 - INFO: [exp4_preln] Epoch 6/20 | Global: 315712 | Avg Loss (last 1024): 0.4304
+2026-07-26 10:32:40,337 - INFO: [exp4_preln] Epoch 6/20 | Global: 316736 | Avg Loss (last 1024): 0.4029
+2026-07-26 10:32:51,433 - INFO: [exp4_preln] Epoch 6/20 | Global: 317760 | Avg Loss (last 1024): 0.4112
+2026-07-26 10:33:02,470 - INFO: [exp4_preln] Epoch 6/20 | Global: 318784 | Avg Loss (last 1024): 0.4160
+2026-07-26 10:33:13,539 - INFO: [exp4_preln] Epoch 6/20 | Global: 319808 | Avg Loss (last 1024): 0.4394
+2026-07-26 10:33:24,649 - INFO: [exp4_preln] Epoch 6/20 | Global: 320832 | Avg Loss (last 1024): 0.4209
+2026-07-26 10:33:35,895 - INFO: [exp4_preln] Epoch 6/20 | Global: 321856 | Avg Loss (last 1024): 0.3902
+2026-07-26 10:33:46,949 - INFO: [exp4_preln] Epoch 6/20 | Global: 322880 | Avg Loss (last 1024): 0.4194
+2026-07-26 10:33:57,999 - INFO: [exp4_preln] Epoch 6/20 | Global: 323904 | Avg Loss (last 1024): 0.4241
+2026-07-26 10:34:09,130 - INFO: [exp4_preln] Epoch 6/20 | Global: 324928 | Avg Loss (last 1024): 0.4252
+2026-07-26 10:34:20,244 - INFO: [exp4_preln] Epoch 6/20 | Global: 325952 | Avg Loss (last 1024): 0.3978
+2026-07-26 10:34:31,359 - INFO: [exp4_preln] Epoch 6/20 | Global: 326976 | Avg Loss (last 1024): 0.4323
+2026-07-26 10:34:42,451 - INFO: [exp4_preln] Epoch 6/20 | Global: 328000 | Avg Loss (last 1024): 0.4320
+2026-07-26 10:34:53,609 - INFO: [exp4_preln] Epoch 6/20 | Global: 329024 | Avg Loss (last 1024): 0.3878
+2026-07-26 10:35:04,738 - INFO: [exp4_preln] Epoch 6/20 | Global: 330048 | Avg Loss (last 1024): 0.4004
+2026-07-26 10:35:15,981 - INFO: [exp4_preln] Epoch 6/20 | Global: 331072 | Avg Loss (last 1024): 0.4085
+2026-07-26 10:35:27,051 - INFO: [exp4_preln] Epoch 6/20 | Global: 332096 | Avg Loss (last 1024): 0.4245
+2026-07-26 10:35:38,249 - INFO: [exp4_preln] Epoch 6/20 | Global: 333120 | Avg Loss (last 1024): 0.4028
+2026-07-26 10:35:49,353 - INFO: [exp4_preln] Epoch 6/20 | Global: 334144 | Avg Loss (last 1024): 0.4067
+2026-07-26 10:36:00,470 - INFO: [exp4_preln] Epoch 6/20 | Global: 335168 | Avg Loss (last 1024): 0.3967
+2026-07-26 10:36:11,611 - INFO: [exp4_preln] Epoch 6/20 | Global: 336192 | Avg Loss (last 1024): 0.3879
+2026-07-26 10:36:22,863 - INFO: [exp4_preln] Epoch 6/20 | Global: 337216 | Avg Loss (last 1024): 0.3862
+2026-07-26 10:36:33,903 - INFO: [exp4_preln] Epoch 6/20 | Global: 338240 | Avg Loss (last 1024): 0.3863
+2026-07-26 10:36:44,910 - INFO: [exp4_preln] Epoch 6/20 | Global: 339264 | Avg Loss (last 1024): 0.4000
+2026-07-26 10:36:56,069 - INFO: [exp4_preln] Epoch 6/20 | Global: 340288 | Avg Loss (last 1024): 0.3952
+2026-07-26 10:37:07,045 - INFO: [exp4_preln] Epoch 6/20 | Global: 341312 | Avg Loss (last 1024): 0.3863
+2026-07-26 10:37:18,199 - INFO: [exp4_preln] Epoch 6/20 | Global: 342336 | Avg Loss (last 1024): 0.3820
+2026-07-26 10:37:29,210 - INFO: [exp4_preln] Epoch 6/20 | Global: 343360 | Avg Loss (last 1024): 0.3624
+2026-07-26 10:37:40,230 - INFO: [exp4_preln] Epoch 6/20 | Global: 344384 | Avg Loss (last 1024): 0.3869
+2026-07-26 10:37:51,337 - INFO: [exp4_preln] Epoch 6/20 | Global: 345408 | Avg Loss (last 1024): 0.3867
+2026-07-26 10:38:02,608 - INFO: [exp4_preln] Epoch 6/20 | Global: 346432 | Avg Loss (last 1024): 0.4002
+2026-07-26 10:38:13,675 - INFO: [exp4_preln] Epoch 6/20 | Global: 347456 | Avg Loss (last 1024): 0.3832
+2026-07-26 10:38:24,739 - INFO: [exp4_preln] Epoch 6/20 | Global: 348480 | Avg Loss (last 1024): 0.3964
+2026-07-26 10:38:35,771 - INFO: [exp4_preln] Epoch 6/20 | Global: 349504 | Avg Loss (last 1024): 0.3635
+2026-07-26 10:38:46,918 - INFO: [exp4_preln] Epoch 6/20 | Global: 350528 | Avg Loss (last 1024): 0.3699
+2026-07-26 10:38:47,613 - INFO: [exp4_preln] Epoch 6/20 | Global: 350592 | Avg Loss (last 64): 0.3998
+2026-07-26 10:38:49,406 - INFO: [exp4_preln] Epoch 6 Val | Examples: 1024 | Avg: 0.3234
+2026-07-26 10:38:51,216 - INFO: [exp4_preln] Epoch 6 Val | Examples: 2048 | Avg: 0.2990
+2026-07-26 10:38:52,990 - INFO: [exp4_preln] Epoch 6 Val | Examples: 3072 | Avg: 0.2879
+2026-07-26 10:38:54,779 - INFO: [exp4_preln] Epoch 6 Val | Examples: 4096 | Avg: 0.2991
+2026-07-26 10:38:56,556 - INFO: [exp4_preln] Epoch 6 Val | Examples: 5120 | Avg: 0.2961
+2026-07-26 10:38:56,557 - INFO: [exp4_preln] === Epoch 6 done | Train: 0.4131 | Val: 0.3011 | Time: 635.7s ===
+2026-07-26 10:38:56,604 - INFO: [exp4_preln] Saved to C:/PythonProject/English2French/model/exp4_preln_epoch6.pth
+2026-07-26 10:39:07,755 - INFO: [exp4_preln] Epoch 7/20 | Global: 351616 | Avg Loss (last 1024): 0.3337
+2026-07-26 10:39:18,851 - INFO: [exp4_preln] Epoch 7/20 | Global: 352640 | Avg Loss (last 1024): 0.3502
+2026-07-26 10:39:29,854 - INFO: [exp4_preln] Epoch 7/20 | Global: 353664 | Avg Loss (last 1024): 0.3685
+2026-07-26 10:39:40,985 - INFO: [exp4_preln] Epoch 7/20 | Global: 354688 | Avg Loss (last 1024): 0.3562
+2026-07-26 10:39:52,230 - INFO: [exp4_preln] Epoch 7/20 | Global: 355712 | Avg Loss (last 1024): 0.3446
+2026-07-26 10:40:03,244 - INFO: [exp4_preln] Epoch 7/20 | Global: 356736 | Avg Loss (last 1024): 0.3523
+2026-07-26 10:40:14,367 - INFO: [exp4_preln] Epoch 7/20 | Global: 357760 | Avg Loss (last 1024): 0.3654
+2026-07-26 10:40:25,495 - INFO: [exp4_preln] Epoch 7/20 | Global: 358784 | Avg Loss (last 1024): 0.3562
+2026-07-26 10:40:36,608 - INFO: [exp4_preln] Epoch 7/20 | Global: 359808 | Avg Loss (last 1024): 0.3315
+2026-07-26 10:40:47,724 - INFO: [exp4_preln] Epoch 7/20 | Global: 360832 | Avg Loss (last 1024): 0.3414
+2026-07-26 10:40:58,842 - INFO: [exp4_preln] Epoch 7/20 | Global: 361856 | Avg Loss (last 1024): 0.3485
+2026-07-26 10:41:10,037 - INFO: [exp4_preln] Epoch 7/20 | Global: 362880 | Avg Loss (last 1024): 0.3690
+2026-07-26 10:41:21,208 - INFO: [exp4_preln] Epoch 7/20 | Global: 363904 | Avg Loss (last 1024): 0.3644
+2026-07-26 10:41:32,343 - INFO: [exp4_preln] Epoch 7/20 | Global: 364928 | Avg Loss (last 1024): 0.3297
+2026-07-26 10:41:43,469 - INFO: [exp4_preln] Epoch 7/20 | Global: 365952 | Avg Loss (last 1024): 0.3453
+2026-07-26 10:41:54,626 - INFO: [exp4_preln] Epoch 7/20 | Global: 366976 | Avg Loss (last 1024): 0.3681
+2026-07-26 10:42:05,703 - INFO: [exp4_preln] Epoch 7/20 | Global: 368000 | Avg Loss (last 1024): 0.3529
+2026-07-26 10:42:16,742 - INFO: [exp4_preln] Epoch 7/20 | Global: 369024 | Avg Loss (last 1024): 0.3639
+2026-07-26 10:42:28,003 - INFO: [exp4_preln] Epoch 7/20 | Global: 370048 | Avg Loss (last 1024): 0.3444
+2026-07-26 10:42:39,047 - INFO: [exp4_preln] Epoch 7/20 | Global: 371072 | Avg Loss (last 1024): 0.3379
+2026-07-26 10:42:50,085 - INFO: [exp4_preln] Epoch 7/20 | Global: 372096 | Avg Loss (last 1024): 0.3618
+2026-07-26 10:43:01,191 - INFO: [exp4_preln] Epoch 7/20 | Global: 373120 | Avg Loss (last 1024): 0.3615
+2026-07-26 10:43:12,503 - INFO: [exp4_preln] Epoch 7/20 | Global: 374144 | Avg Loss (last 1024): 0.3299
+2026-07-26 10:43:23,805 - INFO: [exp4_preln] Epoch 7/20 | Global: 375168 | Avg Loss (last 1024): 0.3553
+2026-07-26 10:43:34,927 - INFO: [exp4_preln] Epoch 7/20 | Global: 376192 | Avg Loss (last 1024): 0.3510
+2026-07-26 10:43:46,063 - INFO: [exp4_preln] Epoch 7/20 | Global: 377216 | Avg Loss (last 1024): 0.3577
+2026-07-26 10:43:57,297 - INFO: [exp4_preln] Epoch 7/20 | Global: 378240 | Avg Loss (last 1024): 0.3393
+2026-07-26 10:44:08,430 - INFO: [exp4_preln] Epoch 7/20 | Global: 379264 | Avg Loss (last 1024): 0.3463
+2026-07-26 10:44:19,646 - INFO: [exp4_preln] Epoch 7/20 | Global: 380288 | Avg Loss (last 1024): 0.3632
+2026-07-26 10:44:30,806 - INFO: [exp4_preln] Epoch 7/20 | Global: 381312 | Avg Loss (last 1024): 0.3357
+2026-07-26 10:44:42,083 - INFO: [exp4_preln] Epoch 7/20 | Global: 382336 | Avg Loss (last 1024): 0.3454
+2026-07-26 10:44:53,376 - INFO: [exp4_preln] Epoch 7/20 | Global: 383360 | Avg Loss (last 1024): 0.3318
+2026-07-26 10:45:04,602 - INFO: [exp4_preln] Epoch 7/20 | Global: 384384 | Avg Loss (last 1024): 0.3128
+2026-07-26 10:45:15,795 - INFO: [exp4_preln] Epoch 7/20 | Global: 385408 | Avg Loss (last 1024): 0.3425
+2026-07-26 10:45:27,072 - INFO: [exp4_preln] Epoch 7/20 | Global: 386432 | Avg Loss (last 1024): 0.3385
+2026-07-26 10:45:38,367 - INFO: [exp4_preln] Epoch 7/20 | Global: 387456 | Avg Loss (last 1024): 0.3439
+2026-07-26 10:45:49,618 - INFO: [exp4_preln] Epoch 7/20 | Global: 388480 | Avg Loss (last 1024): 0.3341
+2026-07-26 10:46:00,728 - INFO: [exp4_preln] Epoch 7/20 | Global: 389504 | Avg Loss (last 1024): 0.3384
+2026-07-26 10:46:11,947 - INFO: [exp4_preln] Epoch 7/20 | Global: 390528 | Avg Loss (last 1024): 0.3409
+2026-07-26 10:46:23,124 - INFO: [exp4_preln] Epoch 7/20 | Global: 391552 | Avg Loss (last 1024): 0.3437
+2026-07-26 10:46:34,299 - INFO: [exp4_preln] Epoch 7/20 | Global: 392576 | Avg Loss (last 1024): 0.3601
+2026-07-26 10:46:45,508 - INFO: [exp4_preln] Epoch 7/20 | Global: 393600 | Avg Loss (last 1024): 0.3428
+2026-07-26 10:46:56,754 - INFO: [exp4_preln] Epoch 7/20 | Global: 394624 | Avg Loss (last 1024): 0.3190
+2026-07-26 10:47:07,913 - INFO: [exp4_preln] Epoch 7/20 | Global: 395648 | Avg Loss (last 1024): 0.3425
+2026-07-26 10:47:19,073 - INFO: [exp4_preln] Epoch 7/20 | Global: 396672 | Avg Loss (last 1024): 0.3533
+2026-07-26 10:47:30,253 - INFO: [exp4_preln] Epoch 7/20 | Global: 397696 | Avg Loss (last 1024): 0.3404
+2026-07-26 10:47:41,484 - INFO: [exp4_preln] Epoch 7/20 | Global: 398720 | Avg Loss (last 1024): 0.3341
+2026-07-26 10:47:52,701 - INFO: [exp4_preln] Epoch 7/20 | Global: 399744 | Avg Loss (last 1024): 0.3559
+2026-07-26 10:48:03,981 - INFO: [exp4_preln] Epoch 7/20 | Global: 400768 | Avg Loss (last 1024): 0.3375
+2026-07-26 10:48:15,183 - INFO: [exp4_preln] Epoch 7/20 | Global: 401792 | Avg Loss (last 1024): 0.3252
+2026-07-26 10:48:26,450 - INFO: [exp4_preln] Epoch 7/20 | Global: 402816 | Avg Loss (last 1024): 0.3446
+2026-07-26 10:48:37,551 - INFO: [exp4_preln] Epoch 7/20 | Global: 403840 | Avg Loss (last 1024): 0.3170
+2026-07-26 10:48:48,773 - INFO: [exp4_preln] Epoch 7/20 | Global: 404864 | Avg Loss (last 1024): 0.3215
+2026-07-26 10:48:59,990 - INFO: [exp4_preln] Epoch 7/20 | Global: 405888 | Avg Loss (last 1024): 0.3365
+2026-07-26 10:49:11,046 - INFO: [exp4_preln] Epoch 7/20 | Global: 406912 | Avg Loss (last 1024): 0.3294
+2026-07-26 10:49:22,237 - INFO: [exp4_preln] Epoch 7/20 | Global: 407936 | Avg Loss (last 1024): 0.3335
+2026-07-26 10:49:33,406 - INFO: [exp4_preln] Epoch 7/20 | Global: 408960 | Avg Loss (last 1024): 0.3345
+2026-07-26 10:49:34,076 - INFO: [exp4_preln] Epoch 7/20 | Global: 409024 | Avg Loss (last 64): 0.4162
+2026-07-26 10:49:35,913 - INFO: [exp4_preln] Epoch 7 Val | Examples: 1024 | Avg: 0.2534
+2026-07-26 10:49:37,704 - INFO: [exp4_preln] Epoch 7 Val | Examples: 2048 | Avg: 0.2543
+2026-07-26 10:49:39,495 - INFO: [exp4_preln] Epoch 7 Val | Examples: 3072 | Avg: 0.2656
+2026-07-26 10:49:41,305 - INFO: [exp4_preln] Epoch 7 Val | Examples: 4096 | Avg: 0.2581
+2026-07-26 10:49:43,126 - INFO: [exp4_preln] Epoch 7 Val | Examples: 5120 | Avg: 0.2523
+2026-07-26 10:49:43,126 - INFO: [exp4_preln] === Epoch 7 done | Train: 0.3444 | Val: 0.2568 | Time: 637.5s ===
+2026-07-26 10:49:43,181 - INFO: [exp4_preln] Saved to C:/PythonProject/English2French/model/exp4_preln_epoch7.pth
+2026-07-26 10:49:54,429 - INFO: [exp4_preln] Epoch 8/20 | Global: 410048 | Avg Loss (last 1024): 0.2943
+2026-07-26 10:50:05,606 - INFO: [exp4_preln] Epoch 8/20 | Global: 411072 | Avg Loss (last 1024): 0.3129
+2026-07-26 10:50:16,883 - INFO: [exp4_preln] Epoch 8/20 | Global: 412096 | Avg Loss (last 1024): 0.3071
+2026-07-26 10:50:27,957 - INFO: [exp4_preln] Epoch 8/20 | Global: 413120 | Avg Loss (last 1024): 0.2857
+2026-07-26 10:50:39,119 - INFO: [exp4_preln] Epoch 8/20 | Global: 414144 | Avg Loss (last 1024): 0.3016
+2026-07-26 10:50:50,287 - INFO: [exp4_preln] Epoch 8/20 | Global: 415168 | Avg Loss (last 1024): 0.3122
+2026-07-26 10:51:01,347 - INFO: [exp4_preln] Epoch 8/20 | Global: 416192 | Avg Loss (last 1024): 0.3093
+2026-07-26 10:51:12,572 - INFO: [exp4_preln] Epoch 8/20 | Global: 417216 | Avg Loss (last 1024): 0.3189
+2026-07-26 10:51:23,666 - INFO: [exp4_preln] Epoch 8/20 | Global: 418240 | Avg Loss (last 1024): 0.3097
+2026-07-26 10:51:34,857 - INFO: [exp4_preln] Epoch 8/20 | Global: 419264 | Avg Loss (last 1024): 0.3281
+2026-07-26 10:51:46,115 - INFO: [exp4_preln] Epoch 8/20 | Global: 420288 | Avg Loss (last 1024): 0.3040
+2026-07-26 10:51:57,232 - INFO: [exp4_preln] Epoch 8/20 | Global: 421312 | Avg Loss (last 1024): 0.2998
+2026-07-26 10:52:08,418 - INFO: [exp4_preln] Epoch 8/20 | Global: 422336 | Avg Loss (last 1024): 0.3039
+2026-07-26 10:52:19,526 - INFO: [exp4_preln] Epoch 8/20 | Global: 423360 | Avg Loss (last 1024): 0.3134
+2026-07-26 10:52:30,694 - INFO: [exp4_preln] Epoch 8/20 | Global: 424384 | Avg Loss (last 1024): 0.3207
+2026-07-26 10:52:41,906 - INFO: [exp4_preln] Epoch 8/20 | Global: 425408 | Avg Loss (last 1024): 0.3181
+2026-07-26 10:52:53,028 - INFO: [exp4_preln] Epoch 8/20 | Global: 426432 | Avg Loss (last 1024): 0.3175
+2026-07-26 10:53:04,141 - INFO: [exp4_preln] Epoch 8/20 | Global: 427456 | Avg Loss (last 1024): 0.3004
+2026-07-26 10:53:15,214 - INFO: [exp4_preln] Epoch 8/20 | Global: 428480 | Avg Loss (last 1024): 0.3023
+2026-07-26 10:53:26,393 - INFO: [exp4_preln] Epoch 8/20 | Global: 429504 | Avg Loss (last 1024): 0.3121
+2026-07-26 10:53:37,462 - INFO: [exp4_preln] Epoch 8/20 | Global: 430528 | Avg Loss (last 1024): 0.3092
+2026-07-26 10:53:48,528 - INFO: [exp4_preln] Epoch 8/20 | Global: 431552 | Avg Loss (last 1024): 0.2964
+2026-07-26 10:53:59,618 - INFO: [exp4_preln] Epoch 8/20 | Global: 432576 | Avg Loss (last 1024): 0.3141
+2026-07-26 10:54:10,750 - INFO: [exp4_preln] Epoch 8/20 | Global: 433600 | Avg Loss (last 1024): 0.3089
+2026-07-26 10:54:21,830 - INFO: [exp4_preln] Epoch 8/20 | Global: 434624 | Avg Loss (last 1024): 0.3142
+2026-07-26 10:54:32,912 - INFO: [exp4_preln] Epoch 8/20 | Global: 435648 | Avg Loss (last 1024): 0.3057
+2026-07-26 10:54:44,013 - INFO: [exp4_preln] Epoch 8/20 | Global: 436672 | Avg Loss (last 1024): 0.2961
+2026-07-26 10:54:55,127 - INFO: [exp4_preln] Epoch 8/20 | Global: 437696 | Avg Loss (last 1024): 0.2965
+2026-07-26 10:55:06,188 - INFO: [exp4_preln] Epoch 8/20 | Global: 438720 | Avg Loss (last 1024): 0.2814
+2026-07-26 10:55:17,375 - INFO: [exp4_preln] Epoch 8/20 | Global: 439744 | Avg Loss (last 1024): 0.3133
+2026-07-26 10:55:28,496 - INFO: [exp4_preln] Epoch 8/20 | Global: 440768 | Avg Loss (last 1024): 0.3274
+2026-07-26 10:55:39,677 - INFO: [exp4_preln] Epoch 8/20 | Global: 441792 | Avg Loss (last 1024): 0.3062
+2026-07-26 10:55:50,864 - INFO: [exp4_preln] Epoch 8/20 | Global: 442816 | Avg Loss (last 1024): 0.2998
+2026-07-26 10:56:01,847 - INFO: [exp4_preln] Epoch 8/20 | Global: 443840 | Avg Loss (last 1024): 0.3002
+2026-07-26 10:56:12,988 - INFO: [exp4_preln] Epoch 8/20 | Global: 444864 | Avg Loss (last 1024): 0.2876
+2026-07-26 10:56:24,243 - INFO: [exp4_preln] Epoch 8/20 | Global: 445888 | Avg Loss (last 1024): 0.2907
+2026-07-26 10:56:35,433 - INFO: [exp4_preln] Epoch 8/20 | Global: 446912 | Avg Loss (last 1024): 0.3129
+2026-07-26 10:56:46,519 - INFO: [exp4_preln] Epoch 8/20 | Global: 447936 | Avg Loss (last 1024): 0.3095
+2026-07-26 10:56:57,642 - INFO: [exp4_preln] Epoch 8/20 | Global: 448960 | Avg Loss (last 1024): 0.2920
+2026-07-26 10:57:08,951 - INFO: [exp4_preln] Epoch 8/20 | Global: 449984 | Avg Loss (last 1024): 0.2915
+2026-07-26 10:57:20,180 - INFO: [exp4_preln] Epoch 8/20 | Global: 451008 | Avg Loss (last 1024): 0.2978
+2026-07-26 10:57:31,414 - INFO: [exp4_preln] Epoch 8/20 | Global: 452032 | Avg Loss (last 1024): 0.2754
+2026-07-26 10:57:42,568 - INFO: [exp4_preln] Epoch 8/20 | Global: 453056 | Avg Loss (last 1024): 0.2880
+2026-07-26 10:57:53,672 - INFO: [exp4_preln] Epoch 8/20 | Global: 454080 | Avg Loss (last 1024): 0.3051
+2026-07-26 10:58:04,976 - INFO: [exp4_preln] Epoch 8/20 | Global: 455104 | Avg Loss (last 1024): 0.2807
+2026-07-26 10:58:16,257 - INFO: [exp4_preln] Epoch 8/20 | Global: 456128 | Avg Loss (last 1024): 0.3045
+2026-07-26 10:58:27,548 - INFO: [exp4_preln] Epoch 8/20 | Global: 457152 | Avg Loss (last 1024): 0.3158
+2026-07-26 10:58:38,864 - INFO: [exp4_preln] Epoch 8/20 | Global: 458176 | Avg Loss (last 1024): 0.2858
+2026-07-26 10:58:50,186 - INFO: [exp4_preln] Epoch 8/20 | Global: 459200 | Avg Loss (last 1024): 0.2930
+2026-07-26 10:59:01,445 - INFO: [exp4_preln] Epoch 8/20 | Global: 460224 | Avg Loss (last 1024): 0.2902
+2026-07-26 10:59:12,755 - INFO: [exp4_preln] Epoch 8/20 | Global: 461248 | Avg Loss (last 1024): 0.2874
+2026-07-26 10:59:24,004 - INFO: [exp4_preln] Epoch 8/20 | Global: 462272 | Avg Loss (last 1024): 0.2945
+2026-07-26 10:59:35,243 - INFO: [exp4_preln] Epoch 8/20 | Global: 463296 | Avg Loss (last 1024): 0.2834
+2026-07-26 10:59:46,581 - INFO: [exp4_preln] Epoch 8/20 | Global: 464320 | Avg Loss (last 1024): 0.2909
+2026-07-26 10:59:57,860 - INFO: [exp4_preln] Epoch 8/20 | Global: 465344 | Avg Loss (last 1024): 0.3024
+2026-07-26 11:00:09,167 - INFO: [exp4_preln] Epoch 8/20 | Global: 466368 | Avg Loss (last 1024): 0.2998
+2026-07-26 11:00:20,553 - INFO: [exp4_preln] Epoch 8/20 | Global: 467392 | Avg Loss (last 1024): 0.3008
+2026-07-26 11:00:21,283 - INFO: [exp4_preln] Epoch 8/20 | Global: 467456 | Avg Loss (last 64): 0.2749
+2026-07-26 11:00:23,056 - INFO: [exp4_preln] Epoch 8 Val | Examples: 1024 | Avg: 0.2345
+2026-07-26 11:00:24,827 - INFO: [exp4_preln] Epoch 8 Val | Examples: 2048 | Avg: 0.2455
+2026-07-26 11:00:26,584 - INFO: [exp4_preln] Epoch 8 Val | Examples: 3072 | Avg: 0.2315
+2026-07-26 11:00:28,354 - INFO: [exp4_preln] Epoch 8 Val | Examples: 4096 | Avg: 0.2197
+2026-07-26 11:00:30,106 - INFO: [exp4_preln] Epoch 8 Val | Examples: 5120 | Avg: 0.2309
+2026-07-26 11:00:30,107 - INFO: [exp4_preln] === Epoch 8 done | Train: 0.3021 | Val: 0.2324 | Time: 638.1s ===
+2026-07-26 11:00:30,151 - INFO: [exp4_preln] Saved to C:/PythonProject/English2French/model/exp4_preln_epoch8.pth
+2026-07-26 11:00:41,292 - INFO: [exp4_preln] Epoch 9/20 | Global: 468480 | Avg Loss (last 1024): 0.2614
+2026-07-26 11:00:52,606 - INFO: [exp4_preln] Epoch 9/20 | Global: 469504 | Avg Loss (last 1024): 0.2580
+2026-07-26 11:01:03,852 - INFO: [exp4_preln] Epoch 9/20 | Global: 470528 | Avg Loss (last 1024): 0.2725
+2026-07-26 11:01:15,068 - INFO: [exp4_preln] Epoch 9/20 | Global: 471552 | Avg Loss (last 1024): 0.2613
+2026-07-26 11:01:26,303 - INFO: [exp4_preln] Epoch 9/20 | Global: 472576 | Avg Loss (last 1024): 0.2616
+2026-07-26 11:01:37,621 - INFO: [exp4_preln] Epoch 9/20 | Global: 473600 | Avg Loss (last 1024): 0.2716
+2026-07-26 11:01:48,836 - INFO: [exp4_preln] Epoch 9/20 | Global: 474624 | Avg Loss (last 1024): 0.2764
+2026-07-26 11:02:00,053 - INFO: [exp4_preln] Epoch 9/20 | Global: 475648 | Avg Loss (last 1024): 0.2710
+2026-07-26 11:02:11,309 - INFO: [exp4_preln] Epoch 9/20 | Global: 476672 | Avg Loss (last 1024): 0.2719
+2026-07-26 11:02:22,595 - INFO: [exp4_preln] Epoch 9/20 | Global: 477696 | Avg Loss (last 1024): 0.2786
+2026-07-26 11:02:33,824 - INFO: [exp4_preln] Epoch 9/20 | Global: 478720 | Avg Loss (last 1024): 0.2712
+2026-07-26 11:02:45,078 - INFO: [exp4_preln] Epoch 9/20 | Global: 479744 | Avg Loss (last 1024): 0.2758
+2026-07-26 11:02:56,233 - INFO: [exp4_preln] Epoch 9/20 | Global: 480768 | Avg Loss (last 1024): 0.2811
+2026-07-26 11:03:07,524 - INFO: [exp4_preln] Epoch 9/20 | Global: 481792 | Avg Loss (last 1024): 0.2668
+2026-07-26 11:03:18,826 - INFO: [exp4_preln] Epoch 9/20 | Global: 482816 | Avg Loss (last 1024): 0.2771
+2026-07-26 11:03:30,084 - INFO: [exp4_preln] Epoch 9/20 | Global: 483840 | Avg Loss (last 1024): 0.2860
+2026-07-26 11:03:41,271 - INFO: [exp4_preln] Epoch 9/20 | Global: 484864 | Avg Loss (last 1024): 0.2731
+2026-07-26 11:03:52,538 - INFO: [exp4_preln] Epoch 9/20 | Global: 485888 | Avg Loss (last 1024): 0.2885
+2026-07-26 11:04:03,719 - INFO: [exp4_preln] Epoch 9/20 | Global: 486912 | Avg Loss (last 1024): 0.2908
+2026-07-26 11:04:14,996 - INFO: [exp4_preln] Epoch 9/20 | Global: 487936 | Avg Loss (last 1024): 0.2878
+2026-07-26 11:04:26,315 - INFO: [exp4_preln] Epoch 9/20 | Global: 488960 | Avg Loss (last 1024): 0.2834
+2026-07-26 11:04:37,685 - INFO: [exp4_preln] Epoch 9/20 | Global: 489984 | Avg Loss (last 1024): 0.2692
+2026-07-26 11:04:48,896 - INFO: [exp4_preln] Epoch 9/20 | Global: 491008 | Avg Loss (last 1024): 0.2776
+2026-07-26 11:05:00,202 - INFO: [exp4_preln] Epoch 9/20 | Global: 492032 | Avg Loss (last 1024): 0.2711
+2026-07-26 11:05:11,466 - INFO: [exp4_preln] Epoch 9/20 | Global: 493056 | Avg Loss (last 1024): 0.2785
+2026-07-26 11:05:22,753 - INFO: [exp4_preln] Epoch 9/20 | Global: 494080 | Avg Loss (last 1024): 0.2693
+2026-07-26 11:05:34,042 - INFO: [exp4_preln] Epoch 9/20 | Global: 495104 | Avg Loss (last 1024): 0.2725
+2026-07-26 11:05:45,398 - INFO: [exp4_preln] Epoch 9/20 | Global: 496128 | Avg Loss (last 1024): 0.2707
+2026-07-26 11:05:56,667 - INFO: [exp4_preln] Epoch 9/20 | Global: 497152 | Avg Loss (last 1024): 0.2875
+2026-07-26 11:06:07,942 - INFO: [exp4_preln] Epoch 9/20 | Global: 498176 | Avg Loss (last 1024): 0.2759
+2026-07-26 11:06:19,256 - INFO: [exp4_preln] Epoch 9/20 | Global: 499200 | Avg Loss (last 1024): 0.2644
+2026-07-26 11:06:30,521 - INFO: [exp4_preln] Epoch 9/20 | Global: 500224 | Avg Loss (last 1024): 0.2778
+2026-07-26 11:06:41,762 - INFO: [exp4_preln] Epoch 9/20 | Global: 501248 | Avg Loss (last 1024): 0.2866
+2026-07-26 11:06:52,965 - INFO: [exp4_preln] Epoch 9/20 | Global: 502272 | Avg Loss (last 1024): 0.2767
+2026-07-26 11:07:04,269 - INFO: [exp4_preln] Epoch 9/20 | Global: 503296 | Avg Loss (last 1024): 0.2669
+2026-07-26 11:07:15,577 - INFO: [exp4_preln] Epoch 9/20 | Global: 504320 | Avg Loss (last 1024): 0.2932
+2026-07-26 11:07:26,901 - INFO: [exp4_preln] Epoch 9/20 | Global: 505344 | Avg Loss (last 1024): 0.2724
+2026-07-26 11:07:38,174 - INFO: [exp4_preln] Epoch 9/20 | Global: 506368 | Avg Loss (last 1024): 0.2857
+2026-07-26 11:07:49,485 - INFO: [exp4_preln] Epoch 9/20 | Global: 507392 | Avg Loss (last 1024): 0.2765
+2026-07-26 11:08:00,839 - INFO: [exp4_preln] Epoch 9/20 | Global: 508416 | Avg Loss (last 1024): 0.2622
+2026-07-26 11:08:12,098 - INFO: [exp4_preln] Epoch 9/20 | Global: 509440 | Avg Loss (last 1024): 0.2801
+2026-07-26 11:08:23,471 - INFO: [exp4_preln] Epoch 9/20 | Global: 510464 | Avg Loss (last 1024): 0.2774
+2026-07-26 11:08:34,827 - INFO: [exp4_preln] Epoch 9/20 | Global: 511488 | Avg Loss (last 1024): 0.2722
+2026-07-26 11:08:46,089 - INFO: [exp4_preln] Epoch 9/20 | Global: 512512 | Avg Loss (last 1024): 0.2678
+2026-07-26 11:08:57,369 - INFO: [exp4_preln] Epoch 9/20 | Global: 513536 | Avg Loss (last 1024): 0.2773
+2026-07-26 11:09:08,672 - INFO: [exp4_preln] Epoch 9/20 | Global: 514560 | Avg Loss (last 1024): 0.2575
+2026-07-26 11:09:19,977 - INFO: [exp4_preln] Epoch 9/20 | Global: 515584 | Avg Loss (last 1024): 0.2698
+2026-07-26 11:09:31,264 - INFO: [exp4_preln] Epoch 9/20 | Global: 516608 | Avg Loss (last 1024): 0.2700
+2026-07-26 11:09:42,623 - INFO: [exp4_preln] Epoch 9/20 | Global: 517632 | Avg Loss (last 1024): 0.2809
+2026-07-26 11:09:53,894 - INFO: [exp4_preln] Epoch 9/20 | Global: 518656 | Avg Loss (last 1024): 0.2601
+2026-07-26 11:10:05,212 - INFO: [exp4_preln] Epoch 9/20 | Global: 519680 | Avg Loss (last 1024): 0.2825
+2026-07-26 11:10:16,440 - INFO: [exp4_preln] Epoch 9/20 | Global: 520704 | Avg Loss (last 1024): 0.2662
+2026-07-26 11:10:27,613 - INFO: [exp4_preln] Epoch 9/20 | Global: 521728 | Avg Loss (last 1024): 0.2829
+2026-07-26 11:10:38,870 - INFO: [exp4_preln] Epoch 9/20 | Global: 522752 | Avg Loss (last 1024): 0.2706
+2026-07-26 11:10:50,155 - INFO: [exp4_preln] Epoch 9/20 | Global: 523776 | Avg Loss (last 1024): 0.2569
+2026-07-26 11:11:01,238 - INFO: [exp4_preln] Epoch 9/20 | Global: 524800 | Avg Loss (last 1024): 0.2595
+2026-07-26 11:11:12,533 - INFO: [exp4_preln] Epoch 9/20 | Global: 525824 | Avg Loss (last 1024): 0.2587
+2026-07-26 11:11:13,252 - INFO: [exp4_preln] Epoch 9/20 | Global: 525888 | Avg Loss (last 64): 0.3062
+2026-07-26 11:11:15,033 - INFO: [exp4_preln] Epoch 9 Val | Examples: 1024 | Avg: 0.2346
+2026-07-26 11:11:16,828 - INFO: [exp4_preln] Epoch 9 Val | Examples: 2048 | Avg: 0.2203
+2026-07-26 11:11:18,619 - INFO: [exp4_preln] Epoch 9 Val | Examples: 3072 | Avg: 0.2023
+2026-07-26 11:11:20,449 - INFO: [exp4_preln] Epoch 9 Val | Examples: 4096 | Avg: 0.2024
+2026-07-26 11:11:22,260 - INFO: [exp4_preln] Epoch 9 Val | Examples: 5120 | Avg: 0.2030
+2026-07-26 11:11:22,260 - INFO: [exp4_preln] === Epoch 9 done | Train: 0.2736 | Val: 0.2125 | Time: 643.1s ===
+2026-07-26 11:11:22,316 - INFO: [exp4_preln] Saved to C:/PythonProject/English2French/model/exp4_preln_epoch9.pth
+2026-07-26 11:11:33,537 - INFO: [exp4_preln] Epoch 10/20 | Global: 526912 | Avg Loss (last 1024): 0.2329
+2026-07-26 11:11:44,834 - INFO: [exp4_preln] Epoch 10/20 | Global: 527936 | Avg Loss (last 1024): 0.2348
+2026-07-26 11:11:56,029 - INFO: [exp4_preln] Epoch 10/20 | Global: 528960 | Avg Loss (last 1024): 0.2556
+2026-07-26 11:12:07,240 - INFO: [exp4_preln] Epoch 10/20 | Global: 529984 | Avg Loss (last 1024): 0.2499
+2026-07-26 11:12:18,482 - INFO: [exp4_preln] Epoch 10/20 | Global: 531008 | Avg Loss (last 1024): 0.2518
+2026-07-26 11:12:29,672 - INFO: [exp4_preln] Epoch 10/20 | Global: 532032 | Avg Loss (last 1024): 0.2504
+2026-07-26 11:12:40,877 - INFO: [exp4_preln] Epoch 10/20 | Global: 533056 | Avg Loss (last 1024): 0.2579
+2026-07-26 11:12:52,078 - INFO: [exp4_preln] Epoch 10/20 | Global: 534080 | Avg Loss (last 1024): 0.2546
+2026-07-26 11:13:03,364 - INFO: [exp4_preln] Epoch 10/20 | Global: 535104 | Avg Loss (last 1024): 0.2524
+2026-07-26 11:13:14,739 - INFO: [exp4_preln] Epoch 10/20 | Global: 536128 | Avg Loss (last 1024): 0.2522
+2026-07-26 11:13:25,890 - INFO: [exp4_preln] Epoch 10/20 | Global: 537152 | Avg Loss (last 1024): 0.2473
+2026-07-26 11:13:37,125 - INFO: [exp4_preln] Epoch 10/20 | Global: 538176 | Avg Loss (last 1024): 0.2575
+2026-07-26 11:13:48,373 - INFO: [exp4_preln] Epoch 10/20 | Global: 539200 | Avg Loss (last 1024): 0.2452
+2026-07-26 11:13:59,573 - INFO: [exp4_preln] Epoch 10/20 | Global: 540224 | Avg Loss (last 1024): 0.2536
+2026-07-26 11:14:10,786 - INFO: [exp4_preln] Epoch 10/20 | Global: 541248 | Avg Loss (last 1024): 0.2584
+2026-07-26 11:14:22,065 - INFO: [exp4_preln] Epoch 10/20 | Global: 542272 | Avg Loss (last 1024): 0.2523
+2026-07-26 11:14:33,653 - INFO: [exp4_preln] Epoch 10/20 | Global: 543296 | Avg Loss (last 1024): 0.2693
+2026-07-26 11:14:46,093 - INFO: [exp4_preln] Epoch 10/20 | Global: 544320 | Avg Loss (last 1024): 0.2543
+2026-07-26 11:14:57,454 - INFO: [exp4_preln] Epoch 10/20 | Global: 545344 | Avg Loss (last 1024): 0.2628
+2026-07-26 11:15:08,698 - INFO: [exp4_preln] Epoch 10/20 | Global: 546368 | Avg Loss (last 1024): 0.2550
+2026-07-26 11:15:19,954 - INFO: [exp4_preln] Epoch 10/20 | Global: 547392 | Avg Loss (last 1024): 0.2524
+2026-07-26 11:15:31,140 - INFO: [exp4_preln] Epoch 10/20 | Global: 548416 | Avg Loss (last 1024): 0.2600
+2026-07-26 11:15:42,375 - INFO: [exp4_preln] Epoch 10/20 | Global: 549440 | Avg Loss (last 1024): 0.2526
+2026-07-26 11:15:53,532 - INFO: [exp4_preln] Epoch 10/20 | Global: 550464 | Avg Loss (last 1024): 0.2556
+2026-07-26 11:16:04,798 - INFO: [exp4_preln] Epoch 10/20 | Global: 551488 | Avg Loss (last 1024): 0.2535
+2026-07-26 11:16:16,043 - INFO: [exp4_preln] Epoch 10/20 | Global: 552512 | Avg Loss (last 1024): 0.2504
+2026-07-26 11:16:27,287 - INFO: [exp4_preln] Epoch 10/20 | Global: 553536 | Avg Loss (last 1024): 0.2531
+2026-07-26 11:16:38,378 - INFO: [exp4_preln] Epoch 10/20 | Global: 554560 | Avg Loss (last 1024): 0.2541
+2026-07-26 11:16:49,488 - INFO: [exp4_preln] Epoch 10/20 | Global: 555584 | Avg Loss (last 1024): 0.2650
+2026-07-26 11:17:00,642 - INFO: [exp4_preln] Epoch 10/20 | Global: 556608 | Avg Loss (last 1024): 0.2513
+2026-07-26 11:17:11,732 - INFO: [exp4_preln] Epoch 10/20 | Global: 557632 | Avg Loss (last 1024): 0.2448
+2026-07-26 11:17:22,874 - INFO: [exp4_preln] Epoch 10/20 | Global: 558656 | Avg Loss (last 1024): 0.2394
+2026-07-26 11:17:34,193 - INFO: [exp4_preln] Epoch 10/20 | Global: 559680 | Avg Loss (last 1024): 0.2519
+2026-07-26 11:17:45,381 - INFO: [exp4_preln] Epoch 10/20 | Global: 560704 | Avg Loss (last 1024): 0.2473
+2026-07-26 11:17:56,654 - INFO: [exp4_preln] Epoch 10/20 | Global: 561728 | Avg Loss (last 1024): 0.2669
+2026-07-26 11:18:07,857 - INFO: [exp4_preln] Epoch 10/20 | Global: 562752 | Avg Loss (last 1024): 0.2652
+2026-07-26 11:18:19,052 - INFO: [exp4_preln] Epoch 10/20 | Global: 563776 | Avg Loss (last 1024): 0.2662
+2026-07-26 11:18:30,227 - INFO: [exp4_preln] Epoch 10/20 | Global: 564800 | Avg Loss (last 1024): 0.2629
+2026-07-26 11:18:41,307 - INFO: [exp4_preln] Epoch 10/20 | Global: 565824 | Avg Loss (last 1024): 0.2492
+2026-07-26 11:18:52,629 - INFO: [exp4_preln] Epoch 10/20 | Global: 566848 | Avg Loss (last 1024): 0.2538
+2026-07-26 11:19:03,847 - INFO: [exp4_preln] Epoch 10/20 | Global: 567872 | Avg Loss (last 1024): 0.2409
+2026-07-26 11:19:14,985 - INFO: [exp4_preln] Epoch 10/20 | Global: 568896 | Avg Loss (last 1024): 0.2444
+2026-07-26 11:19:26,059 - INFO: [exp4_preln] Epoch 10/20 | Global: 569920 | Avg Loss (last 1024): 0.2577
+2026-07-26 11:19:37,262 - INFO: [exp4_preln] Epoch 10/20 | Global: 570944 | Avg Loss (last 1024): 0.2594
+2026-07-26 11:19:48,538 - INFO: [exp4_preln] Epoch 10/20 | Global: 571968 | Avg Loss (last 1024): 0.2479
+2026-07-26 11:19:59,722 - INFO: [exp4_preln] Epoch 10/20 | Global: 572992 | Avg Loss (last 1024): 0.2571
+2026-07-26 11:20:10,773 - INFO: [exp4_preln] Epoch 10/20 | Global: 574016 | Avg Loss (last 1024): 0.2468
+2026-07-26 11:20:21,841 - INFO: [exp4_preln] Epoch 10/20 | Global: 575040 | Avg Loss (last 1024): 0.2492
+2026-07-26 11:20:32,999 - INFO: [exp4_preln] Epoch 10/20 | Global: 576064 | Avg Loss (last 1024): 0.2501
+2026-07-26 11:20:44,258 - INFO: [exp4_preln] Epoch 10/20 | Global: 577088 | Avg Loss (last 1024): 0.2486
+2026-07-26 11:20:55,404 - INFO: [exp4_preln] Epoch 10/20 | Global: 578112 | Avg Loss (last 1024): 0.2629
+2026-07-26 11:21:06,683 - INFO: [exp4_preln] Epoch 10/20 | Global: 579136 | Avg Loss (last 1024): 0.2456
+2026-07-26 11:21:17,947 - INFO: [exp4_preln] Epoch 10/20 | Global: 580160 | Avg Loss (last 1024): 0.2379
+2026-07-26 11:21:29,189 - INFO: [exp4_preln] Epoch 10/20 | Global: 581184 | Avg Loss (last 1024): 0.2541
+2026-07-26 11:21:40,381 - INFO: [exp4_preln] Epoch 10/20 | Global: 582208 | Avg Loss (last 1024): 0.2389
+2026-07-26 11:21:51,478 - INFO: [exp4_preln] Epoch 10/20 | Global: 583232 | Avg Loss (last 1024): 0.2357
+2026-07-26 11:22:02,689 - INFO: [exp4_preln] Epoch 10/20 | Global: 584256 | Avg Loss (last 1024): 0.2676
+2026-07-26 11:22:03,408 - INFO: [exp4_preln] Epoch 10/20 | Global: 584320 | Avg Loss (last 64): 0.2444
+2026-07-26 11:22:05,204 - INFO: [exp4_preln] Epoch 10 Val | Examples: 1024 | Avg: 0.2100
+2026-07-26 11:22:06,986 - INFO: [exp4_preln] Epoch 10 Val | Examples: 2048 | Avg: 0.1995
+2026-07-26 11:22:08,768 - INFO: [exp4_preln] Epoch 10 Val | Examples: 3072 | Avg: 0.1951
+2026-07-26 11:22:10,546 - INFO: [exp4_preln] Epoch 10 Val | Examples: 4096 | Avg: 0.1946
+2026-07-26 11:22:12,327 - INFO: [exp4_preln] Epoch 10 Val | Examples: 5120 | Avg: 0.2033
+2026-07-26 11:22:12,327 - INFO: [exp4_preln] === Epoch 10 done | Train: 0.2524 | Val: 0.2005 | Time: 641.1s ===
+2026-07-26 11:22:12,377 - INFO: [exp4_preln] Saved to C:/PythonProject/English2French/model/exp4_preln_epoch10.pth
+2026-07-26 11:22:23,445 - INFO: [exp4_preln] Epoch 11/20 | Global: 585344 | Avg Loss (last 1024): 0.2244
+2026-07-26 11:22:34,591 - INFO: [exp4_preln] Epoch 11/20 | Global: 586368 | Avg Loss (last 1024): 0.2324
+2026-07-26 11:22:45,783 - INFO: [exp4_preln] Epoch 11/20 | Global: 587392 | Avg Loss (last 1024): 0.2211
+2026-07-26 11:22:56,827 - INFO: [exp4_preln] Epoch 11/20 | Global: 588416 | Avg Loss (last 1024): 0.2355
+2026-07-26 11:23:08,041 - INFO: [exp4_preln] Epoch 11/20 | Global: 589440 | Avg Loss (last 1024): 0.2412
+2026-07-26 11:23:19,274 - INFO: [exp4_preln] Epoch 11/20 | Global: 590464 | Avg Loss (last 1024): 0.2334
+2026-07-26 11:23:30,712 - INFO: [exp4_preln] Epoch 11/20 | Global: 591488 | Avg Loss (last 1024): 0.2440
+2026-07-26 11:23:41,704 - INFO: [exp4_preln] Epoch 11/20 | Global: 592512 | Avg Loss (last 1024): 0.2374
+2026-07-26 11:23:52,941 - INFO: [exp4_preln] Epoch 11/20 | Global: 593536 | Avg Loss (last 1024): 0.2384
+2026-07-26 11:24:04,102 - INFO: [exp4_preln] Epoch 11/20 | Global: 594560 | Avg Loss (last 1024): 0.2450
+2026-07-26 11:24:15,291 - INFO: [exp4_preln] Epoch 11/20 | Global: 595584 | Avg Loss (last 1024): 0.2270
+2026-07-26 11:24:26,422 - INFO: [exp4_preln] Epoch 11/20 | Global: 596608 | Avg Loss (last 1024): 0.2465
+2026-07-26 11:24:37,579 - INFO: [exp4_preln] Epoch 11/20 | Global: 597632 | Avg Loss (last 1024): 0.2411
+2026-07-26 11:24:48,758 - INFO: [exp4_preln] Epoch 11/20 | Global: 598656 | Avg Loss (last 1024): 0.2309
+2026-07-26 11:25:00,004 - INFO: [exp4_preln] Epoch 11/20 | Global: 599680 | Avg Loss (last 1024): 0.2428
+2026-07-26 11:25:11,221 - INFO: [exp4_preln] Epoch 11/20 | Global: 600704 | Avg Loss (last 1024): 0.2532
+2026-07-26 11:25:22,308 - INFO: [exp4_preln] Epoch 11/20 | Global: 601728 | Avg Loss (last 1024): 0.2449
+2026-07-26 11:25:33,505 - INFO: [exp4_preln] Epoch 11/20 | Global: 602752 | Avg Loss (last 1024): 0.2373
+2026-07-26 11:25:45,750 - INFO: [exp4_preln] Epoch 11/20 | Global: 603776 | Avg Loss (last 1024): 0.2355
+2026-07-26 11:25:57,482 - INFO: [exp4_preln] Epoch 11/20 | Global: 604800 | Avg Loss (last 1024): 0.2484
+2026-07-26 11:26:09,208 - INFO: [exp4_preln] Epoch 11/20 | Global: 605824 | Avg Loss (last 1024): 0.2457
+2026-07-26 11:26:20,885 - INFO: [exp4_preln] Epoch 11/20 | Global: 606848 | Avg Loss (last 1024): 0.2337
+2026-07-26 11:26:32,400 - INFO: [exp4_preln] Epoch 11/20 | Global: 607872 | Avg Loss (last 1024): 0.2242
+2026-07-26 11:26:43,677 - INFO: [exp4_preln] Epoch 11/20 | Global: 608896 | Avg Loss (last 1024): 0.2409
+2026-07-26 11:26:54,765 - INFO: [exp4_preln] Epoch 11/20 | Global: 609920 | Avg Loss (last 1024): 0.2333
+2026-07-26 11:27:05,945 - INFO: [exp4_preln] Epoch 11/20 | Global: 610944 | Avg Loss (last 1024): 0.2383
+2026-07-26 11:27:17,085 - INFO: [exp4_preln] Epoch 11/20 | Global: 611968 | Avg Loss (last 1024): 0.2398
+2026-07-26 11:27:28,251 - INFO: [exp4_preln] Epoch 11/20 | Global: 612992 | Avg Loss (last 1024): 0.2476
+2026-07-26 11:27:39,538 - INFO: [exp4_preln] Epoch 11/20 | Global: 614016 | Avg Loss (last 1024): 0.2328
+2026-07-26 11:27:50,714 - INFO: [exp4_preln] Epoch 11/20 | Global: 615040 | Avg Loss (last 1024): 0.2394
+2026-07-26 11:28:01,870 - INFO: [exp4_preln] Epoch 11/20 | Global: 616064 | Avg Loss (last 1024): 0.2403
+2026-07-26 11:28:13,251 - INFO: [exp4_preln] Epoch 11/20 | Global: 617088 | Avg Loss (last 1024): 0.2360
+2026-07-26 11:28:24,515 - INFO: [exp4_preln] Epoch 11/20 | Global: 618112 | Avg Loss (last 1024): 0.2260
+2026-07-26 11:28:35,831 - INFO: [exp4_preln] Epoch 11/20 | Global: 619136 | Avg Loss (last 1024): 0.2335
+2026-07-26 11:28:47,066 - INFO: [exp4_preln] Epoch 11/20 | Global: 620160 | Avg Loss (last 1024): 0.2374
+2026-07-26 11:28:58,297 - INFO: [exp4_preln] Epoch 11/20 | Global: 621184 | Avg Loss (last 1024): 0.2362
+2026-07-26 11:29:09,678 - INFO: [exp4_preln] Epoch 11/20 | Global: 622208 | Avg Loss (last 1024): 0.2338
+2026-07-26 11:29:20,972 - INFO: [exp4_preln] Epoch 11/20 | Global: 623232 | Avg Loss (last 1024): 0.2299
+2026-07-26 11:29:32,216 - INFO: [exp4_preln] Epoch 11/20 | Global: 624256 | Avg Loss (last 1024): 0.2294
+2026-07-26 11:29:43,482 - INFO: [exp4_preln] Epoch 11/20 | Global: 625280 | Avg Loss (last 1024): 0.2480
+2026-07-26 11:29:54,784 - INFO: [exp4_preln] Epoch 11/20 | Global: 626304 | Avg Loss (last 1024): 0.2321
+2026-07-26 11:30:06,028 - INFO: [exp4_preln] Epoch 11/20 | Global: 627328 | Avg Loss (last 1024): 0.2338
+2026-07-26 11:30:17,282 - INFO: [exp4_preln] Epoch 11/20 | Global: 628352 | Avg Loss (last 1024): 0.2372
+2026-07-26 11:30:28,534 - INFO: [exp4_preln] Epoch 11/20 | Global: 629376 | Avg Loss (last 1024): 0.2383
+2026-07-26 11:30:39,670 - INFO: [exp4_preln] Epoch 11/20 | Global: 630400 | Avg Loss (last 1024): 0.2394
+2026-07-26 11:30:51,004 - INFO: [exp4_preln] Epoch 11/20 | Global: 631424 | Avg Loss (last 1024): 0.2262
+2026-07-26 11:31:02,305 - INFO: [exp4_preln] Epoch 11/20 | Global: 632448 | Avg Loss (last 1024): 0.2232
+2026-07-26 11:31:13,676 - INFO: [exp4_preln] Epoch 11/20 | Global: 633472 | Avg Loss (last 1024): 0.2350
+2026-07-26 11:31:24,956 - INFO: [exp4_preln] Epoch 11/20 | Global: 634496 | Avg Loss (last 1024): 0.2375
+2026-07-26 11:31:36,203 - INFO: [exp4_preln] Epoch 11/20 | Global: 635520 | Avg Loss (last 1024): 0.2368
+2026-07-26 11:31:47,407 - INFO: [exp4_preln] Epoch 11/20 | Global: 636544 | Avg Loss (last 1024): 0.2285
+2026-07-26 11:31:58,648 - INFO: [exp4_preln] Epoch 11/20 | Global: 637568 | Avg Loss (last 1024): 0.2345
+2026-07-26 11:32:09,994 - INFO: [exp4_preln] Epoch 11/20 | Global: 638592 | Avg Loss (last 1024): 0.2335
+2026-07-26 11:32:21,198 - INFO: [exp4_preln] Epoch 11/20 | Global: 639616 | Avg Loss (last 1024): 0.2395
+2026-07-26 11:32:32,620 - INFO: [exp4_preln] Epoch 11/20 | Global: 640640 | Avg Loss (last 1024): 0.2381
+2026-07-26 11:32:43,946 - INFO: [exp4_preln] Epoch 11/20 | Global: 641664 | Avg Loss (last 1024): 0.2274
+2026-07-26 11:32:55,220 - INFO: [exp4_preln] Epoch 11/20 | Global: 642688 | Avg Loss (last 1024): 0.2355
+2026-07-26 11:32:55,927 - INFO: [exp4_preln] Epoch 11/20 | Global: 642752 | Avg Loss (last 64): 0.2602
+2026-07-26 11:32:57,716 - INFO: [exp4_preln] Epoch 11 Val | Examples: 1024 | Avg: 0.1985
+2026-07-26 11:32:59,491 - INFO: [exp4_preln] Epoch 11 Val | Examples: 2048 | Avg: 0.2009
+2026-07-26 11:33:01,274 - INFO: [exp4_preln] Epoch 11 Val | Examples: 3072 | Avg: 0.1910
+2026-07-26 11:33:03,061 - INFO: [exp4_preln] Epoch 11 Val | Examples: 4096 | Avg: 0.1952
+2026-07-26 11:33:04,830 - INFO: [exp4_preln] Epoch 11 Val | Examples: 5120 | Avg: 0.1844
+2026-07-26 11:33:04,830 - INFO: [exp4_preln] === Epoch 11 done | Train: 0.2362 | Val: 0.1940 | Time: 643.5s ===
+2026-07-26 11:33:04,891 - INFO: [exp4_preln] Saved to C:/PythonProject/English2French/model/exp4_preln_epoch11.pth
+2026-07-26 11:33:16,007 - INFO: [exp4_preln] Epoch 12/20 | Global: 643776 | Avg Loss (last 1024): 0.2070
+2026-07-26 11:33:27,229 - INFO: [exp4_preln] Epoch 12/20 | Global: 644800 | Avg Loss (last 1024): 0.2039
+2026-07-26 11:33:38,487 - INFO: [exp4_preln] Epoch 12/20 | Global: 645824 | Avg Loss (last 1024): 0.2168
+2026-07-26 11:33:49,605 - INFO: [exp4_preln] Epoch 12/20 | Global: 646848 | Avg Loss (last 1024): 0.2144
+2026-07-26 11:34:00,863 - INFO: [exp4_preln] Epoch 12/20 | Global: 647872 | Avg Loss (last 1024): 0.2291
+2026-07-26 11:34:12,036 - INFO: [exp4_preln] Epoch 12/20 | Global: 648896 | Avg Loss (last 1024): 0.2406
+2026-07-26 11:34:23,224 - INFO: [exp4_preln] Epoch 12/20 | Global: 649920 | Avg Loss (last 1024): 0.2286
+2026-07-26 11:34:34,379 - INFO: [exp4_preln] Epoch 12/20 | Global: 650944 | Avg Loss (last 1024): 0.2208
+2026-07-26 11:34:45,631 - INFO: [exp4_preln] Epoch 12/20 | Global: 651968 | Avg Loss (last 1024): 0.2231
+2026-07-26 11:34:56,837 - INFO: [exp4_preln] Epoch 12/20 | Global: 652992 | Avg Loss (last 1024): 0.2222
+2026-07-26 11:35:08,040 - INFO: [exp4_preln] Epoch 12/20 | Global: 654016 | Avg Loss (last 1024): 0.2422
+2026-07-26 11:35:19,135 - INFO: [exp4_preln] Epoch 12/20 | Global: 655040 | Avg Loss (last 1024): 0.2285
+2026-07-26 11:35:30,341 - INFO: [exp4_preln] Epoch 12/20 | Global: 656064 | Avg Loss (last 1024): 0.2240
+2026-07-26 11:35:41,422 - INFO: [exp4_preln] Epoch 12/20 | Global: 657088 | Avg Loss (last 1024): 0.2306
+2026-07-26 11:35:52,494 - INFO: [exp4_preln] Epoch 12/20 | Global: 658112 | Avg Loss (last 1024): 0.2304
+2026-07-26 11:36:03,799 - INFO: [exp4_preln] Epoch 12/20 | Global: 659136 | Avg Loss (last 1024): 0.2421
+2026-07-26 11:36:15,042 - INFO: [exp4_preln] Epoch 12/20 | Global: 660160 | Avg Loss (last 1024): 0.2203
+2026-07-26 11:36:26,361 - INFO: [exp4_preln] Epoch 12/20 | Global: 661184 | Avg Loss (last 1024): 0.2253
+2026-07-26 11:36:37,559 - INFO: [exp4_preln] Epoch 12/20 | Global: 662208 | Avg Loss (last 1024): 0.2068
+2026-07-26 11:36:48,683 - INFO: [exp4_preln] Epoch 12/20 | Global: 663232 | Avg Loss (last 1024): 0.2167
+2026-07-26 11:36:59,849 - INFO: [exp4_preln] Epoch 12/20 | Global: 664256 | Avg Loss (last 1024): 0.2330
+2026-07-26 11:37:11,044 - INFO: [exp4_preln] Epoch 12/20 | Global: 665280 | Avg Loss (last 1024): 0.2154
+2026-07-26 11:37:22,262 - INFO: [exp4_preln] Epoch 12/20 | Global: 666304 | Avg Loss (last 1024): 0.2087
+2026-07-26 11:37:33,490 - INFO: [exp4_preln] Epoch 12/20 | Global: 667328 | Avg Loss (last 1024): 0.2306
+2026-07-26 11:37:44,662 - INFO: [exp4_preln] Epoch 12/20 | Global: 668352 | Avg Loss (last 1024): 0.2081
+2026-07-26 11:37:55,796 - INFO: [exp4_preln] Epoch 12/20 | Global: 669376 | Avg Loss (last 1024): 0.2318
+2026-07-26 11:38:07,045 - INFO: [exp4_preln] Epoch 12/20 | Global: 670400 | Avg Loss (last 1024): 0.2419
+2026-07-26 11:38:18,226 - INFO: [exp4_preln] Epoch 12/20 | Global: 671424 | Avg Loss (last 1024): 0.2151
+2026-07-26 11:38:29,336 - INFO: [exp4_preln] Epoch 12/20 | Global: 672448 | Avg Loss (last 1024): 0.2219
+2026-07-26 11:38:40,330 - INFO: [exp4_preln] Epoch 12/20 | Global: 673472 | Avg Loss (last 1024): 0.2398
+2026-07-26 11:38:51,508 - INFO: [exp4_preln] Epoch 12/20 | Global: 674496 | Avg Loss (last 1024): 0.2266
+2026-07-26 11:39:02,550 - INFO: [exp4_preln] Epoch 12/20 | Global: 675520 | Avg Loss (last 1024): 0.2223
+2026-07-26 11:39:13,589 - INFO: [exp4_preln] Epoch 12/20 | Global: 676544 | Avg Loss (last 1024): 0.2421
+2026-07-26 11:39:24,788 - INFO: [exp4_preln] Epoch 12/20 | Global: 677568 | Avg Loss (last 1024): 0.2121
+2026-07-26 11:39:35,976 - INFO: [exp4_preln] Epoch 12/20 | Global: 678592 | Avg Loss (last 1024): 0.2248
+2026-07-26 11:39:47,147 - INFO: [exp4_preln] Epoch 12/20 | Global: 679616 | Avg Loss (last 1024): 0.2411
+2026-07-26 11:39:58,431 - INFO: [exp4_preln] Epoch 12/20 | Global: 680640 | Avg Loss (last 1024): 0.2186
+2026-07-26 11:40:09,636 - INFO: [exp4_preln] Epoch 12/20 | Global: 681664 | Avg Loss (last 1024): 0.2058
+2026-07-26 11:40:20,816 - INFO: [exp4_preln] Epoch 12/20 | Global: 682688 | Avg Loss (last 1024): 0.2315
+2026-07-26 11:40:31,957 - INFO: [exp4_preln] Epoch 12/20 | Global: 683712 | Avg Loss (last 1024): 0.2244
+2026-07-26 11:40:43,078 - INFO: [exp4_preln] Epoch 12/20 | Global: 684736 | Avg Loss (last 1024): 0.2189
+2026-07-26 11:40:54,151 - INFO: [exp4_preln] Epoch 12/20 | Global: 685760 | Avg Loss (last 1024): 0.2338
+2026-07-26 11:41:05,278 - INFO: [exp4_preln] Epoch 12/20 | Global: 686784 | Avg Loss (last 1024): 0.2308
+2026-07-26 11:41:16,539 - INFO: [exp4_preln] Epoch 12/20 | Global: 687808 | Avg Loss (last 1024): 0.2089
+2026-07-26 11:41:27,792 - INFO: [exp4_preln] Epoch 12/20 | Global: 688832 | Avg Loss (last 1024): 0.2368
+2026-07-26 11:41:39,033 - INFO: [exp4_preln] Epoch 12/20 | Global: 689856 | Avg Loss (last 1024): 0.2250
+2026-07-26 11:41:50,093 - INFO: [exp4_preln] Epoch 12/20 | Global: 690880 | Avg Loss (last 1024): 0.2067
+2026-07-26 11:42:01,385 - INFO: [exp4_preln] Epoch 12/20 | Global: 691904 | Avg Loss (last 1024): 0.2124
+2026-07-26 11:42:12,569 - INFO: [exp4_preln] Epoch 12/20 | Global: 692928 | Avg Loss (last 1024): 0.2281
+2026-07-26 11:42:23,894 - INFO: [exp4_preln] Epoch 12/20 | Global: 693952 | Avg Loss (last 1024): 0.2313
+2026-07-26 11:42:34,996 - INFO: [exp4_preln] Epoch 12/20 | Global: 694976 | Avg Loss (last 1024): 0.2286
+2026-07-26 11:42:46,183 - INFO: [exp4_preln] Epoch 12/20 | Global: 696000 | Avg Loss (last 1024): 0.2250
+2026-07-26 11:42:57,321 - INFO: [exp4_preln] Epoch 12/20 | Global: 697024 | Avg Loss (last 1024): 0.2170
+2026-07-26 11:43:08,432 - INFO: [exp4_preln] Epoch 12/20 | Global: 698048 | Avg Loss (last 1024): 0.2233
+2026-07-26 11:43:19,531 - INFO: [exp4_preln] Epoch 12/20 | Global: 699072 | Avg Loss (last 1024): 0.2169
+2026-07-26 11:43:30,690 - INFO: [exp4_preln] Epoch 12/20 | Global: 700096 | Avg Loss (last 1024): 0.2296
+2026-07-26 11:43:41,877 - INFO: [exp4_preln] Epoch 12/20 | Global: 701120 | Avg Loss (last 1024): 0.2325
+2026-07-26 11:43:42,610 - INFO: [exp4_preln] Epoch 12/20 | Global: 701184 | Avg Loss (last 64): 0.2824
+2026-07-26 11:43:44,385 - INFO: [exp4_preln] Epoch 12 Val | Examples: 1024 | Avg: 0.1930
+2026-07-26 11:43:46,165 - INFO: [exp4_preln] Epoch 12 Val | Examples: 2048 | Avg: 0.1968
+2026-07-26 11:43:47,912 - INFO: [exp4_preln] Epoch 12 Val | Examples: 3072 | Avg: 0.1826
+2026-07-26 11:43:49,674 - INFO: [exp4_preln] Epoch 12 Val | Examples: 4096 | Avg: 0.1756
+2026-07-26 11:43:51,456 - INFO: [exp4_preln] Epoch 12 Val | Examples: 5120 | Avg: 0.1838
+2026-07-26 11:43:51,456 - INFO: [exp4_preln] === Epoch 12 done | Train: 0.2242 | Val: 0.1864 | Time: 637.7s ===
+2026-07-26 11:43:51,512 - INFO: [exp4_preln] Saved to C:/PythonProject/English2French/model/exp4_preln_epoch12.pth
+2026-07-26 11:44:02,743 - INFO: [exp4_preln] Epoch 13/20 | Global: 702208 | Avg Loss (last 1024): 0.1955
+2026-07-26 11:44:13,941 - INFO: [exp4_preln] Epoch 13/20 | Global: 703232 | Avg Loss (last 1024): 0.2017
+2026-07-26 11:44:25,030 - INFO: [exp4_preln] Epoch 13/20 | Global: 704256 | Avg Loss (last 1024): 0.2098
+2026-07-26 11:44:36,257 - INFO: [exp4_preln] Epoch 13/20 | Global: 705280 | Avg Loss (last 1024): 0.2126
+2026-07-26 11:44:47,345 - INFO: [exp4_preln] Epoch 13/20 | Global: 706304 | Avg Loss (last 1024): 0.2163
+2026-07-26 11:44:58,565 - INFO: [exp4_preln] Epoch 13/20 | Global: 707328 | Avg Loss (last 1024): 0.2139
+2026-07-26 11:45:09,876 - INFO: [exp4_preln] Epoch 13/20 | Global: 708352 | Avg Loss (last 1024): 0.2168
+2026-07-26 11:45:21,145 - INFO: [exp4_preln] Epoch 13/20 | Global: 709376 | Avg Loss (last 1024): 0.2171
+2026-07-26 11:45:32,296 - INFO: [exp4_preln] Epoch 13/20 | Global: 710400 | Avg Loss (last 1024): 0.2100
+2026-07-26 11:45:43,580 - INFO: [exp4_preln] Epoch 13/20 | Global: 711424 | Avg Loss (last 1024): 0.2137
+2026-07-26 11:45:54,718 - INFO: [exp4_preln] Epoch 13/20 | Global: 712448 | Avg Loss (last 1024): 0.2226
+2026-07-26 11:46:05,867 - INFO: [exp4_preln] Epoch 13/20 | Global: 713472 | Avg Loss (last 1024): 0.2159
+2026-07-26 11:46:17,119 - INFO: [exp4_preln] Epoch 13/20 | Global: 714496 | Avg Loss (last 1024): 0.2114
+2026-07-26 11:46:28,499 - INFO: [exp4_preln] Epoch 13/20 | Global: 715520 | Avg Loss (last 1024): 0.2103
+2026-07-26 11:46:39,682 - INFO: [exp4_preln] Epoch 13/20 | Global: 716544 | Avg Loss (last 1024): 0.2180
+2026-07-26 11:46:50,879 - INFO: [exp4_preln] Epoch 13/20 | Global: 717568 | Avg Loss (last 1024): 0.2160
+2026-07-26 11:47:02,040 - INFO: [exp4_preln] Epoch 13/20 | Global: 718592 | Avg Loss (last 1024): 0.2310
+2026-07-26 11:47:13,162 - INFO: [exp4_preln] Epoch 13/20 | Global: 719616 | Avg Loss (last 1024): 0.2156
+2026-07-26 11:47:24,484 - INFO: [exp4_preln] Epoch 13/20 | Global: 720640 | Avg Loss (last 1024): 0.2021
+2026-07-26 11:47:35,670 - INFO: [exp4_preln] Epoch 13/20 | Global: 721664 | Avg Loss (last 1024): 0.2144
+2026-07-26 11:47:46,740 - INFO: [exp4_preln] Epoch 13/20 | Global: 722688 | Avg Loss (last 1024): 0.2067
+2026-07-26 11:47:58,015 - INFO: [exp4_preln] Epoch 13/20 | Global: 723712 | Avg Loss (last 1024): 0.2167
+2026-07-26 11:48:09,281 - INFO: [exp4_preln] Epoch 13/20 | Global: 724736 | Avg Loss (last 1024): 0.2113
+2026-07-26 11:48:20,352 - INFO: [exp4_preln] Epoch 13/20 | Global: 725760 | Avg Loss (last 1024): 0.2048
+2026-07-26 11:48:31,601 - INFO: [exp4_preln] Epoch 13/20 | Global: 726784 | Avg Loss (last 1024): 0.2140
+2026-07-26 11:48:42,706 - INFO: [exp4_preln] Epoch 13/20 | Global: 727808 | Avg Loss (last 1024): 0.2131
+2026-07-26 11:48:53,924 - INFO: [exp4_preln] Epoch 13/20 | Global: 728832 | Avg Loss (last 1024): 0.2164
+2026-07-26 11:49:05,170 - INFO: [exp4_preln] Epoch 13/20 | Global: 729856 | Avg Loss (last 1024): 0.2117
+2026-07-26 11:49:16,436 - INFO: [exp4_preln] Epoch 13/20 | Global: 730880 | Avg Loss (last 1024): 0.2100
+2026-07-26 11:49:27,858 - INFO: [exp4_preln] Epoch 13/20 | Global: 731904 | Avg Loss (last 1024): 0.2364
+2026-07-26 11:49:39,001 - INFO: [exp4_preln] Epoch 13/20 | Global: 732928 | Avg Loss (last 1024): 0.2369
+2026-07-26 11:49:50,201 - INFO: [exp4_preln] Epoch 13/20 | Global: 733952 | Avg Loss (last 1024): 0.2151
+2026-07-26 11:50:01,447 - INFO: [exp4_preln] Epoch 13/20 | Global: 734976 | Avg Loss (last 1024): 0.2149
+2026-07-26 11:50:12,794 - INFO: [exp4_preln] Epoch 13/20 | Global: 736000 | Avg Loss (last 1024): 0.2102
+2026-07-26 11:50:23,966 - INFO: [exp4_preln] Epoch 13/20 | Global: 737024 | Avg Loss (last 1024): 0.2199
+2026-07-26 11:50:35,161 - INFO: [exp4_preln] Epoch 13/20 | Global: 738048 | Avg Loss (last 1024): 0.2085
+2026-07-26 11:50:46,443 - INFO: [exp4_preln] Epoch 13/20 | Global: 739072 | Avg Loss (last 1024): 0.2281
+2026-07-26 11:50:57,636 - INFO: [exp4_preln] Epoch 13/20 | Global: 740096 | Avg Loss (last 1024): 0.2167
+2026-07-26 11:51:08,720 - INFO: [exp4_preln] Epoch 13/20 | Global: 741120 | Avg Loss (last 1024): 0.2226
+2026-07-26 11:51:20,063 - INFO: [exp4_preln] Epoch 13/20 | Global: 742144 | Avg Loss (last 1024): 0.2097
+2026-07-26 11:51:31,231 - INFO: [exp4_preln] Epoch 13/20 | Global: 743168 | Avg Loss (last 1024): 0.2218
+2026-07-26 11:51:42,520 - INFO: [exp4_preln] Epoch 13/20 | Global: 744192 | Avg Loss (last 1024): 0.2228
+2026-07-26 11:51:53,632 - INFO: [exp4_preln] Epoch 13/20 | Global: 745216 | Avg Loss (last 1024): 0.2162
+2026-07-26 11:52:04,827 - INFO: [exp4_preln] Epoch 13/20 | Global: 746240 | Avg Loss (last 1024): 0.2101
+2026-07-26 11:52:16,067 - INFO: [exp4_preln] Epoch 13/20 | Global: 747264 | Avg Loss (last 1024): 0.2206
+2026-07-26 11:52:27,280 - INFO: [exp4_preln] Epoch 13/20 | Global: 748288 | Avg Loss (last 1024): 0.2151
+2026-07-26 11:52:38,558 - INFO: [exp4_preln] Epoch 13/20 | Global: 749312 | Avg Loss (last 1024): 0.2187
+2026-07-26 11:52:49,756 - INFO: [exp4_preln] Epoch 13/20 | Global: 750336 | Avg Loss (last 1024): 0.2149
+2026-07-26 11:53:01,089 - INFO: [exp4_preln] Epoch 13/20 | Global: 751360 | Avg Loss (last 1024): 0.2071
+2026-07-26 11:53:12,211 - INFO: [exp4_preln] Epoch 13/20 | Global: 752384 | Avg Loss (last 1024): 0.2023
+2026-07-26 11:53:23,311 - INFO: [exp4_preln] Epoch 13/20 | Global: 753408 | Avg Loss (last 1024): 0.2298
+2026-07-26 11:53:34,491 - INFO: [exp4_preln] Epoch 13/20 | Global: 754432 | Avg Loss (last 1024): 0.2297
+2026-07-26 11:53:45,579 - INFO: [exp4_preln] Epoch 13/20 | Global: 755456 | Avg Loss (last 1024): 0.2016
+2026-07-26 11:53:56,622 - INFO: [exp4_preln] Epoch 13/20 | Global: 756480 | Avg Loss (last 1024): 0.2137
+2026-07-26 11:54:08,018 - INFO: [exp4_preln] Epoch 13/20 | Global: 757504 | Avg Loss (last 1024): 0.1975
+2026-07-26 11:54:19,207 - INFO: [exp4_preln] Epoch 13/20 | Global: 758528 | Avg Loss (last 1024): 0.2119
+2026-07-26 11:54:30,232 - INFO: [exp4_preln] Epoch 13/20 | Global: 759552 | Avg Loss (last 1024): 0.2346
+2026-07-26 11:54:30,947 - INFO: [exp4_preln] Epoch 13/20 | Global: 759616 | Avg Loss (last 64): 0.1999
+2026-07-26 11:54:32,740 - INFO: [exp4_preln] Epoch 13 Val | Examples: 1024 | Avg: 0.1885
+2026-07-26 11:54:34,523 - INFO: [exp4_preln] Epoch 13 Val | Examples: 2048 | Avg: 0.1843
+2026-07-26 11:54:36,319 - INFO: [exp4_preln] Epoch 13 Val | Examples: 3072 | Avg: 0.1707
+2026-07-26 11:54:38,123 - INFO: [exp4_preln] Epoch 13 Val | Examples: 4096 | Avg: 0.1802
+2026-07-26 11:54:39,921 - INFO: [exp4_preln] Epoch 13 Val | Examples: 5120 | Avg: 0.1818
+2026-07-26 11:54:39,922 - INFO: [exp4_preln] === Epoch 13 done | Train: 0.2150 | Val: 0.1811 | Time: 639.4s ===
+2026-07-26 11:54:39,977 - INFO: [exp4_preln] Saved to C:/PythonProject/English2French/model/exp4_preln_epoch13.pth
+2026-07-26 11:54:51,128 - INFO: [exp4_preln] Epoch 14/20 | Global: 760640 | Avg Loss (last 1024): 0.1965
+2026-07-26 11:55:02,458 - INFO: [exp4_preln] Epoch 14/20 | Global: 761664 | Avg Loss (last 1024): 0.1994
+2026-07-26 11:55:13,682 - INFO: [exp4_preln] Epoch 14/20 | Global: 762688 | Avg Loss (last 1024): 0.1959
+2026-07-26 11:55:24,837 - INFO: [exp4_preln] Epoch 14/20 | Global: 763712 | Avg Loss (last 1024): 0.1952
+2026-07-26 11:55:35,903 - INFO: [exp4_preln] Epoch 14/20 | Global: 764736 | Avg Loss (last 1024): 0.2193
+2026-07-26 11:55:47,114 - INFO: [exp4_preln] Epoch 14/20 | Global: 765760 | Avg Loss (last 1024): 0.1914
+2026-07-26 11:55:58,300 - INFO: [exp4_preln] Epoch 14/20 | Global: 766784 | Avg Loss (last 1024): 0.1935
+2026-07-26 11:56:09,487 - INFO: [exp4_preln] Epoch 14/20 | Global: 767808 | Avg Loss (last 1024): 0.2003
+2026-07-26 11:56:20,624 - INFO: [exp4_preln] Epoch 14/20 | Global: 768832 | Avg Loss (last 1024): 0.1921
+2026-07-26 11:56:31,847 - INFO: [exp4_preln] Epoch 14/20 | Global: 769856 | Avg Loss (last 1024): 0.1928
+2026-07-26 11:56:43,188 - INFO: [exp4_preln] Epoch 14/20 | Global: 770880 | Avg Loss (last 1024): 0.2068
+2026-07-26 11:56:54,378 - INFO: [exp4_preln] Epoch 14/20 | Global: 771904 | Avg Loss (last 1024): 0.2091
+2026-07-26 11:57:05,561 - INFO: [exp4_preln] Epoch 14/20 | Global: 772928 | Avg Loss (last 1024): 0.2033
+2026-07-26 11:57:16,758 - INFO: [exp4_preln] Epoch 14/20 | Global: 773952 | Avg Loss (last 1024): 0.2021
+2026-07-26 11:57:27,962 - INFO: [exp4_preln] Epoch 14/20 | Global: 774976 | Avg Loss (last 1024): 0.2018
+2026-07-26 11:57:39,160 - INFO: [exp4_preln] Epoch 14/20 | Global: 776000 | Avg Loss (last 1024): 0.2140
+2026-07-26 11:57:50,354 - INFO: [exp4_preln] Epoch 14/20 | Global: 777024 | Avg Loss (last 1024): 0.2146
+2026-07-26 11:58:01,568 - INFO: [exp4_preln] Epoch 14/20 | Global: 778048 | Avg Loss (last 1024): 0.2054
+2026-07-26 11:58:12,930 - INFO: [exp4_preln] Epoch 14/20 | Global: 779072 | Avg Loss (last 1024): 0.2012
+2026-07-26 11:58:24,162 - INFO: [exp4_preln] Epoch 14/20 | Global: 780096 | Avg Loss (last 1024): 0.2204
+2026-07-26 11:58:35,401 - INFO: [exp4_preln] Epoch 14/20 | Global: 781120 | Avg Loss (last 1024): 0.2069
+2026-07-26 11:58:46,773 - INFO: [exp4_preln] Epoch 14/20 | Global: 782144 | Avg Loss (last 1024): 0.2059
+2026-07-26 11:58:58,077 - INFO: [exp4_preln] Epoch 14/20 | Global: 783168 | Avg Loss (last 1024): 0.2088
+2026-07-26 11:59:09,347 - INFO: [exp4_preln] Epoch 14/20 | Global: 784192 | Avg Loss (last 1024): 0.2068
+2026-07-26 11:59:20,771 - INFO: [exp4_preln] Epoch 14/20 | Global: 785216 | Avg Loss (last 1024): 0.2111
+2026-07-26 11:59:32,146 - INFO: [exp4_preln] Epoch 14/20 | Global: 786240 | Avg Loss (last 1024): 0.2034
+2026-07-26 11:59:43,445 - INFO: [exp4_preln] Epoch 14/20 | Global: 787264 | Avg Loss (last 1024): 0.2084
+2026-07-26 11:59:54,742 - INFO: [exp4_preln] Epoch 14/20 | Global: 788288 | Avg Loss (last 1024): 0.2218
+2026-07-26 12:00:06,033 - INFO: [exp4_preln] Epoch 14/20 | Global: 789312 | Avg Loss (last 1024): 0.2099
+2026-07-26 12:00:17,415 - INFO: [exp4_preln] Epoch 14/20 | Global: 790336 | Avg Loss (last 1024): 0.2072
+2026-07-26 12:00:28,631 - INFO: [exp4_preln] Epoch 14/20 | Global: 791360 | Avg Loss (last 1024): 0.2014
+2026-07-26 12:00:39,925 - INFO: [exp4_preln] Epoch 14/20 | Global: 792384 | Avg Loss (last 1024): 0.1972
+2026-07-26 12:00:51,180 - INFO: [exp4_preln] Epoch 14/20 | Global: 793408 | Avg Loss (last 1024): 0.2079
+2026-07-26 12:01:02,469 - INFO: [exp4_preln] Epoch 14/20 | Global: 794432 | Avg Loss (last 1024): 0.2000
+2026-07-26 12:01:13,859 - INFO: [exp4_preln] Epoch 14/20 | Global: 795456 | Avg Loss (last 1024): 0.1945
+2026-07-26 12:01:25,280 - INFO: [exp4_preln] Epoch 14/20 | Global: 796480 | Avg Loss (last 1024): 0.2163
+2026-07-26 12:01:36,628 - INFO: [exp4_preln] Epoch 14/20 | Global: 797504 | Avg Loss (last 1024): 0.2245
+2026-07-26 12:01:48,030 - INFO: [exp4_preln] Epoch 14/20 | Global: 798528 | Avg Loss (last 1024): 0.2181
+2026-07-26 12:01:59,259 - INFO: [exp4_preln] Epoch 14/20 | Global: 799552 | Avg Loss (last 1024): 0.2148
+2026-07-26 12:02:10,625 - INFO: [exp4_preln] Epoch 14/20 | Global: 800576 | Avg Loss (last 1024): 0.2092
+2026-07-26 12:02:21,955 - INFO: [exp4_preln] Epoch 14/20 | Global: 801600 | Avg Loss (last 1024): 0.2250
+2026-07-26 12:02:33,328 - INFO: [exp4_preln] Epoch 14/20 | Global: 802624 | Avg Loss (last 1024): 0.2188
+2026-07-26 12:02:44,727 - INFO: [exp4_preln] Epoch 14/20 | Global: 803648 | Avg Loss (last 1024): 0.2138
+2026-07-26 12:02:56,095 - INFO: [exp4_preln] Epoch 14/20 | Global: 804672 | Avg Loss (last 1024): 0.2120
+2026-07-26 12:03:07,384 - INFO: [exp4_preln] Epoch 14/20 | Global: 805696 | Avg Loss (last 1024): 0.2047
+2026-07-26 12:03:18,737 - INFO: [exp4_preln] Epoch 14/20 | Global: 806720 | Avg Loss (last 1024): 0.2041
+2026-07-26 12:03:29,995 - INFO: [exp4_preln] Epoch 14/20 | Global: 807744 | Avg Loss (last 1024): 0.2178
+2026-07-26 12:03:41,378 - INFO: [exp4_preln] Epoch 14/20 | Global: 808768 | Avg Loss (last 1024): 0.2090
+2026-07-26 12:03:52,763 - INFO: [exp4_preln] Epoch 14/20 | Global: 809792 | Avg Loss (last 1024): 0.2043
+2026-07-26 12:04:04,115 - INFO: [exp4_preln] Epoch 14/20 | Global: 810816 | Avg Loss (last 1024): 0.2069
+2026-07-26 12:04:15,361 - INFO: [exp4_preln] Epoch 14/20 | Global: 811840 | Avg Loss (last 1024): 0.2072
+2026-07-26 12:04:26,731 - INFO: [exp4_preln] Epoch 14/20 | Global: 812864 | Avg Loss (last 1024): 0.2041
+2026-07-26 12:04:37,910 - INFO: [exp4_preln] Epoch 14/20 | Global: 813888 | Avg Loss (last 1024): 0.2102
+2026-07-26 12:04:49,227 - INFO: [exp4_preln] Epoch 14/20 | Global: 814912 | Avg Loss (last 1024): 0.2075
+2026-07-26 12:05:00,364 - INFO: [exp4_preln] Epoch 14/20 | Global: 815936 | Avg Loss (last 1024): 0.2002
+2026-07-26 12:05:11,620 - INFO: [exp4_preln] Epoch 14/20 | Global: 816960 | Avg Loss (last 1024): 0.2123
+2026-07-26 12:05:22,921 - INFO: [exp4_preln] Epoch 14/20 | Global: 817984 | Avg Loss (last 1024): 0.2049
+2026-07-26 12:05:23,604 - INFO: [exp4_preln] Epoch 14/20 | Global: 818048 | Avg Loss (last 64): 0.2127
+2026-07-26 12:05:25,395 - INFO: [exp4_preln] Epoch 14 Val | Examples: 1024 | Avg: 0.1799
+2026-07-26 12:05:27,175 - INFO: [exp4_preln] Epoch 14 Val | Examples: 2048 | Avg: 0.1828
+2026-07-26 12:05:28,940 - INFO: [exp4_preln] Epoch 14 Val | Examples: 3072 | Avg: 0.1719
+2026-07-26 12:05:30,715 - INFO: [exp4_preln] Epoch 14 Val | Examples: 4096 | Avg: 0.1635
+2026-07-26 12:05:32,490 - INFO: [exp4_preln] Epoch 14 Val | Examples: 5120 | Avg: 0.1716
+2026-07-26 12:05:32,491 - INFO: [exp4_preln] === Epoch 14 done | Train: 0.2069 | Val: 0.1739 | Time: 643.6s ===
+2026-07-26 12:05:32,540 - INFO: [exp4_preln] Saved to C:/PythonProject/English2French/model/exp4_preln_epoch14.pth
+2026-07-26 12:05:43,861 - INFO: [exp4_preln] Epoch 15/20 | Global: 819072 | Avg Loss (last 1024): 0.1925
+2026-07-26 12:05:55,113 - INFO: [exp4_preln] Epoch 15/20 | Global: 820096 | Avg Loss (last 1024): 0.1821
+2026-07-26 12:06:06,384 - INFO: [exp4_preln] Epoch 15/20 | Global: 821120 | Avg Loss (last 1024): 0.1983
+2026-07-26 12:06:17,722 - INFO: [exp4_preln] Epoch 15/20 | Global: 822144 | Avg Loss (last 1024): 0.1893
+2026-07-26 12:06:28,986 - INFO: [exp4_preln] Epoch 15/20 | Global: 823168 | Avg Loss (last 1024): 0.1848
+2026-07-26 12:06:40,267 - INFO: [exp4_preln] Epoch 15/20 | Global: 824192 | Avg Loss (last 1024): 0.2013
+2026-07-26 12:06:51,541 - INFO: [exp4_preln] Epoch 15/20 | Global: 825216 | Avg Loss (last 1024): 0.1961
+2026-07-26 12:07:02,739 - INFO: [exp4_preln] Epoch 15/20 | Global: 826240 | Avg Loss (last 1024): 0.1972
+2026-07-26 12:07:13,972 - INFO: [exp4_preln] Epoch 15/20 | Global: 827264 | Avg Loss (last 1024): 0.1971
+2026-07-26 12:07:25,180 - INFO: [exp4_preln] Epoch 15/20 | Global: 828288 | Avg Loss (last 1024): 0.1969
+2026-07-26 12:07:36,466 - INFO: [exp4_preln] Epoch 15/20 | Global: 829312 | Avg Loss (last 1024): 0.2078
+2026-07-26 12:07:47,682 - INFO: [exp4_preln] Epoch 15/20 | Global: 830336 | Avg Loss (last 1024): 0.1939
+2026-07-26 12:07:58,853 - INFO: [exp4_preln] Epoch 15/20 | Global: 831360 | Avg Loss (last 1024): 0.1981
+2026-07-26 12:08:10,138 - INFO: [exp4_preln] Epoch 15/20 | Global: 832384 | Avg Loss (last 1024): 0.2053
+2026-07-26 12:08:21,432 - INFO: [exp4_preln] Epoch 15/20 | Global: 833408 | Avg Loss (last 1024): 0.1965
+2026-07-26 12:08:32,766 - INFO: [exp4_preln] Epoch 15/20 | Global: 834432 | Avg Loss (last 1024): 0.1965
+2026-07-26 12:08:43,942 - INFO: [exp4_preln] Epoch 15/20 | Global: 835456 | Avg Loss (last 1024): 0.2111
+2026-07-26 12:08:55,134 - INFO: [exp4_preln] Epoch 15/20 | Global: 836480 | Avg Loss (last 1024): 0.2056
+2026-07-26 12:09:06,417 - INFO: [exp4_preln] Epoch 15/20 | Global: 837504 | Avg Loss (last 1024): 0.2052
+2026-07-26 12:09:17,614 - INFO: [exp4_preln] Epoch 15/20 | Global: 838528 | Avg Loss (last 1024): 0.1992
+2026-07-26 12:09:28,895 - INFO: [exp4_preln] Epoch 15/20 | Global: 839552 | Avg Loss (last 1024): 0.2061
+2026-07-26 12:09:40,072 - INFO: [exp4_preln] Epoch 15/20 | Global: 840576 | Avg Loss (last 1024): 0.2053
+2026-07-26 12:09:51,264 - INFO: [exp4_preln] Epoch 15/20 | Global: 841600 | Avg Loss (last 1024): 0.2033
+2026-07-26 12:10:02,425 - INFO: [exp4_preln] Epoch 15/20 | Global: 842624 | Avg Loss (last 1024): 0.2025
+2026-07-26 12:10:13,571 - INFO: [exp4_preln] Epoch 15/20 | Global: 843648 | Avg Loss (last 1024): 0.2103
+2026-07-26 12:10:24,780 - INFO: [exp4_preln] Epoch 15/20 | Global: 844672 | Avg Loss (last 1024): 0.2040
+2026-07-26 12:10:35,888 - INFO: [exp4_preln] Epoch 15/20 | Global: 845696 | Avg Loss (last 1024): 0.2068
+2026-07-26 12:10:47,060 - INFO: [exp4_preln] Epoch 15/20 | Global: 846720 | Avg Loss (last 1024): 0.1949
+2026-07-26 12:10:58,305 - INFO: [exp4_preln] Epoch 15/20 | Global: 847744 | Avg Loss (last 1024): 0.2005
+2026-07-26 12:11:09,576 - INFO: [exp4_preln] Epoch 15/20 | Global: 848768 | Avg Loss (last 1024): 0.2060
+2026-07-26 12:11:20,754 - INFO: [exp4_preln] Epoch 15/20 | Global: 849792 | Avg Loss (last 1024): 0.2040
+2026-07-26 12:11:31,885 - INFO: [exp4_preln] Epoch 15/20 | Global: 850816 | Avg Loss (last 1024): 0.2075
+2026-07-26 12:11:43,101 - INFO: [exp4_preln] Epoch 15/20 | Global: 851840 | Avg Loss (last 1024): 0.1956
+2026-07-26 12:11:54,216 - INFO: [exp4_preln] Epoch 15/20 | Global: 852864 | Avg Loss (last 1024): 0.2024
+2026-07-26 12:12:05,358 - INFO: [exp4_preln] Epoch 15/20 | Global: 853888 | Avg Loss (last 1024): 0.1955
+2026-07-26 12:12:16,548 - INFO: [exp4_preln] Epoch 15/20 | Global: 854912 | Avg Loss (last 1024): 0.2043
+2026-07-26 12:12:27,838 - INFO: [exp4_preln] Epoch 15/20 | Global: 855936 | Avg Loss (last 1024): 0.2025
+2026-07-26 12:12:39,128 - INFO: [exp4_preln] Epoch 15/20 | Global: 856960 | Avg Loss (last 1024): 0.1931
+2026-07-26 12:12:50,419 - INFO: [exp4_preln] Epoch 15/20 | Global: 857984 | Avg Loss (last 1024): 0.2050
+2026-07-26 12:13:01,655 - INFO: [exp4_preln] Epoch 15/20 | Global: 859008 | Avg Loss (last 1024): 0.1896
+2026-07-26 12:13:12,822 - INFO: [exp4_preln] Epoch 15/20 | Global: 860032 | Avg Loss (last 1024): 0.2022
+2026-07-26 12:13:24,077 - INFO: [exp4_preln] Epoch 15/20 | Global: 861056 | Avg Loss (last 1024): 0.2032
+2026-07-26 12:13:35,402 - INFO: [exp4_preln] Epoch 15/20 | Global: 862080 | Avg Loss (last 1024): 0.2091
+2026-07-26 12:13:46,684 - INFO: [exp4_preln] Epoch 15/20 | Global: 863104 | Avg Loss (last 1024): 0.2050
+2026-07-26 12:13:58,020 - INFO: [exp4_preln] Epoch 15/20 | Global: 864128 | Avg Loss (last 1024): 0.1942
+2026-07-26 12:14:09,270 - INFO: [exp4_preln] Epoch 15/20 | Global: 865152 | Avg Loss (last 1024): 0.1956
+2026-07-26 12:14:20,591 - INFO: [exp4_preln] Epoch 15/20 | Global: 866176 | Avg Loss (last 1024): 0.1969
+2026-07-26 12:14:31,948 - INFO: [exp4_preln] Epoch 15/20 | Global: 867200 | Avg Loss (last 1024): 0.2015
+2026-07-26 12:14:44,280 - INFO: [exp4_preln] Epoch 15/20 | Global: 868224 | Avg Loss (last 1024): 0.1981
+2026-07-26 12:14:55,953 - INFO: [exp4_preln] Epoch 15/20 | Global: 869248 | Avg Loss (last 1024): 0.2018
+2026-07-26 12:15:07,054 - INFO: [exp4_preln] Epoch 15/20 | Global: 870272 | Avg Loss (last 1024): 0.1989
+2026-07-26 12:15:18,274 - INFO: [exp4_preln] Epoch 15/20 | Global: 871296 | Avg Loss (last 1024): 0.1913
+2026-07-26 12:15:29,408 - INFO: [exp4_preln] Epoch 15/20 | Global: 872320 | Avg Loss (last 1024): 0.2038
+2026-07-26 12:15:40,694 - INFO: [exp4_preln] Epoch 15/20 | Global: 873344 | Avg Loss (last 1024): 0.1987
+2026-07-26 12:15:51,932 - INFO: [exp4_preln] Epoch 15/20 | Global: 874368 | Avg Loss (last 1024): 0.2166
+2026-07-26 12:16:03,143 - INFO: [exp4_preln] Epoch 15/20 | Global: 875392 | Avg Loss (last 1024): 0.2089
+2026-07-26 12:16:14,419 - INFO: [exp4_preln] Epoch 15/20 | Global: 876416 | Avg Loss (last 1024): 0.1974
+2026-07-26 12:16:15,118 - INFO: [exp4_preln] Epoch 15/20 | Global: 876480 | Avg Loss (last 64): 0.1730
+2026-07-26 12:16:16,911 - INFO: [exp4_preln] Epoch 15 Val | Examples: 1024 | Avg: 0.1733
+2026-07-26 12:16:18,681 - INFO: [exp4_preln] Epoch 15 Val | Examples: 2048 | Avg: 0.1748
+2026-07-26 12:16:20,467 - INFO: [exp4_preln] Epoch 15 Val | Examples: 3072 | Avg: 0.1639
+2026-07-26 12:16:22,231 - INFO: [exp4_preln] Epoch 15 Val | Examples: 4096 | Avg: 0.1638
+2026-07-26 12:16:24,039 - INFO: [exp4_preln] Epoch 15 Val | Examples: 5120 | Avg: 0.1723
+2026-07-26 12:16:24,040 - INFO: [exp4_preln] === Epoch 15 done | Train: 0.2003 | Val: 0.1696 | Time: 642.6s ===
+2026-07-26 12:16:24,100 - INFO: [exp4_preln] Saved to C:/PythonProject/English2French/model/exp4_preln_epoch15.pth
+2026-07-26 12:16:35,315 - INFO: [exp4_preln] Epoch 16/20 | Global: 877504 | Avg Loss (last 1024): 0.1872
+2026-07-26 12:16:46,649 - INFO: [exp4_preln] Epoch 16/20 | Global: 878528 | Avg Loss (last 1024): 0.1843
+2026-07-26 12:16:57,714 - INFO: [exp4_preln] Epoch 16/20 | Global: 879552 | Avg Loss (last 1024): 0.1926
+2026-07-26 12:17:08,905 - INFO: [exp4_preln] Epoch 16/20 | Global: 880576 | Avg Loss (last 1024): 0.1797
+2026-07-26 12:17:20,151 - INFO: [exp4_preln] Epoch 16/20 | Global: 881600 | Avg Loss (last 1024): 0.1946
+2026-07-26 12:17:31,379 - INFO: [exp4_preln] Epoch 16/20 | Global: 882624 | Avg Loss (last 1024): 0.1782
+2026-07-26 12:17:42,563 - INFO: [exp4_preln] Epoch 16/20 | Global: 883648 | Avg Loss (last 1024): 0.2020
+2026-07-26 12:17:53,721 - INFO: [exp4_preln] Epoch 16/20 | Global: 884672 | Avg Loss (last 1024): 0.1897
+2026-07-26 12:18:04,937 - INFO: [exp4_preln] Epoch 16/20 | Global: 885696 | Avg Loss (last 1024): 0.1985
+2026-07-26 12:18:16,165 - INFO: [exp4_preln] Epoch 16/20 | Global: 886720 | Avg Loss (last 1024): 0.1871
+2026-07-26 12:18:27,419 - INFO: [exp4_preln] Epoch 16/20 | Global: 887744 | Avg Loss (last 1024): 0.1890
+2026-07-26 12:18:38,499 - INFO: [exp4_preln] Epoch 16/20 | Global: 888768 | Avg Loss (last 1024): 0.1943
+2026-07-26 12:18:49,593 - INFO: [exp4_preln] Epoch 16/20 | Global: 889792 | Avg Loss (last 1024): 0.1956
+2026-07-26 12:19:00,790 - INFO: [exp4_preln] Epoch 16/20 | Global: 890816 | Avg Loss (last 1024): 0.1986
+2026-07-26 12:19:11,961 - INFO: [exp4_preln] Epoch 16/20 | Global: 891840 | Avg Loss (last 1024): 0.2007
+2026-07-26 12:19:23,119 - INFO: [exp4_preln] Epoch 16/20 | Global: 892864 | Avg Loss (last 1024): 0.1902
+2026-07-26 12:19:34,197 - INFO: [exp4_preln] Epoch 16/20 | Global: 893888 | Avg Loss (last 1024): 0.1762
+2026-07-26 12:19:45,407 - INFO: [exp4_preln] Epoch 16/20 | Global: 894912 | Avg Loss (last 1024): 0.2064
+2026-07-26 12:19:56,626 - INFO: [exp4_preln] Epoch 16/20 | Global: 895936 | Avg Loss (last 1024): 0.1954
+2026-07-26 12:20:07,844 - INFO: [exp4_preln] Epoch 16/20 | Global: 896960 | Avg Loss (last 1024): 0.1984
+2026-07-26 12:20:19,000 - INFO: [exp4_preln] Epoch 16/20 | Global: 897984 | Avg Loss (last 1024): 0.2063
+2026-07-26 12:20:30,093 - INFO: [exp4_preln] Epoch 16/20 | Global: 899008 | Avg Loss (last 1024): 0.1935
+2026-07-26 12:20:41,259 - INFO: [exp4_preln] Epoch 16/20 | Global: 900032 | Avg Loss (last 1024): 0.1978
+2026-07-26 12:20:52,394 - INFO: [exp4_preln] Epoch 16/20 | Global: 901056 | Avg Loss (last 1024): 0.1965
+2026-07-26 12:21:03,657 - INFO: [exp4_preln] Epoch 16/20 | Global: 902080 | Avg Loss (last 1024): 0.1797
+2026-07-26 12:21:14,938 - INFO: [exp4_preln] Epoch 16/20 | Global: 903104 | Avg Loss (last 1024): 0.1968
+2026-07-26 12:21:26,074 - INFO: [exp4_preln] Epoch 16/20 | Global: 904128 | Avg Loss (last 1024): 0.2056
+2026-07-26 12:21:37,294 - INFO: [exp4_preln] Epoch 16/20 | Global: 905152 | Avg Loss (last 1024): 0.1978
+2026-07-26 12:21:48,499 - INFO: [exp4_preln] Epoch 16/20 | Global: 906176 | Avg Loss (last 1024): 0.1926
+2026-07-26 12:21:59,745 - INFO: [exp4_preln] Epoch 16/20 | Global: 907200 | Avg Loss (last 1024): 0.2013
+2026-07-26 12:22:10,947 - INFO: [exp4_preln] Epoch 16/20 | Global: 908224 | Avg Loss (last 1024): 0.1903
+2026-07-26 12:22:22,227 - INFO: [exp4_preln] Epoch 16/20 | Global: 909248 | Avg Loss (last 1024): 0.1976
+2026-07-26 12:22:33,475 - INFO: [exp4_preln] Epoch 16/20 | Global: 910272 | Avg Loss (last 1024): 0.1939
+2026-07-26 12:22:44,727 - INFO: [exp4_preln] Epoch 16/20 | Global: 911296 | Avg Loss (last 1024): 0.1951
+2026-07-26 12:22:55,839 - INFO: [exp4_preln] Epoch 16/20 | Global: 912320 | Avg Loss (last 1024): 0.1988
+2026-07-26 12:23:07,146 - INFO: [exp4_preln] Epoch 16/20 | Global: 913344 | Avg Loss (last 1024): 0.2011
+2026-07-26 12:23:18,415 - INFO: [exp4_preln] Epoch 16/20 | Global: 914368 | Avg Loss (last 1024): 0.2066
+2026-07-26 12:23:29,499 - INFO: [exp4_preln] Epoch 16/20 | Global: 915392 | Avg Loss (last 1024): 0.1922
+2026-07-26 12:23:40,716 - INFO: [exp4_preln] Epoch 16/20 | Global: 916416 | Avg Loss (last 1024): 0.2022
+2026-07-26 12:23:52,054 - INFO: [exp4_preln] Epoch 16/20 | Global: 917440 | Avg Loss (last 1024): 0.2015
+2026-07-26 12:24:03,264 - INFO: [exp4_preln] Epoch 16/20 | Global: 918464 | Avg Loss (last 1024): 0.1908
+2026-07-26 12:24:14,593 - INFO: [exp4_preln] Epoch 16/20 | Global: 919488 | Avg Loss (last 1024): 0.1999
+2026-07-26 12:24:25,827 - INFO: [exp4_preln] Epoch 16/20 | Global: 920512 | Avg Loss (last 1024): 0.1785
+2026-07-26 12:24:37,093 - INFO: [exp4_preln] Epoch 16/20 | Global: 921536 | Avg Loss (last 1024): 0.2045
+2026-07-26 12:24:48,215 - INFO: [exp4_preln] Epoch 16/20 | Global: 922560 | Avg Loss (last 1024): 0.1938
+2026-07-26 12:24:59,410 - INFO: [exp4_preln] Epoch 16/20 | Global: 923584 | Avg Loss (last 1024): 0.2042
+2026-07-26 12:25:10,642 - INFO: [exp4_preln] Epoch 16/20 | Global: 924608 | Avg Loss (last 1024): 0.1853
+2026-07-26 12:25:21,823 - INFO: [exp4_preln] Epoch 16/20 | Global: 925632 | Avg Loss (last 1024): 0.1857
+2026-07-26 12:25:32,896 - INFO: [exp4_preln] Epoch 16/20 | Global: 926656 | Avg Loss (last 1024): 0.1969
+2026-07-26 12:25:44,138 - INFO: [exp4_preln] Epoch 16/20 | Global: 927680 | Avg Loss (last 1024): 0.2027
+2026-07-26 12:25:55,327 - INFO: [exp4_preln] Epoch 16/20 | Global: 928704 | Avg Loss (last 1024): 0.2023
+2026-07-26 12:26:06,569 - INFO: [exp4_preln] Epoch 16/20 | Global: 929728 | Avg Loss (last 1024): 0.2025
+2026-07-26 12:26:17,706 - INFO: [exp4_preln] Epoch 16/20 | Global: 930752 | Avg Loss (last 1024): 0.2039
+2026-07-26 12:26:28,854 - INFO: [exp4_preln] Epoch 16/20 | Global: 931776 | Avg Loss (last 1024): 0.1942
+2026-07-26 12:26:39,994 - INFO: [exp4_preln] Epoch 16/20 | Global: 932800 | Avg Loss (last 1024): 0.1867
+2026-07-26 12:26:51,241 - INFO: [exp4_preln] Epoch 16/20 | Global: 933824 | Avg Loss (last 1024): 0.1883
+2026-07-26 12:27:02,499 - INFO: [exp4_preln] Epoch 16/20 | Global: 934848 | Avg Loss (last 1024): 0.1915
+2026-07-26 12:27:03,180 - INFO: [exp4_preln] Epoch 16/20 | Global: 934912 | Avg Loss (last 64): 0.1937
+2026-07-26 12:27:04,955 - INFO: [exp4_preln] Epoch 16 Val | Examples: 1024 | Avg: 0.1773
+2026-07-26 12:27:06,730 - INFO: [exp4_preln] Epoch 16 Val | Examples: 2048 | Avg: 0.1686
+2026-07-26 12:27:08,506 - INFO: [exp4_preln] Epoch 16 Val | Examples: 3072 | Avg: 0.1653
+2026-07-26 12:27:10,310 - INFO: [exp4_preln] Epoch 16 Val | Examples: 4096 | Avg: 0.1667
+2026-07-26 12:27:12,125 - INFO: [exp4_preln] Epoch 16 Val | Examples: 5120 | Avg: 0.1645
+2026-07-26 12:27:12,125 - INFO: [exp4_preln] === Epoch 16 done | Train: 0.1947 | Val: 0.1685 | Time: 639.1s ===
+2026-07-26 12:27:12,184 - INFO: [exp4_preln] Saved to C:/PythonProject/English2French/model/exp4_preln_epoch16.pth
+2026-07-26 12:27:23,535 - INFO: [exp4_preln] Epoch 17/20 | Global: 935936 | Avg Loss (last 1024): 0.1626
+2026-07-26 12:27:34,747 - INFO: [exp4_preln] Epoch 17/20 | Global: 936960 | Avg Loss (last 1024): 0.1742
+2026-07-26 12:27:45,867 - INFO: [exp4_preln] Epoch 17/20 | Global: 937984 | Avg Loss (last 1024): 0.1951
+2026-07-26 12:27:57,000 - INFO: [exp4_preln] Epoch 17/20 | Global: 939008 | Avg Loss (last 1024): 0.1854
+2026-07-26 12:28:08,448 - INFO: [exp4_preln] Epoch 17/20 | Global: 940032 | Avg Loss (last 1024): 0.1881
+2026-07-26 12:28:19,497 - INFO: [exp4_preln] Epoch 17/20 | Global: 941056 | Avg Loss (last 1024): 0.1961
+2026-07-26 12:28:30,772 - INFO: [exp4_preln] Epoch 17/20 | Global: 942080 | Avg Loss (last 1024): 0.1887
+2026-07-26 12:28:42,026 - INFO: [exp4_preln] Epoch 17/20 | Global: 943104 | Avg Loss (last 1024): 0.1789
+2026-07-26 12:28:53,190 - INFO: [exp4_preln] Epoch 17/20 | Global: 944128 | Avg Loss (last 1024): 0.1891
+2026-07-26 12:29:04,383 - INFO: [exp4_preln] Epoch 17/20 | Global: 945152 | Avg Loss (last 1024): 0.1733
+2026-07-26 12:29:15,685 - INFO: [exp4_preln] Epoch 17/20 | Global: 946176 | Avg Loss (last 1024): 0.1902
+2026-07-26 12:29:26,909 - INFO: [exp4_preln] Epoch 17/20 | Global: 947200 | Avg Loss (last 1024): 0.1823
+2026-07-26 12:29:38,287 - INFO: [exp4_preln] Epoch 17/20 | Global: 948224 | Avg Loss (last 1024): 0.2017
+2026-07-26 12:29:49,553 - INFO: [exp4_preln] Epoch 17/20 | Global: 949248 | Avg Loss (last 1024): 0.1873
+2026-07-26 12:30:00,773 - INFO: [exp4_preln] Epoch 17/20 | Global: 950272 | Avg Loss (last 1024): 0.1842
+2026-07-26 12:30:12,040 - INFO: [exp4_preln] Epoch 17/20 | Global: 951296 | Avg Loss (last 1024): 0.1899
+2026-07-26 12:30:23,367 - INFO: [exp4_preln] Epoch 17/20 | Global: 952320 | Avg Loss (last 1024): 0.1911
+2026-07-26 12:30:34,527 - INFO: [exp4_preln] Epoch 17/20 | Global: 953344 | Avg Loss (last 1024): 0.1822
+2026-07-26 12:30:45,835 - INFO: [exp4_preln] Epoch 17/20 | Global: 954368 | Avg Loss (last 1024): 0.1987
+2026-07-26 12:30:57,022 - INFO: [exp4_preln] Epoch 17/20 | Global: 955392 | Avg Loss (last 1024): 0.1980
+2026-07-26 12:31:08,176 - INFO: [exp4_preln] Epoch 17/20 | Global: 956416 | Avg Loss (last 1024): 0.2043
+2026-07-26 12:31:19,402 - INFO: [exp4_preln] Epoch 17/20 | Global: 957440 | Avg Loss (last 1024): 0.1931
+2026-07-26 12:31:30,546 - INFO: [exp4_preln] Epoch 17/20 | Global: 958464 | Avg Loss (last 1024): 0.1833
+2026-07-26 12:31:41,756 - INFO: [exp4_preln] Epoch 17/20 | Global: 959488 | Avg Loss (last 1024): 0.1920
+2026-07-26 12:31:52,967 - INFO: [exp4_preln] Epoch 17/20 | Global: 960512 | Avg Loss (last 1024): 0.1835
+2026-07-26 12:32:04,202 - INFO: [exp4_preln] Epoch 17/20 | Global: 961536 | Avg Loss (last 1024): 0.1847
+2026-07-26 12:32:15,340 - INFO: [exp4_preln] Epoch 17/20 | Global: 962560 | Avg Loss (last 1024): 0.1842
+2026-07-26 12:32:26,541 - INFO: [exp4_preln] Epoch 17/20 | Global: 963584 | Avg Loss (last 1024): 0.1866
+2026-07-26 12:32:37,725 - INFO: [exp4_preln] Epoch 17/20 | Global: 964608 | Avg Loss (last 1024): 0.1997
+2026-07-26 12:32:48,886 - INFO: [exp4_preln] Epoch 17/20 | Global: 965632 | Avg Loss (last 1024): 0.1904
+2026-07-26 12:33:00,135 - INFO: [exp4_preln] Epoch 17/20 | Global: 966656 | Avg Loss (last 1024): 0.1935
+2026-07-26 12:33:11,373 - INFO: [exp4_preln] Epoch 17/20 | Global: 967680 | Avg Loss (last 1024): 0.1919
+2026-07-26 12:33:22,618 - INFO: [exp4_preln] Epoch 17/20 | Global: 968704 | Avg Loss (last 1024): 0.1908
+2026-07-26 12:33:33,806 - INFO: [exp4_preln] Epoch 17/20 | Global: 969728 | Avg Loss (last 1024): 0.2048
+2026-07-26 12:33:44,987 - INFO: [exp4_preln] Epoch 17/20 | Global: 970752 | Avg Loss (last 1024): 0.1847
+2026-07-26 12:33:56,207 - INFO: [exp4_preln] Epoch 17/20 | Global: 971776 | Avg Loss (last 1024): 0.1910
+2026-07-26 12:34:07,359 - INFO: [exp4_preln] Epoch 17/20 | Global: 972800 | Avg Loss (last 1024): 0.1884
+2026-07-26 12:34:18,619 - INFO: [exp4_preln] Epoch 17/20 | Global: 973824 | Avg Loss (last 1024): 0.1917
+2026-07-26 12:34:29,763 - INFO: [exp4_preln] Epoch 17/20 | Global: 974848 | Avg Loss (last 1024): 0.1856
+2026-07-26 12:34:40,845 - INFO: [exp4_preln] Epoch 17/20 | Global: 975872 | Avg Loss (last 1024): 0.1999
+2026-07-26 12:34:52,050 - INFO: [exp4_preln] Epoch 17/20 | Global: 976896 | Avg Loss (last 1024): 0.1794
+2026-07-26 12:35:03,371 - INFO: [exp4_preln] Epoch 17/20 | Global: 977920 | Avg Loss (last 1024): 0.1770
+2026-07-26 12:35:14,514 - INFO: [exp4_preln] Epoch 17/20 | Global: 978944 | Avg Loss (last 1024): 0.1926
+2026-07-26 12:35:25,722 - INFO: [exp4_preln] Epoch 17/20 | Global: 979968 | Avg Loss (last 1024): 0.2061
+2026-07-26 12:35:36,805 - INFO: [exp4_preln] Epoch 17/20 | Global: 980992 | Avg Loss (last 1024): 0.1810
+2026-07-26 12:35:48,005 - INFO: [exp4_preln] Epoch 17/20 | Global: 982016 | Avg Loss (last 1024): 0.1836
+2026-07-26 12:35:59,169 - INFO: [exp4_preln] Epoch 17/20 | Global: 983040 | Avg Loss (last 1024): 0.1849
+2026-07-26 12:36:10,304 - INFO: [exp4_preln] Epoch 17/20 | Global: 984064 | Avg Loss (last 1024): 0.1811
+2026-07-26 12:36:21,541 - INFO: [exp4_preln] Epoch 17/20 | Global: 985088 | Avg Loss (last 1024): 0.1905
+2026-07-26 12:36:32,807 - INFO: [exp4_preln] Epoch 17/20 | Global: 986112 | Avg Loss (last 1024): 0.1798
+2026-07-26 12:36:43,961 - INFO: [exp4_preln] Epoch 17/20 | Global: 987136 | Avg Loss (last 1024): 0.1932
+2026-07-26 12:36:55,192 - INFO: [exp4_preln] Epoch 17/20 | Global: 988160 | Avg Loss (last 1024): 0.1952
+2026-07-26 12:37:06,390 - INFO: [exp4_preln] Epoch 17/20 | Global: 989184 | Avg Loss (last 1024): 0.1916
+2026-07-26 12:37:17,577 - INFO: [exp4_preln] Epoch 17/20 | Global: 990208 | Avg Loss (last 1024): 0.1942
+2026-07-26 12:37:28,738 - INFO: [exp4_preln] Epoch 17/20 | Global: 991232 | Avg Loss (last 1024): 0.1827
+2026-07-26 12:37:39,958 - INFO: [exp4_preln] Epoch 17/20 | Global: 992256 | Avg Loss (last 1024): 0.1962
+2026-07-26 12:37:51,034 - INFO: [exp4_preln] Epoch 17/20 | Global: 993280 | Avg Loss (last 1024): 0.1904
+2026-07-26 12:37:51,719 - INFO: [exp4_preln] Epoch 17/20 | Global: 993344 | Avg Loss (last 64): 0.1640
+2026-07-26 12:37:53,516 - INFO: [exp4_preln] Epoch 17 Val | Examples: 1024 | Avg: 0.1736
+2026-07-26 12:37:55,296 - INFO: [exp4_preln] Epoch 17 Val | Examples: 2048 | Avg: 0.1763
+2026-07-26 12:37:57,068 - INFO: [exp4_preln] Epoch 17 Val | Examples: 3072 | Avg: 0.1706
+2026-07-26 12:37:58,874 - INFO: [exp4_preln] Epoch 17 Val | Examples: 4096 | Avg: 0.1580
+2026-07-26 12:38:00,651 - INFO: [exp4_preln] Epoch 17 Val | Examples: 5120 | Avg: 0.1671
+2026-07-26 12:38:00,651 - INFO: [exp4_preln] === Epoch 17 done | Train: 0.1888 | Val: 0.1691 | Time: 639.5s ===
+2026-07-26 12:38:00,698 - INFO: [exp4_preln] Saved to C:/PythonProject/English2French/model/exp4_preln_epoch17.pth
+2026-07-26 12:38:12,078 - INFO: [exp4_preln] Epoch 18/20 | Global: 994368 | Avg Loss (last 1024): 0.1637
+2026-07-26 12:38:23,322 - INFO: [exp4_preln] Epoch 18/20 | Global: 995392 | Avg Loss (last 1024): 0.1720
+2026-07-26 12:38:38,163 - INFO: [exp4_preln] Epoch 18/20 | Global: 996416 | Avg Loss (last 1024): 0.1733
+2026-07-26 12:38:49,480 - INFO: [exp4_preln] Epoch 18/20 | Global: 997440 | Avg Loss (last 1024): 0.1780
+2026-07-26 12:39:00,694 - INFO: [exp4_preln] Epoch 18/20 | Global: 998464 | Avg Loss (last 1024): 0.1762
+2026-07-26 12:39:11,817 - INFO: [exp4_preln] Epoch 18/20 | Global: 999488 | Avg Loss (last 1024): 0.1791
+2026-07-26 12:39:23,016 - INFO: [exp4_preln] Epoch 18/20 | Global: 1000512 | Avg Loss (last 1024): 0.1755
+2026-07-26 12:39:34,262 - INFO: [exp4_preln] Epoch 18/20 | Global: 1001536 | Avg Loss (last 1024): 0.1804
+2026-07-26 12:39:45,291 - INFO: [exp4_preln] Epoch 18/20 | Global: 1002560 | Avg Loss (last 1024): 0.1845
+2026-07-26 12:39:56,379 - INFO: [exp4_preln] Epoch 18/20 | Global: 1003584 | Avg Loss (last 1024): 0.1934
+2026-07-26 12:40:07,423 - INFO: [exp4_preln] Epoch 18/20 | Global: 1004608 | Avg Loss (last 1024): 0.1868
+2026-07-26 12:40:18,758 - INFO: [exp4_preln] Epoch 18/20 | Global: 1005632 | Avg Loss (last 1024): 0.1884
+2026-07-26 12:40:29,931 - INFO: [exp4_preln] Epoch 18/20 | Global: 1006656 | Avg Loss (last 1024): 0.1864
+2026-07-26 12:40:41,083 - INFO: [exp4_preln] Epoch 18/20 | Global: 1007680 | Avg Loss (last 1024): 0.1888
+2026-07-26 12:40:52,197 - INFO: [exp4_preln] Epoch 18/20 | Global: 1008704 | Avg Loss (last 1024): 0.1841
+2026-07-26 12:41:03,428 - INFO: [exp4_preln] Epoch 18/20 | Global: 1009728 | Avg Loss (last 1024): 0.1823
+2026-07-26 12:41:14,705 - INFO: [exp4_preln] Epoch 18/20 | Global: 1010752 | Avg Loss (last 1024): 0.1874
+2026-07-26 12:41:25,923 - INFO: [exp4_preln] Epoch 18/20 | Global: 1011776 | Avg Loss (last 1024): 0.1829
+2026-07-26 12:41:37,215 - INFO: [exp4_preln] Epoch 18/20 | Global: 1012800 | Avg Loss (last 1024): 0.1838
+2026-07-26 12:41:48,443 - INFO: [exp4_preln] Epoch 18/20 | Global: 1013824 | Avg Loss (last 1024): 0.1927
+2026-07-26 12:41:59,682 - INFO: [exp4_preln] Epoch 18/20 | Global: 1014848 | Avg Loss (last 1024): 0.1851
+2026-07-26 12:42:10,947 - INFO: [exp4_preln] Epoch 18/20 | Global: 1015872 | Avg Loss (last 1024): 0.1974
+2026-07-26 12:42:22,220 - INFO: [exp4_preln] Epoch 18/20 | Global: 1016896 | Avg Loss (last 1024): 0.1861
+2026-07-26 12:42:33,401 - INFO: [exp4_preln] Epoch 18/20 | Global: 1017920 | Avg Loss (last 1024): 0.1790
+2026-07-26 12:42:44,591 - INFO: [exp4_preln] Epoch 18/20 | Global: 1018944 | Avg Loss (last 1024): 0.1761
+2026-07-26 12:42:55,855 - INFO: [exp4_preln] Epoch 18/20 | Global: 1019968 | Avg Loss (last 1024): 0.1827
+2026-07-26 12:43:07,046 - INFO: [exp4_preln] Epoch 18/20 | Global: 1020992 | Avg Loss (last 1024): 0.1920
+2026-07-26 12:43:18,244 - INFO: [exp4_preln] Epoch 18/20 | Global: 1022016 | Avg Loss (last 1024): 0.1829
+2026-07-26 12:43:29,467 - INFO: [exp4_preln] Epoch 18/20 | Global: 1023040 | Avg Loss (last 1024): 0.1741
+2026-07-26 12:43:40,843 - INFO: [exp4_preln] Epoch 18/20 | Global: 1024064 | Avg Loss (last 1024): 0.1814
+2026-07-26 12:43:52,108 - INFO: [exp4_preln] Epoch 18/20 | Global: 1025088 | Avg Loss (last 1024): 0.1906
+2026-07-26 12:44:03,389 - INFO: [exp4_preln] Epoch 18/20 | Global: 1026112 | Avg Loss (last 1024): 0.1892
+2026-07-26 12:44:14,721 - INFO: [exp4_preln] Epoch 18/20 | Global: 1027136 | Avg Loss (last 1024): 0.1918
+2026-07-26 12:44:25,887 - INFO: [exp4_preln] Epoch 18/20 | Global: 1028160 | Avg Loss (last 1024): 0.1791
+2026-07-26 12:44:37,083 - INFO: [exp4_preln] Epoch 18/20 | Global: 1029184 | Avg Loss (last 1024): 0.1988
+2026-07-26 12:44:48,370 - INFO: [exp4_preln] Epoch 18/20 | Global: 1030208 | Avg Loss (last 1024): 0.1956
+2026-07-26 12:44:59,588 - INFO: [exp4_preln] Epoch 18/20 | Global: 1031232 | Avg Loss (last 1024): 0.2028
+2026-07-26 12:45:11,086 - INFO: [exp4_preln] Epoch 18/20 | Global: 1032256 | Avg Loss (last 1024): 0.1893
+2026-07-26 12:45:22,321 - INFO: [exp4_preln] Epoch 18/20 | Global: 1033280 | Avg Loss (last 1024): 0.1868
+2026-07-26 12:45:33,566 - INFO: [exp4_preln] Epoch 18/20 | Global: 1034304 | Avg Loss (last 1024): 0.1906
+2026-07-26 12:45:44,847 - INFO: [exp4_preln] Epoch 18/20 | Global: 1035328 | Avg Loss (last 1024): 0.1856
+2026-07-26 12:45:56,201 - INFO: [exp4_preln] Epoch 18/20 | Global: 1036352 | Avg Loss (last 1024): 0.1800
+2026-07-26 12:46:07,371 - INFO: [exp4_preln] Epoch 18/20 | Global: 1037376 | Avg Loss (last 1024): 0.1948
+2026-07-26 12:46:18,618 - INFO: [exp4_preln] Epoch 18/20 | Global: 1038400 | Avg Loss (last 1024): 0.1830
+2026-07-26 12:46:29,823 - INFO: [exp4_preln] Epoch 18/20 | Global: 1039424 | Avg Loss (last 1024): 0.1817
+2026-07-26 12:46:41,106 - INFO: [exp4_preln] Epoch 18/20 | Global: 1040448 | Avg Loss (last 1024): 0.1812
+2026-07-26 12:46:52,176 - INFO: [exp4_preln] Epoch 18/20 | Global: 1041472 | Avg Loss (last 1024): 0.1891
+2026-07-26 12:47:03,407 - INFO: [exp4_preln] Epoch 18/20 | Global: 1042496 | Avg Loss (last 1024): 0.1909
+2026-07-26 12:47:14,632 - INFO: [exp4_preln] Epoch 18/20 | Global: 1043520 | Avg Loss (last 1024): 0.1810
+2026-07-26 12:47:25,776 - INFO: [exp4_preln] Epoch 18/20 | Global: 1044544 | Avg Loss (last 1024): 0.1749
+2026-07-26 12:47:37,106 - INFO: [exp4_preln] Epoch 18/20 | Global: 1045568 | Avg Loss (last 1024): 0.1819
+2026-07-26 12:47:48,369 - INFO: [exp4_preln] Epoch 18/20 | Global: 1046592 | Avg Loss (last 1024): 0.1919
+2026-07-26 12:47:59,695 - INFO: [exp4_preln] Epoch 18/20 | Global: 1047616 | Avg Loss (last 1024): 0.1904
+2026-07-26 12:48:11,049 - INFO: [exp4_preln] Epoch 18/20 | Global: 1048640 | Avg Loss (last 1024): 0.1809
+2026-07-26 12:48:22,486 - INFO: [exp4_preln] Epoch 18/20 | Global: 1049664 | Avg Loss (last 1024): 0.1785
+2026-07-26 12:48:33,817 - INFO: [exp4_preln] Epoch 18/20 | Global: 1050688 | Avg Loss (last 1024): 0.1835
+2026-07-26 12:48:45,176 - INFO: [exp4_preln] Epoch 18/20 | Global: 1051712 | Avg Loss (last 1024): 0.1930
+2026-07-26 12:48:45,885 - INFO: [exp4_preln] Epoch 18/20 | Global: 1051776 | Avg Loss (last 64): 0.2495
+2026-07-26 12:48:47,687 - INFO: [exp4_preln] Epoch 18 Val | Examples: 1024 | Avg: 0.1644
+2026-07-26 12:48:49,446 - INFO: [exp4_preln] Epoch 18 Val | Examples: 2048 | Avg: 0.1671
+2026-07-26 12:48:51,234 - INFO: [exp4_preln] Epoch 18 Val | Examples: 3072 | Avg: 0.1612
+2026-07-26 12:48:53,006 - INFO: [exp4_preln] Epoch 18 Val | Examples: 4096 | Avg: 0.1657
+2026-07-26 12:48:54,767 - INFO: [exp4_preln] Epoch 18 Val | Examples: 5120 | Avg: 0.1629
+2026-07-26 12:48:54,768 - INFO: [exp4_preln] === Epoch 18 done | Train: 0.1849 | Val: 0.1643 | Time: 645.2s ===
+2026-07-26 12:48:54,815 - INFO: [exp4_preln] Saved to C:/PythonProject/English2French/model/exp4_preln_epoch18.pth
+2026-07-26 12:49:06,145 - INFO: [exp4_preln] Epoch 19/20 | Global: 1052800 | Avg Loss (last 1024): 0.1712
+2026-07-26 12:49:17,418 - INFO: [exp4_preln] Epoch 19/20 | Global: 1053824 | Avg Loss (last 1024): 0.1693
+2026-07-26 12:49:28,756 - INFO: [exp4_preln] Epoch 19/20 | Global: 1054848 | Avg Loss (last 1024): 0.1769
+2026-07-26 12:49:40,102 - INFO: [exp4_preln] Epoch 19/20 | Global: 1055872 | Avg Loss (last 1024): 0.1778
+2026-07-26 12:49:51,378 - INFO: [exp4_preln] Epoch 19/20 | Global: 1056896 | Avg Loss (last 1024): 0.1792
+2026-07-26 12:50:02,560 - INFO: [exp4_preln] Epoch 19/20 | Global: 1057920 | Avg Loss (last 1024): 0.1732
+2026-07-26 12:50:13,728 - INFO: [exp4_preln] Epoch 19/20 | Global: 1058944 | Avg Loss (last 1024): 0.1858
+2026-07-26 12:50:24,903 - INFO: [exp4_preln] Epoch 19/20 | Global: 1059968 | Avg Loss (last 1024): 0.1841
+2026-07-26 12:50:36,194 - INFO: [exp4_preln] Epoch 19/20 | Global: 1060992 | Avg Loss (last 1024): 0.1811
+2026-07-26 12:50:47,374 - INFO: [exp4_preln] Epoch 19/20 | Global: 1062016 | Avg Loss (last 1024): 0.1781
+2026-07-26 12:50:58,616 - INFO: [exp4_preln] Epoch 19/20 | Global: 1063040 | Avg Loss (last 1024): 0.1678
+2026-07-26 12:51:09,826 - INFO: [exp4_preln] Epoch 19/20 | Global: 1064064 | Avg Loss (last 1024): 0.1700
+2026-07-26 12:51:21,022 - INFO: [exp4_preln] Epoch 19/20 | Global: 1065088 | Avg Loss (last 1024): 0.1826
+2026-07-26 12:51:32,339 - INFO: [exp4_preln] Epoch 19/20 | Global: 1066112 | Avg Loss (last 1024): 0.1843
+2026-07-26 12:51:43,684 - INFO: [exp4_preln] Epoch 19/20 | Global: 1067136 | Avg Loss (last 1024): 0.1694
+2026-07-26 12:51:54,914 - INFO: [exp4_preln] Epoch 19/20 | Global: 1068160 | Avg Loss (last 1024): 0.1777
+2026-07-26 12:52:06,187 - INFO: [exp4_preln] Epoch 19/20 | Global: 1069184 | Avg Loss (last 1024): 0.1858
+2026-07-26 12:52:17,416 - INFO: [exp4_preln] Epoch 19/20 | Global: 1070208 | Avg Loss (last 1024): 0.1829
+2026-07-26 12:52:28,672 - INFO: [exp4_preln] Epoch 19/20 | Global: 1071232 | Avg Loss (last 1024): 0.1870
+2026-07-26 12:52:39,947 - INFO: [exp4_preln] Epoch 19/20 | Global: 1072256 | Avg Loss (last 1024): 0.1765
+2026-07-26 12:52:51,320 - INFO: [exp4_preln] Epoch 19/20 | Global: 1073280 | Avg Loss (last 1024): 0.1858
+2026-07-26 12:53:02,473 - INFO: [exp4_preln] Epoch 19/20 | Global: 1074304 | Avg Loss (last 1024): 0.1891
+2026-07-26 12:53:13,650 - INFO: [exp4_preln] Epoch 19/20 | Global: 1075328 | Avg Loss (last 1024): 0.1876
+2026-07-26 12:53:24,921 - INFO: [exp4_preln] Epoch 19/20 | Global: 1076352 | Avg Loss (last 1024): 0.1912
+2026-07-26 12:53:36,373 - INFO: [exp4_preln] Epoch 19/20 | Global: 1077376 | Avg Loss (last 1024): 0.1740
+2026-07-26 12:53:47,531 - INFO: [exp4_preln] Epoch 19/20 | Global: 1078400 | Avg Loss (last 1024): 0.1707
+2026-07-26 12:53:58,786 - INFO: [exp4_preln] Epoch 19/20 | Global: 1079424 | Avg Loss (last 1024): 0.1711
+2026-07-26 12:54:10,072 - INFO: [exp4_preln] Epoch 19/20 | Global: 1080448 | Avg Loss (last 1024): 0.1777
+2026-07-26 12:54:21,302 - INFO: [exp4_preln] Epoch 19/20 | Global: 1081472 | Avg Loss (last 1024): 0.1854
+2026-07-26 12:54:32,658 - INFO: [exp4_preln] Epoch 19/20 | Global: 1082496 | Avg Loss (last 1024): 0.1739
+2026-07-26 12:54:43,916 - INFO: [exp4_preln] Epoch 19/20 | Global: 1083520 | Avg Loss (last 1024): 0.1855
+2026-07-26 12:54:55,200 - INFO: [exp4_preln] Epoch 19/20 | Global: 1084544 | Avg Loss (last 1024): 0.1755
+2026-07-26 12:55:06,489 - INFO: [exp4_preln] Epoch 19/20 | Global: 1085568 | Avg Loss (last 1024): 0.1941
+2026-07-26 12:55:17,793 - INFO: [exp4_preln] Epoch 19/20 | Global: 1086592 | Avg Loss (last 1024): 0.1791
+2026-07-26 12:55:29,076 - INFO: [exp4_preln] Epoch 19/20 | Global: 1087616 | Avg Loss (last 1024): 0.1825
+2026-07-26 12:55:40,328 - INFO: [exp4_preln] Epoch 19/20 | Global: 1088640 | Avg Loss (last 1024): 0.1907
+2026-07-26 12:55:51,518 - INFO: [exp4_preln] Epoch 19/20 | Global: 1089664 | Avg Loss (last 1024): 0.1705
+2026-07-26 12:56:02,832 - INFO: [exp4_preln] Epoch 19/20 | Global: 1090688 | Avg Loss (last 1024): 0.1800
+2026-07-26 12:56:14,024 - INFO: [exp4_preln] Epoch 19/20 | Global: 1091712 | Avg Loss (last 1024): 0.1891
+2026-07-26 12:56:25,232 - INFO: [exp4_preln] Epoch 19/20 | Global: 1092736 | Avg Loss (last 1024): 0.1811
+2026-07-26 12:56:36,392 - INFO: [exp4_preln] Epoch 19/20 | Global: 1093760 | Avg Loss (last 1024): 0.1810
+2026-07-26 12:56:47,672 - INFO: [exp4_preln] Epoch 19/20 | Global: 1094784 | Avg Loss (last 1024): 0.1714
+2026-07-26 12:56:58,775 - INFO: [exp4_preln] Epoch 19/20 | Global: 1095808 | Avg Loss (last 1024): 0.1790
+2026-07-26 12:57:09,883 - INFO: [exp4_preln] Epoch 19/20 | Global: 1096832 | Avg Loss (last 1024): 0.1992
+2026-07-26 12:57:21,166 - INFO: [exp4_preln] Epoch 19/20 | Global: 1097856 | Avg Loss (last 1024): 0.1797
+2026-07-26 12:57:32,355 - INFO: [exp4_preln] Epoch 19/20 | Global: 1098880 | Avg Loss (last 1024): 0.1851
+2026-07-26 12:57:43,513 - INFO: [exp4_preln] Epoch 19/20 | Global: 1099904 | Avg Loss (last 1024): 0.1832
+2026-07-26 12:57:54,811 - INFO: [exp4_preln] Epoch 19/20 | Global: 1100928 | Avg Loss (last 1024): 0.1878
+2026-07-26 12:58:06,040 - INFO: [exp4_preln] Epoch 19/20 | Global: 1101952 | Avg Loss (last 1024): 0.1825
+2026-07-26 12:58:17,382 - INFO: [exp4_preln] Epoch 19/20 | Global: 1102976 | Avg Loss (last 1024): 0.1855
+2026-07-26 12:58:28,699 - INFO: [exp4_preln] Epoch 19/20 | Global: 1104000 | Avg Loss (last 1024): 0.1772
+2026-07-26 12:58:40,056 - INFO: [exp4_preln] Epoch 19/20 | Global: 1105024 | Avg Loss (last 1024): 0.1861
+2026-07-26 12:58:51,486 - INFO: [exp4_preln] Epoch 19/20 | Global: 1106048 | Avg Loss (last 1024): 0.1859
+2026-07-26 12:59:02,796 - INFO: [exp4_preln] Epoch 19/20 | Global: 1107072 | Avg Loss (last 1024): 0.1744
+2026-07-26 12:59:14,053 - INFO: [exp4_preln] Epoch 19/20 | Global: 1108096 | Avg Loss (last 1024): 0.1944
+2026-07-26 12:59:25,388 - INFO: [exp4_preln] Epoch 19/20 | Global: 1109120 | Avg Loss (last 1024): 0.1854
+2026-07-26 12:59:36,680 - INFO: [exp4_preln] Epoch 19/20 | Global: 1110144 | Avg Loss (last 1024): 0.1937
+2026-07-26 12:59:37,409 - INFO: [exp4_preln] Epoch 19/20 | Global: 1110208 | Avg Loss (last 64): 0.1739
+2026-07-26 12:59:39,190 - INFO: [exp4_preln] Epoch 19 Val | Examples: 1024 | Avg: 0.1588
+2026-07-26 12:59:40,971 - INFO: [exp4_preln] Epoch 19 Val | Examples: 2048 | Avg: 0.1656
+2026-07-26 12:59:42,776 - INFO: [exp4_preln] Epoch 19 Val | Examples: 3072 | Avg: 0.1662
+2026-07-26 12:59:44,563 - INFO: [exp4_preln] Epoch 19 Val | Examples: 4096 | Avg: 0.1529
+2026-07-26 12:59:46,362 - INFO: [exp4_preln] Epoch 19 Val | Examples: 5120 | Avg: 0.1533
+2026-07-26 12:59:46,363 - INFO: [exp4_preln] === Epoch 19 done | Train: 0.1812 | Val: 0.1593 | Time: 642.6s ===
+2026-07-26 12:59:46,415 - INFO: [exp4_preln] Saved to C:/PythonProject/English2French/model/exp4_preln_epoch19.pth
+2026-07-26 12:59:57,674 - INFO: [exp4_preln] Epoch 20/20 | Global: 1111232 | Avg Loss (last 1024): 0.1620
+2026-07-26 13:00:08,931 - INFO: [exp4_preln] Epoch 20/20 | Global: 1112256 | Avg Loss (last 1024): 0.1661
+2026-07-26 13:00:20,213 - INFO: [exp4_preln] Epoch 20/20 | Global: 1113280 | Avg Loss (last 1024): 0.1605
+2026-07-26 13:00:31,456 - INFO: [exp4_preln] Epoch 20/20 | Global: 1114304 | Avg Loss (last 1024): 0.1771
+2026-07-26 13:00:42,701 - INFO: [exp4_preln] Epoch 20/20 | Global: 1115328 | Avg Loss (last 1024): 0.1562
+2026-07-26 13:00:53,940 - INFO: [exp4_preln] Epoch 20/20 | Global: 1116352 | Avg Loss (last 1024): 0.1682
+2026-07-26 13:01:05,159 - INFO: [exp4_preln] Epoch 20/20 | Global: 1117376 | Avg Loss (last 1024): 0.1862
+2026-07-26 13:01:16,348 - INFO: [exp4_preln] Epoch 20/20 | Global: 1118400 | Avg Loss (last 1024): 0.1707
+2026-07-26 13:01:27,591 - INFO: [exp4_preln] Epoch 20/20 | Global: 1119424 | Avg Loss (last 1024): 0.1661
+2026-07-26 13:01:38,867 - INFO: [exp4_preln] Epoch 20/20 | Global: 1120448 | Avg Loss (last 1024): 0.1800
+2026-07-26 13:01:50,093 - INFO: [exp4_preln] Epoch 20/20 | Global: 1121472 | Avg Loss (last 1024): 0.1879
+2026-07-26 13:02:01,518 - INFO: [exp4_preln] Epoch 20/20 | Global: 1122496 | Avg Loss (last 1024): 0.1780
+2026-07-26 13:02:12,760 - INFO: [exp4_preln] Epoch 20/20 | Global: 1123520 | Avg Loss (last 1024): 0.1773
+2026-07-26 13:02:23,851 - INFO: [exp4_preln] Epoch 20/20 | Global: 1124544 | Avg Loss (last 1024): 0.1801
+2026-07-26 13:02:35,067 - INFO: [exp4_preln] Epoch 20/20 | Global: 1125568 | Avg Loss (last 1024): 0.1632
+2026-07-26 13:02:46,398 - INFO: [exp4_preln] Epoch 20/20 | Global: 1126592 | Avg Loss (last 1024): 0.1848
+2026-07-26 13:02:57,641 - INFO: [exp4_preln] Epoch 20/20 | Global: 1127616 | Avg Loss (last 1024): 0.1824
+2026-07-26 13:03:09,077 - INFO: [exp4_preln] Epoch 20/20 | Global: 1128640 | Avg Loss (last 1024): 0.1694
+2026-07-26 13:03:20,736 - INFO: [exp4_preln] Epoch 20/20 | Global: 1129664 | Avg Loss (last 1024): 0.1738
+2026-07-26 13:03:32,542 - INFO: [exp4_preln] Epoch 20/20 | Global: 1130688 | Avg Loss (last 1024): 0.1787
+2026-07-26 13:03:44,068 - INFO: [exp4_preln] Epoch 20/20 | Global: 1131712 | Avg Loss (last 1024): 0.1682
+2026-07-26 13:03:55,300 - INFO: [exp4_preln] Epoch 20/20 | Global: 1132736 | Avg Loss (last 1024): 0.1781
+2026-07-26 13:04:06,703 - INFO: [exp4_preln] Epoch 20/20 | Global: 1133760 | Avg Loss (last 1024): 0.1823
+2026-07-26 13:04:17,806 - INFO: [exp4_preln] Epoch 20/20 | Global: 1134784 | Avg Loss (last 1024): 0.1858
+2026-07-26 13:04:29,048 - INFO: [exp4_preln] Epoch 20/20 | Global: 1135808 | Avg Loss (last 1024): 0.1793
+2026-07-26 13:04:40,239 - INFO: [exp4_preln] Epoch 20/20 | Global: 1136832 | Avg Loss (last 1024): 0.1770
+2026-07-26 13:04:51,512 - INFO: [exp4_preln] Epoch 20/20 | Global: 1137856 | Avg Loss (last 1024): 0.1764
+2026-07-26 13:05:02,734 - INFO: [exp4_preln] Epoch 20/20 | Global: 1138880 | Avg Loss (last 1024): 0.1825
+2026-07-26 13:05:14,006 - INFO: [exp4_preln] Epoch 20/20 | Global: 1139904 | Avg Loss (last 1024): 0.1702
+2026-07-26 13:05:25,293 - INFO: [exp4_preln] Epoch 20/20 | Global: 1140928 | Avg Loss (last 1024): 0.1684
+2026-07-26 13:05:36,652 - INFO: [exp4_preln] Epoch 20/20 | Global: 1141952 | Avg Loss (last 1024): 0.1846
+2026-07-26 13:05:47,958 - INFO: [exp4_preln] Epoch 20/20 | Global: 1142976 | Avg Loss (last 1024): 0.1713
+2026-07-26 13:05:59,342 - INFO: [exp4_preln] Epoch 20/20 | Global: 1144000 | Avg Loss (last 1024): 0.1745
+2026-07-26 13:06:10,552 - INFO: [exp4_preln] Epoch 20/20 | Global: 1145024 | Avg Loss (last 1024): 0.1700
+2026-07-26 13:06:21,848 - INFO: [exp4_preln] Epoch 20/20 | Global: 1146048 | Avg Loss (last 1024): 0.1745
+2026-07-26 13:06:33,158 - INFO: [exp4_preln] Epoch 20/20 | Global: 1147072 | Avg Loss (last 1024): 0.1894
+2026-07-26 13:06:44,334 - INFO: [exp4_preln] Epoch 20/20 | Global: 1148096 | Avg Loss (last 1024): 0.1847
+2026-07-26 13:06:55,652 - INFO: [exp4_preln] Epoch 20/20 | Global: 1149120 | Avg Loss (last 1024): 0.1855
+2026-07-26 13:07:06,923 - INFO: [exp4_preln] Epoch 20/20 | Global: 1150144 | Avg Loss (last 1024): 0.1846
+2026-07-26 13:07:18,133 - INFO: [exp4_preln] Epoch 20/20 | Global: 1151168 | Avg Loss (last 1024): 0.1807
+2026-07-26 13:07:29,392 - INFO: [exp4_preln] Epoch 20/20 | Global: 1152192 | Avg Loss (last 1024): 0.1702
+2026-07-26 13:07:40,609 - INFO: [exp4_preln] Epoch 20/20 | Global: 1153216 | Avg Loss (last 1024): 0.1812
+2026-07-26 13:07:51,885 - INFO: [exp4_preln] Epoch 20/20 | Global: 1154240 | Avg Loss (last 1024): 0.1762
+2026-07-26 13:08:03,169 - INFO: [exp4_preln] Epoch 20/20 | Global: 1155264 | Avg Loss (last 1024): 0.1864
+2026-07-26 13:08:14,526 - INFO: [exp4_preln] Epoch 20/20 | Global: 1156288 | Avg Loss (last 1024): 0.1686
+2026-07-26 13:08:25,839 - INFO: [exp4_preln] Epoch 20/20 | Global: 1157312 | Avg Loss (last 1024): 0.1744
+2026-07-26 13:08:37,095 - INFO: [exp4_preln] Epoch 20/20 | Global: 1158336 | Avg Loss (last 1024): 0.1798
+2026-07-26 13:08:48,263 - INFO: [exp4_preln] Epoch 20/20 | Global: 1159360 | Avg Loss (last 1024): 0.1750
+2026-07-26 13:08:59,471 - INFO: [exp4_preln] Epoch 20/20 | Global: 1160384 | Avg Loss (last 1024): 0.1692
+2026-07-26 13:09:10,816 - INFO: [exp4_preln] Epoch 20/20 | Global: 1161408 | Avg Loss (last 1024): 0.1843
+2026-07-26 13:09:22,109 - INFO: [exp4_preln] Epoch 20/20 | Global: 1162432 | Avg Loss (last 1024): 0.1810
+2026-07-26 13:09:33,356 - INFO: [exp4_preln] Epoch 20/20 | Global: 1163456 | Avg Loss (last 1024): 0.1892
+2026-07-26 13:09:44,622 - INFO: [exp4_preln] Epoch 20/20 | Global: 1164480 | Avg Loss (last 1024): 0.1901
+2026-07-26 13:09:55,764 - INFO: [exp4_preln] Epoch 20/20 | Global: 1165504 | Avg Loss (last 1024): 0.1744
+2026-07-26 13:10:07,004 - INFO: [exp4_preln] Epoch 20/20 | Global: 1166528 | Avg Loss (last 1024): 0.1872
+2026-07-26 13:10:18,239 - INFO: [exp4_preln] Epoch 20/20 | Global: 1167552 | Avg Loss (last 1024): 0.1782
+2026-07-26 13:10:29,420 - INFO: [exp4_preln] Epoch 20/20 | Global: 1168576 | Avg Loss (last 1024): 0.1777
+2026-07-26 13:10:30,134 - INFO: [exp4_preln] Epoch 20/20 | Global: 1168640 | Avg Loss (last 64): 0.1970
+2026-07-26 13:10:31,900 - INFO: [exp4_preln] Epoch 20 Val | Examples: 1024 | Avg: 0.1609
+2026-07-26 13:10:33,674 - INFO: [exp4_preln] Epoch 20 Val | Examples: 2048 | Avg: 0.1682
+2026-07-26 13:10:35,455 - INFO: [exp4_preln] Epoch 20 Val | Examples: 3072 | Avg: 0.1578
+2026-07-26 13:10:37,265 - INFO: [exp4_preln] Epoch 20 Val | Examples: 4096 | Avg: 0.1590
+2026-07-26 13:10:39,089 - INFO: [exp4_preln] Epoch 20 Val | Examples: 5120 | Avg: 0.1449
+2026-07-26 13:10:39,089 - INFO: [exp4_preln] === Epoch 20 done | Train: 0.1769 | Val: 0.1582 | Time: 643.7s ===
+2026-07-26 13:10:39,137 - INFO: [exp4_preln] Saved to C:/PythonProject/English2French/model/exp4_preln_epoch20.pth

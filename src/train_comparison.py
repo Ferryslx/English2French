@@ -48,7 +48,7 @@ DROPOUT = 0.2
 # GRU+Attention
 EMBED_SIZE = 256
 HIDDEN_SIZE = 256
-GRU_LAYERS = 2
+GRU_LAYERS = 1
 
 # Training
 MAX_LEN = 20
@@ -468,11 +468,12 @@ def main():
 
     os.makedirs(LOSS_DIR, exist_ok=True)
 
-    tqdm.write('Building Transformer model...')
+    # ===== Transformer training commented out =====
     logger.info('Building Transformer model...')
     transformer = build_transformer()
     tqdm.write(f'Transformer params: {sum(p.numel() for p in transformer.parameters()):,}')
     logger.info(f'Transformer params: {sum(p.numel() for p in transformer.parameters()):,}')
+    # ===============================================
 
     tqdm.write('Building GRU+Attention model...')
     logger.info('Building GRU+Attention model...')
@@ -482,13 +483,12 @@ def main():
 
     criterion = nn.NLLLoss(ignore_index=PAD)
 
-    with open(LOSS_CSV_PATH, 'w', newline='', encoding='utf-8') as f, \
-         open(VAL_LOSS_CSV_PATH, 'w', newline='', encoding='utf-8') as f_val:
+    with open(LOSS_CSV_PATH, 'a', newline='', encoding='utf-8') as f, \
+         open(VAL_LOSS_CSV_PATH, 'a', newline='', encoding='utf-8') as f_val:
         writer = csv.writer(f)
-        writer.writerow(['model', 'epoch', 'step', 'loss'])
         val_writer = csv.writer(f_val)
-        val_writer.writerow(['model', 'epoch', 'step', 'loss'])
 
+        # ===== Transformer training commented out =====
         tqdm.write('\n' + '-' * 50)
         tqdm.write('Starting Transformer training...')
         tqdm.write('-' * 50)
@@ -497,15 +497,15 @@ def main():
         transformer_optimizer = torch.optim.Adam(
             transformer.parameters(), lr=0, betas=(0.9, 0.98), eps=1e-9
         )
-        # NoamScheduler 在 __init__ 和每次 step() 中覆盖 lr，optimizer 的初始 lr 不用设
         transformer_scheduler = NoamScheduler(transformer_optimizer, D_MODEL, warmup_steps=4000)
         train_model(transformer, train_dataloader, val_dataloader, criterion, transformer_optimizer,
                     'transformer', f, f_val, scheduler=transformer_scheduler)
+        # ===============================================
 
         tqdm.write('\n' + '-' * 50)
-        tqdm.write('Starting GRU+Attention training...')
+        tqdm.write('Starting GRU+Attention training (GRU_LAYERS=1)...')
         tqdm.write('-' * 50)
-        logger.info('Starting GRU+Attention training...')
+        logger.info('Starting GRU+Attention training (GRU_LAYERS=1)...')
 
         gru_optimizer = torch.optim.Adam(gru_model.parameters(), lr=0.001)
         train_model(gru_model, train_dataloader, val_dataloader, criterion, gru_optimizer,
@@ -515,8 +515,7 @@ def main():
     tqdm.write('Training complete!')
     tqdm.write(f'Train loss CSV: {LOSS_CSV_PATH}')
     tqdm.write(f'Val loss CSV:   {VAL_LOSS_CSV_PATH}')
-    tqdm.write(f'Transformer final: {MODEL_DIR}/transformer_epoch{EPOCHS}.pth')
-    tqdm.write(f'GRU final: {MODEL_DIR}/gru_epoch{EPOCHS}.pth')
+    tqdm.write(f'GRU model: {MODEL_DIR}/gru_epoch{EPOCHS}.pth')
     tqdm.write('=' * 50)
     logger.info('Training complete!')
 
